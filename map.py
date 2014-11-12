@@ -75,7 +75,7 @@ class Map:
 					
 						altTot = 0
 						for m in drawMtns:				
-							altPk = m.h - abs(x-m.x) - abs(y-m.y)
+							altPk = m.altAtXY(x,y)
 							if(altPk > 0):
 								altTot += altPk
 								

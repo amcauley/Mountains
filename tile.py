@@ -28,8 +28,8 @@ class Tile:
 		
 		xyTuples = []
 		for m in range(0,int(self.seed[-10])%3):
-			mx = int(self.seed[-3*m-3])
-			my = int(self.seed[-3*m-2])
+			mx = self.x*self.tDim + int(self.seed[-3*m-3])
+			my = self.y*self.tDim + int(self.seed[-3*m-2])
 			mh = int(self.seed[-3*m-1])
 			
 			'''skip duplicate x,y peak locations'''
@@ -39,27 +39,23 @@ class Tile:
 			self.mtnList.append(mtn.Mtn(mx, my,	mh,	str(random.randint(0,PARAM_MAX_SEED_VAL))))
 		
 	def point2TileDist2(self, thisX, thisY, tileX, tileY):
-		''' compute distance squared between this tile's (x,y) and the closest point
+		''' compute distance squared between this tile's global (x,y) and the closest point
 		on tile (tileX, tileY) '''
 		
-		absX = self.x*self.tDim + thisX
-		absY = self.y*self.tDim + thisY
-		
-		#TODO: Replace hard-coded tile/map size with a constant
 		xDist2 = 0
 		if(self.x > tileX):
-			xDist2 = (absX - (tileX*self.tDim+self.tDim-1))**2
+			xDist2 = (thisX - (tileX*self.tDim+self.tDim-1))**2
 		elif(self.x < tileX):
-			xDist2 = (absX - tileX*self.tDim)**2	
+			xDist2 = (thisX - tileX*self.tDim)**2	
 		
 		yDist2 = 0
 		if(self.y > tileY):
-			yDist2 = (absY - (tileY*self.tDim+self.tDim-1))**2
+			yDist2 = (thisY - (tileY*self.tDim+self.tDim-1))**2
 		elif(self.y < tileY):
-			yDist2 = (absY - tileY*self.tDim)**2	
+			yDist2 = (thisY - tileY*self.tDim)**2	
 			
 		if(PARAM_DEBUG_EN):
-			print("("+str(absX)+","+str(absY)+") dist2 to tile ("+str(tileX)+","+str(tileY)+") = "+str(xDist2+yDist2))	
+			print("("+str(thisX)+","+str(thisY)+") dist2 to tile ("+str(tileX)+","+str(tileY)+") = "+str(xDist2+yDist2))	
 			
 		return xDist2 + yDist2
 		
@@ -72,19 +68,19 @@ class Tile:
 			radius = self.mtnList[m].h
 			
 			#TODO: Replace hard-coded tile/map size with a constant
-			for tileX in range(int((self.x*self.tDim+cenX-radius)/self.tDim), int((self.x*self.tDim+cenX+radius)/self.tDim+1)):
-				for tileY in range(int((self.y*self.tDim+cenY-radius)/self.tDim), int((self.y*self.tDim+cenY+radius)/self.tDim+1)):
+			for tileX in range(int((cenX-radius)/self.tDim), int((cenX+radius)/self.tDim+1)):
+				for tileY in range(int((cenY-radius)/self.tDim), int((cenY+radius)/self.tDim+1)):
 					if(tileX >= 0 and tileX < self.tDim and tileY >= 0 and tileY < self.tDim):
 						if(self.point2TileDist2(cenX, cenY, tileX, tileY) < radius**2):
 							if((tileX) not in mtnExport):
 								mtnExport[tileX] = {}
 							if((tileY) not in mtnExport[tileX]):
 								mtnExport[tileX][tileY] = []
-							mtnExport[tileX][tileY].append(mtn.Mtn((self.x*self.tDim+cenX), (self.y*self.tDim+cenY), radius))
+							mtnExport[tileX][tileY].append(mtn.Mtn(cenX, cenY, radius))
 							
 							if(PARAM_DEBUG_EN):
 								print("Adding Mtn to tile ("+str(tileX)+","+str(tileY)+"): peak ("+\
-										str(self.x*self.tDim+cenX)+","+str(self.y*self.tDim+cenY)+","+str(radius)+")") 
+										str(cenX)+","+str(cenY)+","+str(radius)+")") 
 		return mtnExport
 									
 		
@@ -98,7 +94,7 @@ class Tile:
 			for x in range(self.x*self.tDim,self.x*self.tDim+self.tDim):
 				altTot = 0
 				for m in drawMtns:				
-					altPk = m.h - abs(x-m.x) - abs(y-m.y)
+					altPk = m.altAtXY(x,y)
 					if(altPk > 0):
 						altTot += altPk
 					
