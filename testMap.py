@@ -57,12 +57,14 @@ def testMap():
 			if(x < testMap.nx-1):
 				x+=1
 			else:
-				print("Map Bndry")
+				print("Map Bndry")		
 		elif(cmd == 'q'):
 			break
 		else:
 			print("Invalid Cmd")
-		
+	
+	'''print out the map to default output file after quitting the loop'''
+	testMap.draw("mapOutput.txt")
 		
 	
 if __name__ == "__main__":

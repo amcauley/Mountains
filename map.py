@@ -42,4 +42,56 @@ class Map:
 						if(PARAM_DEBUG_EN):
 							for mtnReport in tilemtnsPerTile[tileX][tileY]:
 								print("Adding MtnReport to Map tile ("+str(tileX)+","+str(tileY)+"): peak ("+\
-										str(mtnReport.x)+","+str(mtnReport.y)+","+str(mtnReport.h)+")") 					
+										str(mtnReport.x)+","+str(mtnReport.y)+","+str(mtnReport.h)+")") 
+
+	def draw(self, filename):
+		'''draw the entire map - output to file'''
+	
+		self.preDrawMtnReport()
+	
+		f = open(filename,'w')
+	
+		if(PARAM_DEBUG_EN):
+			print("Printing map to "+filename)
+	
+		f.write('Map seed: ')
+		f.write(self.seed)
+		f.write('\n'+'-'*(self.nx*self.tiles[0][0].tDim*PARAM_MTN_PRINT_WIDTH+2)+'\n')
+	
+		for tileY in range(0,self.ny):
+			for y in range(tileY*self.tiles[0][0].tDim,tileY*self.tiles[0][0].tDim+self.tiles[0][0].tDim):
+				f.write('|')	
+				for tileX in range(0,self.nx):
+
+					if(PARAM_DEBUG_EN):
+						print("printing row "+str(y)+" of tile ("+str(tileX)+","+str(tileY)+")")
+				
+					drawMtns = []
+					if(tileX in self.mtnsPerTile):
+						if(tileY in self.mtnsPerTile[tileX]):
+							drawMtns = self.mtnsPerTile[tileX][tileY]
+				
+					for x in range(tileX*self.tiles[0][0].tDim,tileX*self.tiles[0][0].tDim+self.tiles[0][0].tDim):
+					
+						altTot = 0
+						for m in drawMtns:				
+							altPk = m.h - abs(x-m.x) - abs(y-m.y)
+							if(altPk > 0):
+								altTot += altPk
+								
+						altStr = " "*PARAM_MTN_PRINT_WIDTH
+						if(altTot > 0):
+							altStr = str(altTot)
+							if(len(altStr) < PARAM_MTN_PRINT_WIDTH):
+								altStr = " "*(PARAM_MTN_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
+							elif(len(altStr) > PARAM_MTN_PRINT_WIDTH):
+								altStr = altStr[-PARAM_MTN_PRINT_WIDTH:]
+						f.write(altStr)
+				f.write('|\n')		
+		
+		f.write('-'*(self.nx*self.tiles[0][0].tDim*PARAM_MTN_PRINT_WIDTH+2))
+		f.close()
+	
+	
+	
+	

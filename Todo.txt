@@ -1,8 +1,8 @@
 TODO LIST
 
+3D graphing of mtns? maybe GnuPlot or some added Python lib
 Implement max/min height per tile/map
-Method to print out entire map to file
+Contour maps
 Add noise to mtns
 Different x,y slopes
-3D graphing of mtns? maybe GnuPlot or some added Python lib
 Rivers
