@@ -1,5 +1,7 @@
 TODO LIST
 
+Drawing methods and testing for river class
+Add river elevation checks
 3D graphing of mtns? maybe GnuPlot or some added Python lib
 Implement max/min height per tile/map
 Contour maps

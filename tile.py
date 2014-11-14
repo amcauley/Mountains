@@ -1,6 +1,7 @@
 import random
 from params import *
 import mtn
+import rivers
 
 class Tile:
 	'''Tile class to combine mountains, rivers, etc.'''
@@ -28,8 +29,8 @@ class Tile:
 		
 		xyTuples = []
 		for m in range(0,int(self.seed[-10])%3):
-			mx = self.x*self.tDim + int(self.seed[-3*m-3])
-			my = self.y*self.tDim + int(self.seed[-3*m-2])
+			mx = self.x*self.tDim + int(self.seed[-3*m-3])%self.tDim
+			my = self.y*self.tDim + int(self.seed[-3*m-2])%self.tDim
 			mh = int(self.seed[-3*m-1])
 			
 			'''skip duplicate x,y peak locations'''
@@ -37,6 +38,9 @@ class Tile:
 				continue
 
 			self.mtnList.append(mtn.Mtn(mx, my,	mh,	str(random.randint(0,PARAM_MAX_SEED_VAL))))
+		
+		'''river info for this tile (all "individual" rivers are part of a single per-tile rivers object'''
+		self.rivers = rivers.Rivers((self.x*self.tDim,self.y*self.tDim))
 		
 	def point2TileDist2(self, thisX, thisY, tileX, tileY):
 		''' compute distance squared between this tile's global (x,y) and the closest point
