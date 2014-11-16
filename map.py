@@ -22,36 +22,71 @@ class Map:
 				random.seed(int(self.seed)+nx*y+x)
 				self.tiles[x].append(tile.Tile(x,y,str(random.randint(0,PARAM_MAX_SEED_VAL))))
 				
-	def preDrawMtnReport(self):
-		'''Iterate through tiles and generate any pre-draw info needed, mainly a collection of
-		mtns that need to be exported to other tiles (due to extending into their region)'''
+		self.mtnsPerTile = {}		
+				
+	def preDrawMtns(self):
+		'''Iterate through tiles and generate any pre-draw info needed for mtns that need to be exported to 
+		other tiles (due to extending into their region)'''
 		self.mtnsPerTile = {}
-		tilemtnsPerTile = {}
+		tileMtnsPerTile = {}
 		
 		for y in range(0,self.ny):
 			for x in range(0,self.nx):
-				tilemtnsPerTile = self.tiles[x][y].preDrawMtnReport()
-				for tileX in tilemtnsPerTile:
+				'''predraw mtns'''
+				tileMtnsPerTile = self.tiles[x][y].preDrawMtnReport()
+							
+				for tileX in tileMtnsPerTile:
 					if(tileX not in self.mtnsPerTile):
 						self.mtnsPerTile[tileX] = {}
-					for tileY in tilemtnsPerTile[tileX]:
+					for tileY in tileMtnsPerTile[tileX]:
 						if(tileY not in self.mtnsPerTile[tileX]):
 								self.mtnsPerTile[tileX][tileY] = []
-						self.mtnsPerTile[tileX][tileY].extend(tilemtnsPerTile[tileX][tileY])
+						self.mtnsPerTile[tileX][tileY].extend(tileMtnsPerTile[tileX][tileY])
 						
-						if(PARAM_DEBUG_EN):
-							for mtnReport in tilemtnsPerTile[tileX][tileY]:
+						if(PARAM_DEBUG_EN_ALL):
+							for mtnReport in tileMtnsPerTile[tileX][tileY]:
 								print("Adding MtnReport to Map tile ("+str(tileX)+","+str(tileY)+"): peak ("+\
 										str(mtnReport.x)+","+str(mtnReport.y)+","+str(mtnReport.h)+")") 
 
-	def draw(self, filename):
+	def preDrawRivers(self):									
+		'''Iterate through tiles and generate any pre-draw river info'''
+		riverEntryPerTile = {}
+		
+		for y in range(0,self.ny):
+			for x in range(0,self.nx):
+				'''predraw rivers'''
+				entryPtsXY = []
+				if(x in riverEntryPerTile):
+					if(y in riverEntryPerTile[x]):
+						entryPtsXY = riverEntryPerTile[x][y]
+				mtnsInput = []
+				if(x in self.mtnsPerTile):
+					if(y in self.mtnsPerTile[x]):
+						mtnsInput = self.mtnsPerTile[x][y]
+				tileRiversPerTile = self.tiles[x][y].preDrawRiverReport(entryPtsXY, mtnsInput)
+
+				''' add this tile's river output to the map-wide list, will be used as input for other river tiles'''
+				#TODO: generalize this for rivers extending to adjacent, not just below tiles
+				for exitX in tileRiversPerTile:
+					for exitY in tileRiversPerTile[exitX]:
+						if(exitY == (y+1)*self.tiles[0][0].tDim):
+							if x not in riverEntryPerTile:
+								riverEntryPerTile[x] = {}
+							if y+1 not in riverEntryPerTile[x]:
+								riverEntryPerTile[x][y+1] = []
+							riverEntryPerTile[x][y+1].append((exitX,exitY))
+										
+	def drawMap(self, filename):
 		'''draw the entire map - output to file'''
 	
-		self.preDrawMtnReport()
+		'''No Need for now since testMap.py will call these'''  
+		#self.preDrawMtns()
+		#self.preDrawRivers()
+		
 	
 		f = open(filename,'w')
 	
-		if(PARAM_DEBUG_EN):
+		if(PARAM_DEBUG_EN_ALL):
 			print("Printing map to "+filename)
 	
 		f.write('Map seed: ')
@@ -63,7 +98,7 @@ class Map:
 				f.write('|')	
 				for tileX in range(0,self.nx):
 
-					if(PARAM_DEBUG_EN):
+					if(PARAM_DEBUG_EN_ALL):
 						print("printing row "+str(y)+" of tile ("+str(tileX)+","+str(tileY)+")")
 				
 					drawMtns = []
@@ -86,6 +121,14 @@ class Map:
 								altStr = " "*(PARAM_MTN_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
 							elif(len(altStr) > PARAM_MTN_PRINT_WIDTH):
 								altStr = altStr[-PARAM_MTN_PRINT_WIDTH:]
+								
+						'''rivers take precedence over mtns for initial testing'''
+						#TODO handle multiple rivers better
+						for r in self.tiles[tileX][tileY].rivers:
+							if(x in r.xyPts):
+								if(y in r.xyPts[x]):
+									altStr = " "*int(PARAM_MTN_PRINT_WIDTH-1)+"*"
+								
 						f.write(altStr)
 				f.write('|\n')		
 		

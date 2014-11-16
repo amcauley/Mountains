@@ -24,7 +24,7 @@ class Tile:
 		'''if necessary, pad seed to full 10 digits'''
 		self.seed = '0'*(10-len(self.seed)) + self.seed
 		
-		if(PARAM_DEBUG_EN):
+		if(PARAM_DEBUG_EN_ALL):
 			print("tile init, x y seed: "+str(x)+" "+str(y)+" "+str(self.seed))
 		
 		xyTuples = []
@@ -40,7 +40,8 @@ class Tile:
 			self.mtnList.append(mtn.Mtn(mx, my,	mh,	str(random.randint(0,PARAM_MAX_SEED_VAL))))
 		
 		'''river info for this tile (all "individual" rivers are part of a single per-tile rivers object'''
-		self.rivers = rivers.Rivers((self.x*self.tDim,self.y*self.tDim))
+		self.rivers = []
+		self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), str(random.randint(0,PARAM_MAX_SEED_VAL))))
 		
 	def point2TileDist2(self, thisX, thisY, tileX, tileY):
 		''' compute distance squared between this tile's global (x,y) and the closest point
@@ -58,7 +59,7 @@ class Tile:
 		elif(self.y < tileY):
 			yDist2 = (thisY - tileY*self.tDim)**2	
 			
-		if(PARAM_DEBUG_EN):
+		if(PARAM_DEBUG_EN_ALL):
 			print("("+str(thisX)+","+str(thisY)+") dist2 to tile ("+str(tileX)+","+str(tileY)+") = "+str(xDist2+yDist2))	
 			
 		return xDist2 + yDist2
@@ -82,16 +83,44 @@ class Tile:
 								mtnExport[tileX][tileY] = []
 							mtnExport[tileX][tileY].append(mtn.Mtn(cenX, cenY, radius))
 							
-							if(PARAM_DEBUG_EN):
+							if(PARAM_DEBUG_EN_ALL):
 								print("Adding Mtn to tile ("+str(tileX)+","+str(tileY)+"): peak ("+\
 										str(cenX)+","+str(cenY)+","+str(radius)+")") 
 		return mtnExport
-									
+
+	def preDrawRiverReport(self, entryPtsXY, mtnList):
+		'''Create dictionary of river exit points, which will be used as input points to other tiles'''
+		
+		if(PARAM_DEBUG_EN_ALL or PARAM_DEBUG_EN_RIVERS):
+			print("predraw river report for tile ("+str(self.x)+","+str(self.y)+")")
+		
+		riverExport = {}
+		for r in self.rivers:
+			r.preDrawRiverReport(entryPtsXY, mtnList)
+			for xPt in r.exitPts:
+				for yPt in r.exitPts[xPt]:
+					#TODO: only handling river propagation downyards (higher y val) right now, extend to other tile boundaries
+					if(yPt != (self.y+1)*self.tDim):
+						continue
+					''' add the x,y pt if it isn't already in the export list'''
+					if (xPt not in riverExport):
+						riverExport[xPt] = []
+					if (yPt not in riverExport[xPt]):
+						riverExport[xPt].append(yPt)
+						
+						if(PARAM_DEBUG_EN_ALL or PARAM_DEBUG_EN_RIVERS):
+							print("Adding river exit pt ("+str(xPt)+","+str(yPt)+")")
+			
+		if(PARAM_DEBUG_EN_ALL or PARAM_DEBUG_EN_RIVERS):
+			print("riverExport = "+str(riverExport))
+			
+		return riverExport
+		
 		
 	def draw(self, drawMtns):
 		'''Currently "drawing" the tile just means print it out in glorious ASCII'''
 	
-		if(PARAM_DEBUG_EN):
+		if(PARAM_DEBUG_EN_ALL):
 			print("Tile ("+str(self.x)+","+str(self.y)+"), seed "+str(self.seed))
 		
 		for y in range(self.y*self.tDim,self.y*self.tDim+self.tDim):
@@ -109,6 +138,14 @@ class Tile:
 						altStr = " "*(PARAM_MTN_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
 					elif(len(altStr) > PARAM_MTN_PRINT_WIDTH):
 						altStr = altStr[-PARAM_MTN_PRINT_WIDTH:]
+						
+				'''rivers take precedence over mtns for initial testing'''
+				#TODO: address case of multiple rivers per tile
+				for r in self.rivers:
+					if(x in r.xyPts):
+						if(y in r.xyPts[x]):
+							altStr = " "*(PARAM_MTN_PRINT_WIDTH-1)+"*"
+						
 				print(altStr, end="")
 				
 			print("\n")

@@ -1,5 +1,9 @@
 TODO LIST
 
+Restrict rivers to starting on mountain/certain elevations - maybe
+Generalize river propagation for rivers extending to adjacent, not just below tiles
+Unify drawing for tile vs maps, e.g. map draw can call tile draw can call mtn/river draw(x,y coord input)
+mtns could have a method that takes in all mtns that impact that tile and return the altitude at (x,y)
 Drawing methods and testing for river class
 Add river elevation checks
 3D graphing of mtns? maybe GnuPlot or some added Python lib
@@ -7,4 +11,4 @@ Implement max/min height per tile/map
 Contour maps
 Add noise to mtns
 Different x,y slopes
-Rivers
+Allow arbitrary characters in random seed

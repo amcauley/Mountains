@@ -18,12 +18,13 @@ def testMap():
 	   v Y
 	'''
 	   
-	testMap.preDrawMtnReport()
-	   
+	testMap.preDrawMtns()
+	testMap.preDrawRivers()
+	  
 	while(True):
 		testTile = testMap.tiles[x][y]
 		
-		if(PARAM_DEBUG_EN):
+		if(PARAM_DEBUG_EN_ALL):
 			for m in testTile.mtnList:
 				print("Local mtn @ local coords ("+str(m.x)+","+str(m.y)+","+str(m.h)+")")
 		
@@ -31,9 +32,9 @@ def testMap():
 		if(x in testMap.mtnsPerTile):
 			if(y in testMap.mtnsPerTile[x]):
 				tileMtns = testMap.mtnsPerTile[x][y]
-				if(PARAM_DEBUG_EN):
+				if(PARAM_DEBUG_EN_ALL):
 					for m in testMap.mtnsPerTile[x][y]:
-						print("Mtn found:("+str(m.x)+","+str(m.y)+","+str(m.h)+")")				
+						print("Mtn found:("+str(m.x)+","+str(m.y)+","+str(m.h)+")")											
 						
 		testTile.draw(tileMtns)
 		
@@ -64,7 +65,7 @@ def testMap():
 			print("Invalid Cmd")
 	
 	'''print out the map to default output file after quitting the loop'''
-	testMap.draw("mapOutput.txt")
+	testMap.drawMap("mapOutput.txt")
 		
 	
 if __name__ == "__main__":
