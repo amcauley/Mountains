@@ -1,0 +1,1054 @@
+tile init, x y seed: 0 0 2337446730
+tile init, x y seed: 0 1 4074230799
+tile init, x y seed: 0 2 0165578901
+tile init, x y seed: 0 3 1911858404
+tile init, x y seed: 0 4 3679773535
+tile init, x y seed: 0 5 1641650881
+tile init, x y seed: 0 6 0224899942
+tile init, x y seed: 0 7 3892834495
+tile init, x y seed: 0 8 2509632283
+tile init, x y seed: 0 9 0463617489
+tile init, x y seed: 0 10 0389803428
+tile init, x y seed: 0 11 1426367965
+tile init, x y seed: 0 12 2257778974
+tile init, x y seed: 0 13 1835895667
+tile init, x y seed: 0 14 3113347131
+tile init, x y seed: 1 0 1013818839
+tile init, x y seed: 1 1 3059489832
+tile init, x y seed: 1 2 3702419103
+tile init, x y seed: 1 3 2045084184
+tile init, x y seed: 1 4 3141902303
+tile init, x y seed: 1 5 4123000827
+tile init, x y seed: 1 6 4126521921
+tile init, x y seed: 1 7 1925293085
+tile init, x y seed: 1 8 4052974081
+tile init, x y seed: 1 9 1185058429
+tile init, x y seed: 1 10 2507859262
+tile init, x y seed: 1 11 0816178892
+tile init, x y seed: 1 12 2920958367
+tile init, x y seed: 1 13 2890460038
+tile init, x y seed: 1 14 1198436767
+tile init, x y seed: 2 0 2675342405
+tile init, x y seed: 2 1 3622576170
+tile init, x y seed: 2 2 1167696004
+tile init, x y seed: 2 3 1781311907
+tile init, x y seed: 2 4 0460035328
+tile init, x y seed: 2 5 3396132287
+tile init, x y seed: 2 6 3865720627
+tile init, x y seed: 2 7 3462063545
+tile init, x y seed: 2 8 0072262865
+tile init, x y seed: 2 9 3456377957
+tile init, x y seed: 2 10 1865806011
+tile init, x y seed: 2 11 1028580026
+tile init, x y seed: 2 12 0540392677
+tile init, x y seed: 2 13 3475984008
+tile init, x y seed: 2 14 2494549539
+tile init, x y seed: 3 0 3530265750
+tile init, x y seed: 3 1 0881149698
+tile init, x y seed: 3 2 3815082342
+tile init, x y seed: 3 3 0304122021
+tile init, x y seed: 3 4 2712665311
+tile init, x y seed: 3 5 3870227516
+tile init, x y seed: 3 6 2459198373
+tile init, x y seed: 3 7 0572670186
+tile init, x y seed: 3 8 2590924755
+tile init, x y seed: 3 9 0466044693
+tile init, x y seed: 3 10 0037142199
+tile init, x y seed: 3 11 2078982981
+tile init, x y seed: 3 12 3981755864
+tile init, x y seed: 3 13 4149195837
+tile init, x y seed: 3 14 2112307931
+tile init, x y seed: 4 0 0647892279
+tile init, x y seed: 4 1 2785274337
+tile init, x y seed: 4 2 1511168161
+tile init, x y seed: 4 3 0321236752
+tile init, x y seed: 4 4 2321630713
+tile init, x y seed: 4 5 2825197536
+tile init, x y seed: 4 6 0421212525
+tile init, x y seed: 4 7 4058091780
+tile init, x y seed: 4 8 0377468822
+tile init, x y seed: 4 9 2549834923
+tile init, x y seed: 4 10 0687088619
+tile init, x y seed: 4 11 2950783273
+tile init, x y seed: 4 12 1968187416
+tile init, x y seed: 4 13 0849046950
+tile init, x y seed: 4 14 2387972799
+tile init, x y seed: 5 0 0973694259
+tile init, x y seed: 5 1 0764699275
+tile init, x y seed: 5 2 2354319937
+tile init, x y seed: 5 3 3185443825
+tile init, x y seed: 5 4 0813946014
+tile init, x y seed: 5 5 3503122931
+tile init, x y seed: 5 6 1016396000
+tile init, x y seed: 5 7 2916842193
+tile init, x y seed: 5 8 3202154236
+tile init, x y seed: 5 9 0950843526
+tile init, x y seed: 5 10 3352561166
+tile init, x y seed: 5 11 0970832293
+tile init, x y seed: 5 12 3593909966
+tile init, x y seed: 5 13 1366362416
+tile init, x y seed: 5 14 3160687893
+tile init, x y seed: 6 0 1603362544
+tile init, x y seed: 6 1 2354153409
+tile init, x y seed: 6 2 0287264509
+tile init, x y seed: 6 3 2938792530
+tile init, x y seed: 6 4 4285208484
+tile init, x y seed: 6 5 1200800002
+tile init, x y seed: 6 6 1167360466
+tile init, x y seed: 6 7 0305404418
+tile init, x y seed: 6 8 2683157217
+tile init, x y seed: 6 9 3195769417
+tile init, x y seed: 6 10 0100334680
+tile init, x y seed: 6 11 2271204777
+tile init, x y seed: 6 12 0676541537
+tile init, x y seed: 6 13 0171279837
+tile init, x y seed: 6 14 2951689188
+tile init, x y seed: 7 0 2454155475
+tile init, x y seed: 7 1 1104996223
+tile init, x y seed: 7 2 1143207437
+tile init, x y seed: 7 3 3907429125
+tile init, x y seed: 7 4 0398115220
+tile init, x y seed: 7 5 1064135951
+tile init, x y seed: 7 6 2232429276
+tile init, x y seed: 7 7 3538225179
+tile init, x y seed: 7 8 3381863077
+tile init, x y seed: 7 9 0320349863
+tile init, x y seed: 7 10 1652293601
+tile init, x y seed: 7 11 3027933641
+tile init, x y seed: 7 12 1664541618
+tile init, x y seed: 7 13 3637374216
+tile init, x y seed: 7 14 0025460821
+tile init, x y seed: 8 0 1999951809
+tile init, x y seed: 8 1 0052734659
+tile init, x y seed: 8 2 0695516342
+tile init, x y seed: 8 3 0036421336
+tile init, x y seed: 8 4 0693034512
+tile init, x y seed: 8 5 4048090198
+tile init, x y seed: 8 6 1354783835
+tile init, x y seed: 8 7 3034711093
+tile init, x y seed: 8 8 2413024525
+tile init, x y seed: 8 9 2058329601
+tile init, x y seed: 8 10 2426209752
+tile init, x y seed: 8 11 3670091064
+tile init, x y seed: 8 12 1962834598
+tile init, x y seed: 8 13 1526892958
+tile init, x y seed: 8 14 2827967569
+tile init, x y seed: 9 0 2038265566
+tile init, x y seed: 9 1 0917477150
+tile init, x y seed: 9 2 4202002117
+tile init, x y seed: 9 3 4249642349
+tile init, x y seed: 9 4 2529092035
+tile init, x y seed: 9 5 2662165470
+tile init, x y seed: 9 6 1771368336
+tile init, x y seed: 9 7 0627844522
+tile init, x y seed: 9 8 1514061274
+tile init, x y seed: 9 9 1285757058
+tile init, x y seed: 9 10 4219257513
+tile init, x y seed: 9 11 1206968702
+tile init, x y seed: 9 12 2949313476
+tile init, x y seed: 9 13 4204144600
+tile init, x y seed: 9 14 3298575083
+tile init, x y seed: 10 0 1112433019
+tile init, x y seed: 10 1 2449541944
+tile init, x y seed: 10 2 3823115994
+tile init, x y seed: 10 3 1201798311
+tile init, x y seed: 10 4 0487979150
+tile init, x y seed: 10 5 3101292853
+tile init, x y seed: 10 6 2120995091
+tile init, x y seed: 10 7 4266481674
+tile init, x y seed: 10 8 1392113673
+tile init, x y seed: 10 9 2412881504
+tile init, x y seed: 10 10 0653463307
+tile init, x y seed: 10 11 2698614761
+tile init, x y seed: 10 12 1639126561
+tile init, x y seed: 10 13 1027964410
+tile init, x y seed: 10 14 2051186501
+tile init, x y seed: 11 0 4038782778
+tile init, x y seed: 11 1 2271760180
+tile init, x y seed: 11 2 0590463589
+tile init, x y seed: 11 3 0487954598
+tile init, x y seed: 11 4 2348494799
+tile init, x y seed: 11 5 0420422439
+tile init, x y seed: 11 6 3589174736
+tile init, x y seed: 11 7 1612842600
+tile init, x y seed: 11 8 3453596289
+tile init, x y seed: 11 9 0654775828
+tile init, x y seed: 11 10 1526213684
+tile init, x y seed: 11 11 1468248159
+tile init, x y seed: 11 12 1077844633
+tile init, x y seed: 11 13 0620556666
+tile init, x y seed: 11 14 0756204784
+tile init, x y seed: 12 0 4145683452
+tile init, x y seed: 12 1 2356625382
+tile init, x y seed: 12 2 4082940073
+tile init, x y seed: 12 3 1875266763
+tile init, x y seed: 12 4 2121601403
+tile init, x y seed: 12 5 3847871410
+tile init, x y seed: 12 6 2875631084
+tile init, x y seed: 12 7 3838100873
+tile init, x y seed: 12 8 1906791089
+tile init, x y seed: 12 9 2557733475
+tile init, x y seed: 12 10 3947694632
+tile init, x y seed: 12 11 0159582660
+tile init, x y seed: 12 12 0237503877
+tile init, x y seed: 12 13 3555081800
+tile init, x y seed: 12 14 3047215817
+tile init, x y seed: 13 0 1552728491
+tile init, x y seed: 13 1 1411758002
+tile init, x y seed: 13 2 2404133351
+tile init, x y seed: 13 3 1591528641
+tile init, x y seed: 13 4 1591690432
+tile init, x y seed: 13 5 3101542104
+tile init, x y seed: 13 6 2472682297
+tile init, x y seed: 13 7 2094996911
+tile init, x y seed: 13 8 0127556961
+tile init, x y seed: 13 9 3062276825
+tile init, x y seed: 13 10 3688327459
+tile init, x y seed: 13 11 2891568861
+tile init, x y seed: 13 12 2099596728
+tile init, x y seed: 13 13 1601746919
+tile init, x y seed: 13 14 3986262873
+tile init, x y seed: 14 0 2241903809
+tile init, x y seed: 14 1 2211984297
+tile init, x y seed: 14 2 0182818357
+tile init, x y seed: 14 3 3432174397
+tile init, x y seed: 14 4 0835531109
+tile init, x y seed: 14 5 1031234678
+tile init, x y seed: 14 6 0310812082
+tile init, x y seed: 14 7 2626988359
+tile init, x y seed: 14 8 4156841899
+tile init, x y seed: 14 9 2318752498
+tile init, x y seed: 14 10 4124566269
+tile init, x y seed: 14 11 2673728498
+tile init, x y seed: 14 12 1361779794
+tile init, x y seed: 14 13 3871583180
+tile init, x y seed: 14 14 2256732608
+tile init, x y seed: 15 0 0778526663
+tile init, x y seed: 15 1 2746518602
+tile init, x y seed: 15 2 2494333050
+tile init, x y seed: 15 3 3498157012
+tile init, x y seed: 15 4 3569806236
+tile init, x y seed: 15 5 0783997143
+tile init, x y seed: 15 6 0830802731
+tile init, x y seed: 15 7 4275599299
+tile init, x y seed: 15 8 4074299726
+tile init, x y seed: 15 9 3055746367
+tile init, x y seed: 15 10 1290046589
+tile init, x y seed: 15 11 3418211453
+tile init, x y seed: 15 12 0313059903
+tile init, x y seed: 15 13 3894891574
+tile init, x y seed: 15 14 0766174540
+tile init, x y seed: 16 0 2908233303
+tile init, x y seed: 16 1 0901304238
+tile init, x y seed: 16 2 0962869285
+tile init, x y seed: 16 3 0624214061
+tile init, x y seed: 16 4 1735072617
+tile init, x y seed: 16 5 3978483442
+tile init, x y seed: 16 6 2820799598
+tile init, x y seed: 16 7 1694449993
+tile init, x y seed: 16 8 0851167841
+tile init, x y seed: 16 9 3061666652
+tile init, x y seed: 16 10 0172437418
+tile init, x y seed: 16 11 0509888371
+tile init, x y seed: 16 12 2360043334
+tile init, x y seed: 16 13 1762838243
+tile init, x y seed: 16 14 3092238061
+tile init, x y seed: 17 0 3885297172
+tile init, x y seed: 17 1 0136779594
+tile init, x y seed: 17 2 1322019967
+tile init, x y seed: 17 3 1166045467
+tile init, x y seed: 17 4 0625644691
+tile init, x y seed: 17 5 2211641671
+tile init, x y seed: 17 6 0408075385
+tile init, x y seed: 17 7 1473956450
+tile init, x y seed: 17 8 0619505248
+tile init, x y seed: 17 9 3045664341
+tile init, x y seed: 17 10 1073135046
+tile init, x y seed: 17 11 0251943746
+tile init, x y seed: 17 12 0904825219
+tile init, x y seed: 17 13 1329658898
+tile init, x y seed: 17 14 2567083842
+tile init, x y seed: 18 0 0708452615
+tile init, x y seed: 18 1 1636471393
+tile init, x y seed: 18 2 2123807367
+tile init, x y seed: 18 3 1946843032
+tile init, x y seed: 18 4 3968448422
+tile init, x y seed: 18 5 0374957032
+tile init, x y seed: 18 6 3367717152
+tile init, x y seed: 18 7 2225695309
+tile init, x y seed: 18 8 0452311954
+tile init, x y seed: 18 9 1398439431
+tile init, x y seed: 18 10 1054277402
+tile init, x y seed: 18 11 3235105477
+tile init, x y seed: 18 12 4278533012
+tile init, x y seed: 18 13 0085257436
+tile init, x y seed: 18 14 1094672148
+tile init, x y seed: 19 0 0602878526
+tile init, x y seed: 19 1 2746317213
+tile init, x y seed: 19 2 0743144841
+tile init, x y seed: 19 3 2169388637
+tile init, x y seed: 19 4 2645550782
+tile init, x y seed: 19 5 2190512831
+tile init, x y seed: 19 6 2091880783
+tile init, x y seed: 19 7 0869641591
+tile init, x y seed: 19 8 1941608111
+tile init, x y seed: 19 9 3280846385
+tile init, x y seed: 19 10 3344991111
+tile init, x y seed: 19 11 1440343224
+tile init, x y seed: 19 12 2294941605
+tile init, x y seed: 19 13 2885003542
+tile init, x y seed: 19 14 2377061816
+(7,3) dist2 to tile (0,0) = 0
+(4,4) dist2 to tile (0,0) = 0
+Adding Mtn to tile (0,0): peak (4,4,6)
+(4,4) dist2 to tile (0,1) = 36
+(4,4) dist2 to tile (1,0) = 36
+(4,4) dist2 to tile (1,1) = 72
+Adding MtnReport to Map tile (0,0): peak (4,4,6)
+(18,3) dist2 to tile (0,0) = 81
+(18,3) dist2 to tile (0,1) = 130
+(18,3) dist2 to tile (1,0) = 0
+Adding Mtn to tile (1,0): peak (18,3,9)
+(18,3) dist2 to tile (1,1) = 49
+Adding Mtn to tile (1,1): peak (18,3,9)
+(18,3) dist2 to tile (2,0) = 4
+Adding Mtn to tile (2,0): peak (18,3,9)
+(18,3) dist2 to tile (2,1) = 53
+Adding Mtn to tile (2,1): peak (18,3,9)
+Adding MtnReport to Map tile (1,0): peak (18,3,9)
+Adding MtnReport to Map tile (1,1): peak (18,3,9)
+Adding MtnReport to Map tile (2,0): peak (18,3,9)
+Adding MtnReport to Map tile (2,1): peak (18,3,9)
+(24,0) dist2 to tile (1,0) = 25
+(24,0) dist2 to tile (2,0) = 0
+Adding Mtn to tile (2,0): peak (24,0,5)
+(23,4) dist2 to tile (2,0) = 0
+Adding Mtn to tile (2,0): peak (23,4,2)
+Adding MtnReport to Map tile (2,0): peak (24,0,5)
+Adding MtnReport to Map tile (2,0): peak (23,4,2)
+(65,4) dist2 to tile (6,0) = 0
+Adding Mtn to tile (6,0): peak (65,4,4)
+Adding MtnReport to Map tile (6,0): peak (65,4,4)
+(74,7) dist2 to tile (6,0) = 25
+(74,7) dist2 to tile (6,1) = 34
+(74,7) dist2 to tile (7,0) = 0
+Adding Mtn to tile (7,0): peak (74,7,5)
+(74,7) dist2 to tile (7,1) = 9
+Adding Mtn to tile (7,1): peak (74,7,5)
+(71,5) dist2 to tile (6,0) = 4
+Adding Mtn to tile (6,0): peak (71,5,5)
+(71,5) dist2 to tile (6,1) = 29
+(71,5) dist2 to tile (7,0) = 0
+Adding Mtn to tile (7,0): peak (71,5,5)
+(71,5) dist2 to tile (7,1) = 25
+Adding MtnReport to Map tile (6,0): peak (71,5,5)
+Adding MtnReport to Map tile (7,0): peak (74,7,5)
+Adding MtnReport to Map tile (7,0): peak (71,5,5)
+Adding MtnReport to Map tile (7,1): peak (74,7,5)
+(88,0) dist2 to tile (7,0) = 81
+(88,0) dist2 to tile (8,0) = 0
+Adding Mtn to tile (8,0): peak (88,0,9)
+(88,0) dist2 to tile (9,0) = 4
+Adding Mtn to tile (9,0): peak (88,0,9)
+Adding MtnReport to Map tile (8,0): peak (88,0,9)
+Adding MtnReport to Map tile (9,0): peak (88,0,9)
+(95,6) dist2 to tile (8,0) = 36
+(95,6) dist2 to tile (8,1) = 52
+(95,6) dist2 to tile (9,0) = 0
+Adding Mtn to tile (9,0): peak (95,6,6)
+(95,6) dist2 to tile (9,1) = 16
+Adding Mtn to tile (9,1): peak (95,6,6)
+(92,6) dist2 to tile (8,0) = 9
+Adding Mtn to tile (8,0): peak (92,6,5)
+(92,6) dist2 to tile (8,1) = 25
+(92,6) dist2 to tile (9,0) = 0
+Adding Mtn to tile (9,0): peak (92,6,5)
+(92,6) dist2 to tile (9,1) = 16
+Adding Mtn to tile (9,1): peak (92,6,5)
+Adding MtnReport to Map tile (8,0): peak (92,6,5)
+Adding MtnReport to Map tile (9,0): peak (95,6,6)
+Adding MtnReport to Map tile (9,0): peak (92,6,5)
+Adding MtnReport to Map tile (9,1): peak (95,6,6)
+Adding MtnReport to Map tile (9,1): peak (92,6,5)
+(100,1) dist2 to tile (9,0) = 1
+Adding Mtn to tile (9,0): peak (100,1,9)
+(100,1) dist2 to tile (9,1) = 82
+Adding MtnReport to Map tile (9,0): peak (100,1,9)
+(7,19) dist2 to tile (0,1) = 0
+Adding Mtn to tile (0,1): peak (7,19,9)
+(7,19) dist2 to tile (0,2) = 1
+Adding Mtn to tile (0,2): peak (7,19,9)
+(7,19) dist2 to tile (1,1) = 9
+Adding Mtn to tile (1,1): peak (7,19,9)
+(7,19) dist2 to tile (1,2) = 10
+Adding Mtn to tile (1,2): peak (7,19,9)
+Adding MtnReport to Map tile (0,1): peak (7,19,9)
+Adding MtnReport to Map tile (0,2): peak (7,19,9)
+Adding MtnReport to Map tile (1,1): peak (7,19,9)
+Adding MtnReport to Map tile (1,2): peak (7,19,9)
+(43,13) dist2 to tile (3,0) = 32
+Adding Mtn to tile (3,0): peak (43,13,7)
+(43,13) dist2 to tile (3,1) = 16
+Adding Mtn to tile (3,1): peak (43,13,7)
+(43,13) dist2 to tile (3,2) = 65
+(43,13) dist2 to tile (4,0) = 16
+Adding Mtn to tile (4,0): peak (43,13,7)
+(43,13) dist2 to tile (4,1) = 0
+Adding Mtn to tile (4,1): peak (43,13,7)
+(43,13) dist2 to tile (4,2) = 49
+(43,13) dist2 to tile (5,0) = 65
+(43,13) dist2 to tile (5,1) = 49
+(43,13) dist2 to tile (5,2) = 98
+(42,17) dist2 to tile (3,1) = 9
+Adding Mtn to tile (3,1): peak (42,17,4)
+(42,17) dist2 to tile (3,2) = 18
+(42,17) dist2 to tile (4,1) = 0
+Adding Mtn to tile (4,1): peak (42,17,4)
+(42,17) dist2 to tile (4,2) = 9
+Adding Mtn to tile (4,2): peak (42,17,4)
+Adding MtnReport to Map tile (3,0): peak (43,13,7)
+Adding MtnReport to Map tile (3,1): peak (43,13,7)
+Adding MtnReport to Map tile (3,1): peak (42,17,4)
+Adding MtnReport to Map tile (4,0): peak (43,13,7)
+Adding MtnReport to Map tile (4,1): peak (43,13,7)
+Adding MtnReport to Map tile (4,1): peak (42,17,4)
+Adding MtnReport to Map tile (4,2): peak (42,17,4)
+(64,10) dist2 to tile (5,0) = 26
+Adding Mtn to tile (5,0): peak (64,10,9)
+(64,10) dist2 to tile (5,1) = 25
+Adding Mtn to tile (5,1): peak (64,10,9)
+(64,10) dist2 to tile (6,0) = 1
+Adding Mtn to tile (6,0): peak (64,10,9)
+(64,10) dist2 to tile (6,1) = 0
+Adding Mtn to tile (6,1): peak (64,10,9)
+(64,10) dist2 to tile (7,0) = 37
+Adding Mtn to tile (7,0): peak (64,10,9)
+(64,10) dist2 to tile (7,1) = 36
+Adding Mtn to tile (7,1): peak (64,10,9)
+(61,15) dist2 to tile (5,1) = 4
+Adding Mtn to tile (5,1): peak (61,15,3)
+(61,15) dist2 to tile (6,1) = 0
+Adding Mtn to tile (6,1): peak (61,15,3)
+Adding MtnReport to Map tile (5,0): peak (64,10,9)
+Adding MtnReport to Map tile (5,1): peak (64,10,9)
+Adding MtnReport to Map tile (5,1): peak (61,15,3)
+Adding MtnReport to Map tile (6,0): peak (64,10,9)
+Adding MtnReport to Map tile (6,1): peak (64,10,9)
+Adding MtnReport to Map tile (6,1): peak (61,15,3)
+Adding MtnReport to Map tile (7,0): peak (64,10,9)
+Adding MtnReport to Map tile (7,1): peak (64,10,9)
+(72,12) dist2 to tile (6,0) = 18
+(72,12) dist2 to tile (6,1) = 9
+(72,12) dist2 to tile (7,0) = 9
+(72,12) dist2 to tile (7,1) = 0
+Adding Mtn to tile (7,1): peak (72,12,3)
+Adding MtnReport to Map tile (7,1): peak (72,12,3)
+(20,20) dist2 to tile (1,1) = 2
+Adding Mtn to tile (1,1): peak (20,20,4)
+(20,20) dist2 to tile (1,2) = 1
+Adding Mtn to tile (1,2): peak (20,20,4)
+(20,20) dist2 to tile (2,1) = 1
+Adding Mtn to tile (2,1): peak (20,20,4)
+(20,20) dist2 to tile (2,2) = 0
+Adding Mtn to tile (2,2): peak (20,20,4)
+Adding MtnReport to Map tile (1,1): peak (20,20,4)
+Adding MtnReport to Map tile (1,2): peak (20,20,4)
+Adding MtnReport to Map tile (2,1): peak (20,20,4)
+Adding MtnReport to Map tile (2,2): peak (20,20,4)
+(41,26) dist2 to tile (4,2) = 0
+Adding Mtn to tile (4,2): peak (41,26,1)
+Adding MtnReport to Map tile (4,2): peak (41,26,1)
+(59,23) dist2 to tile (5,1) = 16
+Adding Mtn to tile (5,1): peak (59,23,7)
+(59,23) dist2 to tile (5,2) = 0
+Adding Mtn to tile (5,2): peak (59,23,7)
+(59,23) dist2 to tile (5,3) = 49
+(59,23) dist2 to tile (6,1) = 17
+Adding Mtn to tile (6,1): peak (59,23,7)
+(59,23) dist2 to tile (6,2) = 1
+Adding Mtn to tile (6,2): peak (59,23,7)
+(59,23) dist2 to tile (6,3) = 50
+(53,21) dist2 to tile (4,1) = 20
+Adding Mtn to tile (4,1): peak (53,21,9)
+(53,21) dist2 to tile (4,2) = 16
+Adding Mtn to tile (4,2): peak (53,21,9)
+(53,21) dist2 to tile (4,3) = 97
+(53,21) dist2 to tile (5,1) = 4
+Adding Mtn to tile (5,1): peak (53,21,9)
+(53,21) dist2 to tile (5,2) = 0
+Adding Mtn to tile (5,2): peak (53,21,9)
+(53,21) dist2 to tile (5,3) = 81
+(53,21) dist2 to tile (6,1) = 53
+Adding Mtn to tile (6,1): peak (53,21,9)
+(53,21) dist2 to tile (6,2) = 49
+Adding Mtn to tile (6,2): peak (53,21,9)
+(53,21) dist2 to tile (6,3) = 130
+Adding MtnReport to Map tile (4,1): peak (53,21,9)
+Adding MtnReport to Map tile (4,2): peak (53,21,9)
+Adding MtnReport to Map tile (5,1): peak (59,23,7)
+Adding MtnReport to Map tile (5,1): peak (53,21,9)
+Adding MtnReport to Map tile (5,2): peak (59,23,7)
+Adding MtnReport to Map tile (5,2): peak (53,21,9)
+Adding MtnReport to Map tile (6,1): peak (59,23,7)
+Adding MtnReport to Map tile (6,1): peak (53,21,9)
+Adding MtnReport to Map tile (6,2): peak (59,23,7)
+Adding MtnReport to Map tile (6,2): peak (53,21,9)
+(74,23) dist2 to tile (6,1) = 41
+Adding Mtn to tile (6,1): peak (74,23,7)
+(74,23) dist2 to tile (6,2) = 25
+Adding Mtn to tile (6,2): peak (74,23,7)
+(74,23) dist2 to tile (6,3) = 74
+(74,23) dist2 to tile (7,1) = 16
+Adding Mtn to tile (7,1): peak (74,23,7)
+(74,23) dist2 to tile (7,2) = 0
+Adding Mtn to tile (7,2): peak (74,23,7)
+(74,23) dist2 to tile (7,3) = 49
+(74,23) dist2 to tile (8,1) = 52
+(74,23) dist2 to tile (8,2) = 36
+Adding Mtn to tile (8,2): peak (74,23,7)
+(74,23) dist2 to tile (8,3) = 85
+Adding MtnReport to Map tile (8,2): peak (74,23,7)
+Adding MtnReport to Map tile (6,1): peak (74,23,7)
+Adding MtnReport to Map tile (6,2): peak (74,23,7)
+Adding MtnReport to Map tile (7,1): peak (74,23,7)
+Adding MtnReport to Map tile (7,2): peak (74,23,7)
+(91,21) dist2 to tile (8,1) = 8
+Adding Mtn to tile (8,1): peak (91,21,7)
+(91,21) dist2 to tile (8,2) = 4
+Adding Mtn to tile (8,2): peak (91,21,7)
+(91,21) dist2 to tile (9,1) = 4
+Adding Mtn to tile (9,1): peak (91,21,7)
+(91,21) dist2 to tile (9,2) = 0
+Adding Mtn to tile (9,2): peak (91,21,7)
+Adding MtnReport to Map tile (8,1): peak (91,21,7)
+Adding MtnReport to Map tile (8,2): peak (91,21,7)
+Adding MtnReport to Map tile (9,1): peak (91,21,7)
+Adding MtnReport to Map tile (9,2): peak (91,21,7)
+(4,30) dist2 to tile (0,2) = 1
+Adding Mtn to tile (0,2): peak (4,30,4)
+(4,30) dist2 to tile (0,3) = 0
+Adding Mtn to tile (0,3): peak (4,30,4)
+Adding MtnReport to Map tile (0,2): peak (4,30,4)
+Adding MtnReport to Map tile (0,3): peak (4,30,4)
+(11,38) dist2 to tile (0,3) = 4
+Adding Mtn to tile (0,3): peak (11,38,4)
+(11,38) dist2 to tile (0,4) = 8
+Adding Mtn to tile (0,4): peak (11,38,4)
+(11,38) dist2 to tile (1,3) = 0
+Adding Mtn to tile (1,3): peak (11,38,4)
+(11,38) dist2 to tile (1,4) = 4
+Adding Mtn to tile (1,4): peak (11,38,4)
+(10,38) dist2 to tile (0,3) = 1
+Adding Mtn to tile (0,3): peak (10,38,4)
+(10,38) dist2 to tile (0,4) = 5
+Adding Mtn to tile (0,4): peak (10,38,4)
+(10,38) dist2 to tile (1,3) = 0
+Adding Mtn to tile (1,3): peak (10,38,4)
+(10,38) dist2 to tile (1,4) = 4
+Adding Mtn to tile (1,4): peak (10,38,4)
+Adding MtnReport to Map tile (0,3): peak (11,38,4)
+Adding MtnReport to Map tile (0,3): peak (10,38,4)
+Adding MtnReport to Map tile (0,4): peak (11,38,4)
+Adding MtnReport to Map tile (0,4): peak (10,38,4)
+Adding MtnReport to Map tile (1,3): peak (11,38,4)
+Adding MtnReport to Map tile (1,3): peak (10,38,4)
+Adding MtnReport to Map tile (1,4): peak (11,38,4)
+Adding MtnReport to Map tile (1,4): peak (10,38,4)
+(29,30) dist2 to tile (2,2) = 1
+Adding Mtn to tile (2,2): peak (29,30,7)
+(29,30) dist2 to tile (2,3) = 0
+Adding Mtn to tile (2,3): peak (29,30,7)
+(29,30) dist2 to tile (3,2) = 2
+Adding Mtn to tile (3,2): peak (29,30,7)
+(29,30) dist2 to tile (3,3) = 1
+Adding Mtn to tile (3,3): peak (29,30,7)
+Adding MtnReport to Map tile (2,2): peak (29,30,7)
+Adding MtnReport to Map tile (2,3): peak (29,30,7)
+Adding MtnReport to Map tile (3,2): peak (29,30,7)
+Adding MtnReport to Map tile (3,3): peak (29,30,7)
+(65,33) dist2 to tile (6,3) = 0
+(67,39) dist2 to tile (6,3) = 0
+Adding Mtn to tile (6,3): peak (67,39,2)
+(67,39) dist2 to tile (6,4) = 1
+Adding Mtn to tile (6,4): peak (67,39,2)
+Adding MtnReport to Map tile (6,3): peak (67,39,2)
+Adding MtnReport to Map tile (6,4): peak (67,39,2)
+(93,34) dist2 to tile (8,2) = 41
+Adding Mtn to tile (8,2): peak (93,34,9)
+(93,34) dist2 to tile (8,3) = 16
+Adding Mtn to tile (8,3): peak (93,34,9)
+(93,34) dist2 to tile (8,4) = 52
+Adding Mtn to tile (8,4): peak (93,34,9)
+(93,34) dist2 to tile (9,2) = 25
+Adding Mtn to tile (9,2): peak (93,34,9)
+(93,34) dist2 to tile (9,3) = 0
+Adding Mtn to tile (9,3): peak (93,34,9)
+(93,34) dist2 to tile (9,4) = 36
+Adding Mtn to tile (9,4): peak (93,34,9)
+Adding MtnReport to Map tile (8,2): peak (93,34,9)
+Adding MtnReport to Map tile (8,3): peak (93,34,9)
+Adding MtnReport to Map tile (8,4): peak (93,34,9)
+Adding MtnReport to Map tile (9,2): peak (93,34,9)
+Adding MtnReport to Map tile (9,3): peak (93,34,9)
+Adding MtnReport to Map tile (9,4): peak (93,34,9)
+(33,41) dist2 to tile (3,4) = 0
+Adding Mtn to tile (3,4): peak (33,41,1)
+(36,46) dist2 to tile (3,4) = 0
+Adding Mtn to tile (3,4): peak (36,46,5)
+(36,46) dist2 to tile (3,5) = 16
+Adding Mtn to tile (3,5): peak (36,46,5)
+(36,46) dist2 to tile (4,4) = 16
+Adding Mtn to tile (4,4): peak (36,46,5)
+(36,46) dist2 to tile (4,5) = 32
+Adding MtnReport to Map tile (3,4): peak (33,41,1)
+Adding MtnReport to Map tile (3,4): peak (36,46,5)
+Adding MtnReport to Map tile (3,5): peak (36,46,5)
+Adding MtnReport to Map tile (4,4): peak (36,46,5)
+(47,41) dist2 to tile (4,3) = 4
+Adding Mtn to tile (4,3): peak (47,41,3)
+(47,41) dist2 to tile (4,4) = 0
+Adding Mtn to tile (4,4): peak (47,41,3)
+(47,41) dist2 to tile (5,3) = 13
+(47,41) dist2 to tile (5,4) = 9
+(46,43) dist2 to tile (4,4) = 0
+Adding MtnReport to Map tile (4,3): peak (47,41,3)
+Adding MtnReport to Map tile (4,4): peak (47,41,3)
+(64,48) dist2 to tile (6,4) = 0
+Adding Mtn to tile (6,4): peak (64,48,4)
+(64,48) dist2 to tile (6,5) = 4
+Adding Mtn to tile (6,5): peak (64,48,4)
+Adding MtnReport to Map tile (6,4): peak (64,48,4)
+Adding MtnReport to Map tile (6,5): peak (64,48,4)
+(90,43) dist2 to tile (8,3) = 17
+Adding Mtn to tile (8,3): peak (90,43,5)
+(90,43) dist2 to tile (8,4) = 1
+Adding Mtn to tile (8,4): peak (90,43,5)
+(90,43) dist2 to tile (9,3) = 16
+Adding Mtn to tile (9,3): peak (90,43,5)
+(90,43) dist2 to tile (9,4) = 0
+Adding Mtn to tile (9,4): peak (90,43,5)
+(90,49) dist2 to tile (8,4) = 1
+Adding Mtn to tile (8,4): peak (90,49,2)
+(90,49) dist2 to tile (8,5) = 2
+Adding Mtn to tile (8,5): peak (90,49,2)
+(90,49) dist2 to tile (9,4) = 0
+Adding Mtn to tile (9,4): peak (90,49,2)
+(90,49) dist2 to tile (9,5) = 1
+Adding Mtn to tile (9,5): peak (90,49,2)
+Adding MtnReport to Map tile (8,3): peak (90,43,5)
+Adding MtnReport to Map tile (8,4): peak (90,43,5)
+Adding MtnReport to Map tile (8,4): peak (90,49,2)
+Adding MtnReport to Map tile (8,5): peak (90,49,2)
+Adding MtnReport to Map tile (9,3): peak (90,43,5)
+Adding MtnReport to Map tile (9,4): peak (90,43,5)
+Adding MtnReport to Map tile (9,4): peak (90,49,2)
+Adding MtnReport to Map tile (9,5): peak (90,49,2)
+(8,58) dist2 to tile (0,5) = 0
+Adding Mtn to tile (0,5): peak (8,58,1)
+Adding MtnReport to Map tile (0,5): peak (8,58,1)
+(18,52) dist2 to tile (1,4) = 9
+Adding Mtn to tile (1,4): peak (18,52,7)
+(18,52) dist2 to tile (1,5) = 0
+Adding Mtn to tile (1,5): peak (18,52,7)
+(18,52) dist2 to tile (2,4) = 13
+Adding Mtn to tile (2,4): peak (18,52,7)
+(18,52) dist2 to tile (2,5) = 4
+Adding Mtn to tile (2,5): peak (18,52,7)
+Adding MtnReport to Map tile (1,4): peak (18,52,7)
+Adding MtnReport to Map tile (1,5): peak (18,52,7)
+Adding MtnReport to Map tile (2,4): peak (18,52,7)
+Adding MtnReport to Map tile (2,5): peak (18,52,7)
+(45,53) dist2 to tile (3,4) = 52
+(45,53) dist2 to tile (3,5) = 36
+(45,53) dist2 to tile (4,4) = 16
+Adding Mtn to tile (4,4): peak (45,53,6)
+(45,53) dist2 to tile (4,5) = 0
+Adding Mtn to tile (4,5): peak (45,53,6)
+(45,53) dist2 to tile (5,4) = 41
+(45,53) dist2 to tile (5,5) = 25
+Adding Mtn to tile (5,5): peak (45,53,6)
+(41,59) dist2 to tile (3,5) = 4
+Adding Mtn to tile (3,5): peak (41,59,7)
+(41,59) dist2 to tile (3,6) = 5
+Adding Mtn to tile (3,6): peak (41,59,7)
+(41,59) dist2 to tile (4,5) = 0
+Adding Mtn to tile (4,5): peak (41,59,7)
+(41,59) dist2 to tile (4,6) = 1
+Adding Mtn to tile (4,6): peak (41,59,7)
+Adding MtnReport to Map tile (3,5): peak (41,59,7)
+Adding MtnReport to Map tile (3,6): peak (41,59,7)
+Adding MtnReport to Map tile (4,4): peak (45,53,6)
+Adding MtnReport to Map tile (4,5): peak (45,53,6)
+Adding MtnReport to Map tile (4,5): peak (41,59,7)
+Adding MtnReport to Map tile (4,6): peak (41,59,7)
+Adding MtnReport to Map tile (5,5): peak (45,53,6)
+(60,50) dist2 to tile (5,4) = 2
+Adding Mtn to tile (5,4): peak (60,50,2)
+(60,50) dist2 to tile (5,5) = 1
+Adding Mtn to tile (5,5): peak (60,50,2)
+(60,50) dist2 to tile (6,4) = 1
+Adding Mtn to tile (6,4): peak (60,50,2)
+(60,50) dist2 to tile (6,5) = 0
+Adding Mtn to tile (6,5): peak (60,50,2)
+Adding MtnReport to Map tile (5,4): peak (60,50,2)
+Adding MtnReport to Map tile (5,5): peak (60,50,2)
+Adding MtnReport to Map tile (6,4): peak (60,50,2)
+Adding MtnReport to Map tile (6,5): peak (60,50,2)
+(79,55) dist2 to tile (7,5) = 0
+Adding Mtn to tile (7,5): peak (79,55,1)
+(79,55) dist2 to tile (8,5) = 1
+Adding MtnReport to Map tile (7,5): peak (79,55,1)
+(81,59) dist2 to tile (7,5) = 4
+Adding Mtn to tile (7,5): peak (81,59,8)
+(81,59) dist2 to tile (7,6) = 5
+Adding Mtn to tile (7,6): peak (81,59,8)
+(81,59) dist2 to tile (8,5) = 0
+Adding Mtn to tile (8,5): peak (81,59,8)
+(81,59) dist2 to tile (8,6) = 1
+Adding Mtn to tile (8,6): peak (81,59,8)
+Adding MtnReport to Map tile (8,5): peak (81,59,8)
+Adding MtnReport to Map tile (8,6): peak (81,59,8)
+Adding MtnReport to Map tile (7,5): peak (81,59,8)
+Adding MtnReport to Map tile (7,6): peak (81,59,8)
+(94,57) dist2 to tile (9,5) = 0
+(91,56) dist2 to tile (8,5) = 4
+Adding Mtn to tile (8,5): peak (91,56,5)
+(91,56) dist2 to tile (8,6) = 20
+Adding Mtn to tile (8,6): peak (91,56,5)
+(91,56) dist2 to tile (9,5) = 0
+Adding Mtn to tile (9,5): peak (91,56,5)
+(91,56) dist2 to tile (9,6) = 16
+Adding Mtn to tile (9,6): peak (91,56,5)
+Adding MtnReport to Map tile (8,5): peak (91,56,5)
+Adding MtnReport to Map tile (8,6): peak (91,56,5)
+Adding MtnReport to Map tile (9,5): peak (91,56,5)
+Adding MtnReport to Map tile (9,6): peak (91,56,5)
+(19,62) dist2 to tile (1,6) = 0
+Adding Mtn to tile (1,6): peak (19,62,1)
+(19,62) dist2 to tile (2,6) = 1
+Adding MtnReport to Map tile (1,6): peak (19,62,1)
+(33,67) dist2 to tile (3,6) = 0
+Adding Mtn to tile (3,6): peak (33,67,3)
+(33,67) dist2 to tile (3,7) = 9
+(31,69) dist2 to tile (2,6) = 4
+Adding Mtn to tile (2,6): peak (31,69,8)
+(31,69) dist2 to tile (2,7) = 5
+Adding Mtn to tile (2,7): peak (31,69,8)
+(31,69) dist2 to tile (3,6) = 0
+Adding Mtn to tile (3,6): peak (31,69,8)
+(31,69) dist2 to tile (3,7) = 1
+Adding Mtn to tile (3,7): peak (31,69,8)
+Adding MtnReport to Map tile (2,6): peak (31,69,8)
+Adding MtnReport to Map tile (2,7): peak (31,69,8)
+Adding MtnReport to Map tile (3,6): peak (33,67,3)
+Adding MtnReport to Map tile (3,6): peak (31,69,8)
+Adding MtnReport to Map tile (3,7): peak (31,69,8)
+(50,60) dist2 to tile (5,6) = 0
+(64,66) dist2 to tile (5,6) = 25
+Adding Mtn to tile (5,6): peak (64,66,6)
+(64,66) dist2 to tile (5,7) = 41
+(64,66) dist2 to tile (6,6) = 0
+Adding Mtn to tile (6,6): peak (64,66,6)
+(64,66) dist2 to tile (6,7) = 16
+Adding Mtn to tile (6,7): peak (64,66,6)
+(64,66) dist2 to tile (7,6) = 36
+(64,66) dist2 to tile (7,7) = 52
+Adding MtnReport to Map tile (5,6): peak (64,66,6)
+Adding MtnReport to Map tile (6,6): peak (64,66,6)
+Adding MtnReport to Map tile (6,7): peak (64,66,6)
+(72,67) dist2 to tile (6,6) = 9
+Adding Mtn to tile (6,6): peak (72,67,6)
+(72,67) dist2 to tile (6,7) = 18
+Adding Mtn to tile (6,7): peak (72,67,6)
+(72,67) dist2 to tile (7,6) = 0
+Adding Mtn to tile (7,6): peak (72,67,6)
+(72,67) dist2 to tile (7,7) = 9
+Adding Mtn to tile (7,7): peak (72,67,6)
+(74,62) dist2 to tile (6,5) = 34
+Adding Mtn to tile (6,5): peak (74,62,9)
+(74,62) dist2 to tile (6,6) = 25
+Adding Mtn to tile (6,6): peak (74,62,9)
+(74,62) dist2 to tile (6,7) = 89
+(74,62) dist2 to tile (7,5) = 9
+Adding Mtn to tile (7,5): peak (74,62,9)
+(74,62) dist2 to tile (7,6) = 0
+Adding Mtn to tile (7,6): peak (74,62,9)
+(74,62) dist2 to tile (7,7) = 64
+Adding Mtn to tile (7,7): peak (74,62,9)
+(74,62) dist2 to tile (8,5) = 45
+Adding Mtn to tile (8,5): peak (74,62,9)
+(74,62) dist2 to tile (8,6) = 36
+Adding Mtn to tile (8,6): peak (74,62,9)
+(74,62) dist2 to tile (8,7) = 100
+Adding MtnReport to Map tile (8,5): peak (74,62,9)
+Adding MtnReport to Map tile (8,6): peak (74,62,9)
+Adding MtnReport to Map tile (6,5): peak (74,62,9)
+Adding MtnReport to Map tile (6,6): peak (72,67,6)
+Adding MtnReport to Map tile (6,6): peak (74,62,9)
+Adding MtnReport to Map tile (6,7): peak (72,67,6)
+Adding MtnReport to Map tile (7,5): peak (74,62,9)
+Adding MtnReport to Map tile (7,6): peak (72,67,6)
+Adding MtnReport to Map tile (7,6): peak (74,62,9)
+Adding MtnReport to Map tile (7,7): peak (72,67,6)
+Adding MtnReport to Map tile (7,7): peak (74,62,9)
+(88,63) dist2 to tile (8,5) = 16
+Adding Mtn to tile (8,5): peak (88,63,5)
+(88,63) dist2 to tile (8,6) = 0
+Adding Mtn to tile (8,6): peak (88,63,5)
+(88,63) dist2 to tile (9,5) = 20
+Adding Mtn to tile (9,5): peak (88,63,5)
+(88,63) dist2 to tile (9,6) = 4
+Adding Mtn to tile (9,6): peak (88,63,5)
+Adding MtnReport to Map tile (8,5): peak (88,63,5)
+Adding MtnReport to Map tile (8,6): peak (88,63,5)
+Adding MtnReport to Map tile (9,5): peak (88,63,5)
+Adding MtnReport to Map tile (9,6): peak (88,63,5)
+(93,63) dist2 to tile (8,5) = 32
+Adding Mtn to tile (8,5): peak (93,63,6)
+(93,63) dist2 to tile (8,6) = 16
+Adding Mtn to tile (8,6): peak (93,63,6)
+(93,63) dist2 to tile (9,5) = 16
+Adding Mtn to tile (9,5): peak (93,63,6)
+(93,63) dist2 to tile (9,6) = 0
+Adding Mtn to tile (9,6): peak (93,63,6)
+Adding MtnReport to Map tile (8,5): peak (93,63,6)
+Adding MtnReport to Map tile (8,6): peak (93,63,6)
+Adding MtnReport to Map tile (9,5): peak (93,63,6)
+Adding MtnReport to Map tile (9,6): peak (93,63,6)
+(100,69) dist2 to tile (9,6) = 1
+(100,69) dist2 to tile (9,7) = 2
+(10,78) dist2 to tile (0,7) = 1
+Adding Mtn to tile (0,7): peak (10,78,5)
+(10,78) dist2 to tile (0,8) = 5
+Adding Mtn to tile (0,8): peak (10,78,5)
+(10,78) dist2 to tile (1,7) = 0
+Adding Mtn to tile (1,7): peak (10,78,5)
+(10,78) dist2 to tile (1,8) = 4
+Adding Mtn to tile (1,8): peak (10,78,5)
+Adding MtnReport to Map tile (0,8): peak (10,78,5)
+Adding MtnReport to Map tile (0,7): peak (10,78,5)
+Adding MtnReport to Map tile (1,8): peak (10,78,5)
+Adding MtnReport to Map tile (1,7): peak (10,78,5)
+(47,78) dist2 to tile (4,7) = 0
+(51,79) dist2 to tile (4,7) = 4
+Adding Mtn to tile (4,7): peak (51,79,3)
+(51,79) dist2 to tile (4,8) = 5
+Adding Mtn to tile (4,8): peak (51,79,3)
+(51,79) dist2 to tile (5,7) = 0
+Adding Mtn to tile (5,7): peak (51,79,3)
+(51,79) dist2 to tile (5,8) = 1
+Adding Mtn to tile (5,8): peak (51,79,3)
+(58,74) dist2 to tile (5,7) = 0
+Adding Mtn to tile (5,7): peak (58,74,2)
+(58,74) dist2 to tile (6,7) = 4
+Adding MtnReport to Map tile (4,8): peak (51,79,3)
+Adding MtnReport to Map tile (4,7): peak (51,79,3)
+Adding MtnReport to Map tile (5,8): peak (51,79,3)
+Adding MtnReport to Map tile (5,7): peak (51,79,3)
+Adding MtnReport to Map tile (5,7): peak (58,74,2)
+(2,88) dist2 to tile (0,8) = 0
+Adding Mtn to tile (0,8): peak (2,88,3)
+(2,88) dist2 to tile (0,9) = 4
+Adding Mtn to tile (0,9): peak (2,88,3)
+(6,83) dist2 to tile (0,8) = 0
+Adding Mtn to tile (0,8): peak (6,83,2)
+Adding MtnReport to Map tile (0,8): peak (2,88,3)
+Adding MtnReport to Map tile (0,8): peak (6,83,2)
+Adding MtnReport to Map tile (0,9): peak (2,88,3)
+(10,88) dist2 to tile (0,8) = 1
+(10,88) dist2 to tile (1,8) = 0
+Adding Mtn to tile (1,8): peak (10,88,1)
+Adding MtnReport to Map tile (1,8): peak (10,88,1)
+(37,85) dist2 to tile (3,8) = 0
+Adding Mtn to tile (3,8): peak (37,85,5)
+(37,85) dist2 to tile (3,9) = 25
+(37,85) dist2 to tile (4,8) = 9
+Adding Mtn to tile (4,8): peak (37,85,5)
+(37,85) dist2 to tile (4,9) = 34
+(39,82) dist2 to tile (3,7) = 9
+Adding Mtn to tile (3,7): peak (39,82,4)
+(39,82) dist2 to tile (3,8) = 0
+Adding Mtn to tile (3,8): peak (39,82,4)
+(39,82) dist2 to tile (4,7) = 10
+Adding Mtn to tile (4,7): peak (39,82,4)
+(39,82) dist2 to tile (4,8) = 1
+Adding Mtn to tile (4,8): peak (39,82,4)
+Adding MtnReport to Map tile (3,8): peak (37,85,5)
+Adding MtnReport to Map tile (3,8): peak (39,82,4)
+Adding MtnReport to Map tile (3,7): peak (39,82,4)
+Adding MtnReport to Map tile (4,8): peak (37,85,5)
+Adding MtnReport to Map tile (4,8): peak (39,82,4)
+Adding MtnReport to Map tile (4,7): peak (39,82,4)
+(62,81) dist2 to tile (5,7) = 13
+Adding Mtn to tile (5,7): peak (62,81,7)
+(62,81) dist2 to tile (5,8) = 9
+Adding Mtn to tile (5,8): peak (62,81,7)
+(62,81) dist2 to tile (6,7) = 4
+Adding Mtn to tile (6,7): peak (62,81,7)
+(62,81) dist2 to tile (6,8) = 0
+Adding Mtn to tile (6,8): peak (62,81,7)
+(61,85) dist2 to tile (5,7) = 40
+Adding Mtn to tile (5,7): peak (61,85,7)
+(61,85) dist2 to tile (5,8) = 4
+Adding Mtn to tile (5,8): peak (61,85,7)
+(61,85) dist2 to tile (5,9) = 29
+Adding Mtn to tile (5,9): peak (61,85,7)
+(61,85) dist2 to tile (6,7) = 36
+Adding Mtn to tile (6,7): peak (61,85,7)
+(61,85) dist2 to tile (6,8) = 0
+Adding Mtn to tile (6,8): peak (61,85,7)
+(61,85) dist2 to tile (6,9) = 25
+Adding Mtn to tile (6,9): peak (61,85,7)
+Adding MtnReport to Map tile (5,8): peak (62,81,7)
+Adding MtnReport to Map tile (5,8): peak (61,85,7)
+Adding MtnReport to Map tile (5,9): peak (61,85,7)
+Adding MtnReport to Map tile (5,7): peak (62,81,7)
+Adding MtnReport to Map tile (5,7): peak (61,85,7)
+Adding MtnReport to Map tile (6,8): peak (62,81,7)
+Adding MtnReport to Map tile (6,8): peak (61,85,7)
+Adding MtnReport to Map tile (6,9): peak (61,85,7)
+Adding MtnReport to Map tile (6,7): peak (62,81,7)
+Adding MtnReport to Map tile (6,7): peak (61,85,7)
+(85,82) dist2 to tile (8,7) = 9
+Adding Mtn to tile (8,7): peak (85,82,5)
+(85,82) dist2 to tile (8,8) = 0
+Adding Mtn to tile (8,8): peak (85,82,5)
+(85,82) dist2 to tile (9,7) = 34
+(85,82) dist2 to tile (9,8) = 25
+(80,82) dist2 to tile (7,7) = 10
+Adding Mtn to tile (7,7): peak (80,82,4)
+(80,82) dist2 to tile (7,8) = 1
+Adding Mtn to tile (7,8): peak (80,82,4)
+(80,82) dist2 to tile (8,7) = 9
+Adding Mtn to tile (8,7): peak (80,82,4)
+(80,82) dist2 to tile (8,8) = 0
+Adding Mtn to tile (8,8): peak (80,82,4)
+Adding MtnReport to Map tile (8,8): peak (85,82,5)
+Adding MtnReport to Map tile (8,8): peak (80,82,4)
+Adding MtnReport to Map tile (8,7): peak (85,82,5)
+Adding MtnReport to Map tile (8,7): peak (80,82,4)
+Adding MtnReport to Map tile (7,8): peak (80,82,4)
+Adding MtnReport to Map tile (7,7): peak (80,82,4)
+(92,87) dist2 to tile (8,8) = 9
+Adding Mtn to tile (8,8): peak (92,87,4)
+(92,87) dist2 to tile (8,9) = 18
+(92,87) dist2 to tile (9,8) = 0
+Adding Mtn to tile (9,8): peak (92,87,4)
+(92,87) dist2 to tile (9,9) = 9
+Adding Mtn to tile (9,9): peak (92,87,4)
+Adding MtnReport to Map tile (8,8): peak (92,87,4)
+Adding MtnReport to Map tile (9,8): peak (92,87,4)
+Adding MtnReport to Map tile (9,9): peak (92,87,4)
+(14,92) dist2 to tile (0,8) = 34
+Adding Mtn to tile (0,8): peak (14,92,9)
+(14,92) dist2 to tile (0,9) = 25
+Adding Mtn to tile (0,9): peak (14,92,9)
+(14,92) dist2 to tile (1,8) = 9
+Adding Mtn to tile (1,8): peak (14,92,9)
+(14,92) dist2 to tile (1,9) = 0
+Adding Mtn to tile (1,9): peak (14,92,9)
+(14,92) dist2 to tile (2,8) = 45
+Adding Mtn to tile (2,8): peak (14,92,9)
+(14,92) dist2 to tile (2,9) = 36
+Adding Mtn to tile (2,9): peak (14,92,9)
+Adding MtnReport to Map tile (0,8): peak (14,92,9)
+Adding MtnReport to Map tile (0,9): peak (14,92,9)
+Adding MtnReport to Map tile (1,8): peak (14,92,9)
+Adding MtnReport to Map tile (1,9): peak (14,92,9)
+Adding MtnReport to Map tile (2,8): peak (14,92,9)
+Adding MtnReport to Map tile (2,9): peak (14,92,9)
+(49,92) dist2 to tile (4,8) = 9
+(49,92) dist2 to tile (4,9) = 0
+Adding Mtn to tile (4,9): peak (49,92,3)
+(49,92) dist2 to tile (5,8) = 10
+(49,92) dist2 to tile (5,9) = 1
+Adding Mtn to tile (5,9): peak (49,92,3)
+(48,93) dist2 to tile (4,8) = 16
+(48,93) dist2 to tile (4,9) = 0
+Adding Mtn to tile (4,9): peak (48,93,4)
+(48,93) dist2 to tile (5,8) = 20
+(48,93) dist2 to tile (5,9) = 4
+Adding Mtn to tile (5,9): peak (48,93,4)
+Adding MtnReport to Map tile (4,9): peak (49,92,3)
+Adding MtnReport to Map tile (4,9): peak (48,93,4)
+Adding MtnReport to Map tile (5,9): peak (49,92,3)
+Adding MtnReport to Map tile (5,9): peak (48,93,4)
+(86,90) dist2 to tile (8,8) = 1
+(86,90) dist2 to tile (8,9) = 0
+Adding Mtn to tile (8,9): peak (86,90,1)
+(83,92) dist2 to tile (7,8) = 25
+Adding Mtn to tile (7,8): peak (83,92,9)
+(83,92) dist2 to tile (7,9) = 16
+Adding Mtn to tile (7,9): peak (83,92,9)
+(83,92) dist2 to tile (8,8) = 9
+Adding Mtn to tile (8,8): peak (83,92,9)
+(83,92) dist2 to tile (8,9) = 0
+Adding Mtn to tile (8,9): peak (83,92,9)
+(83,92) dist2 to tile (9,8) = 58
+Adding Mtn to tile (9,8): peak (83,92,9)
+(83,92) dist2 to tile (9,9) = 49
+Adding Mtn to tile (9,9): peak (83,92,9)
+Adding MtnReport to Map tile (8,8): peak (83,92,9)
+Adding MtnReport to Map tile (8,9): peak (86,90,1)
+Adding MtnReport to Map tile (8,9): peak (83,92,9)
+Adding MtnReport to Map tile (9,8): peak (83,92,9)
+Adding MtnReport to Map tile (9,9): peak (83,92,9)
+Adding MtnReport to Map tile (7,8): peak (83,92,9)
+Adding MtnReport to Map tile (7,9): peak (83,92,9)
+(90,95) dist2 to tile (8,8) = 37
+Adding Mtn to tile (8,8): peak (90,95,8)
+(90,95) dist2 to tile (8,9) = 1
+Adding Mtn to tile (8,9): peak (90,95,8)
+(90,95) dist2 to tile (9,8) = 36
+Adding Mtn to tile (9,8): peak (90,95,8)
+(90,95) dist2 to tile (9,9) = 0
+Adding Mtn to tile (9,9): peak (90,95,8)
+Adding MtnReport to Map tile (8,8): peak (90,95,8)
+Adding MtnReport to Map tile (8,9): peak (90,95,8)
+Adding MtnReport to Map tile (9,8): peak (90,95,8)
+Adding MtnReport to Map tile (9,9): peak (90,95,8)
+(18,105) dist2 to tile (0,9) = 117
+(18,105) dist2 to tile (1,9) = 36
+Adding Mtn to tile (1,9): peak (18,105,9)
+(18,105) dist2 to tile (2,9) = 40
+Adding Mtn to tile (2,9): peak (18,105,9)
+Adding MtnReport to Map tile (1,9): peak (18,105,9)
+Adding MtnReport to Map tile (2,9): peak (18,105,9)
+(76,100) dist2 to tile (7,9) = 1
+(82,100) dist2 to tile (7,9) = 10
+Adding Mtn to tile (7,9): peak (82,100,9)
+(82,100) dist2 to tile (8,9) = 1
+Adding Mtn to tile (8,9): peak (82,100,9)
+(82,100) dist2 to tile (9,9) = 65
+Adding Mtn to tile (9,9): peak (82,100,9)
+Adding MtnReport to Map tile (8,9): peak (82,100,9)
+Adding MtnReport to Map tile (9,9): peak (82,100,9)
+Adding MtnReport to Map tile (7,9): peak (82,100,9)
+(95,101) dist2 to tile (9,9) = 4
+Adding Mtn to tile (9,9): peak (95,101,3)
+Adding MtnReport to Map tile (9,9): peak (95,101,3)
+Local mtn @ local coords (7,3,0)
+Local mtn @ local coords (4,4,6)
+Mtn found:(4,4,6)
+Tile (0,0), seed 2337446730
+     1  1  1  2  1  1  1      
+
+  1  1  2  2  3  2  2  1  1   
+
+  1  2  3  3  4  3  3  *  1   
+
+  1  2  3  4  5  4  3  2  *   
+
+  2  3  4  5  6  5  4  3  2  *
+
+  1  2  3  4  5  4  3  2  1   
+
+  1  2  3  3  4  3  3  2  1   
+
+  1  1  2  2  3  2  2  1  1   
+
+     1  1  1  2  1  1  1      
+
+              1               
+
+w/a/s/d or q: 
