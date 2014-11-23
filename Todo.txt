@@ -1,5 +1,12 @@
 TODO LIST
 
+__GIMP PLUGIN__
+not very robust, also needs cleanup (e.g. don't hard-code values if possible)
+read file input as a parameter?
+automatically save output file?
+
+__GENERAL__
+Map seed 3 on a 3x3 grid - point (0,20) should have a river mark near here, but this y value is missing one - investigate this
 Restrict rivers to starting on mountain/certain elevations - maybe
 Generalize river propagation for rivers extending to adjacent, not just below tiles
 Unify drawing for tile vs maps, e.g. map draw can call tile draw can call mtn/river draw(x,y coord input)

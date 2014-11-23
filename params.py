@@ -5,8 +5,8 @@ PARAM_DEBUG_EN_RIVERS		= 1			#enable river debug messages
 
 PARAM_MAP_SEED				= '3'		#map seed, should be a string less than or equal to 10 chars
 
-PARAM_MAP_SIZE_X			= 8			#number of x tiles in the map
-PARAM_MAP_SIZE_Y			= 6			#number of y tiles in the map
+PARAM_MAP_SIZE_X			= 3			#number of x tiles in the map
+PARAM_MAP_SIZE_Y			= 3			#number of y tiles in the map
 
 PARAM_TILE_SIZE 			= 10		#tile size - note that tile randomization might not work as expected yet with other values
 PARAM_MTN_PRINT_WIDTH 		= 3			#number of characters used to print out mtn altitudes.
