@@ -20,7 +20,32 @@ class Map:
             self.tiles.append([])
             for y in range(0,ny):
                 random.seed(int(self.seed)+nx*y+x)
-                self.tiles[x].append(tile.Tile(x,y,str(random.randint(0,PARAM_MAX_SEED_VAL))))
+                
+                '''determine max number of mtns, rivers, etc. for this tile based on its global location'''
+                if y > 75*self.ny/100:      #lower 25% of map
+                    maxMtns = 0
+                    maxRivers = 0
+                elif y > 25*self.ny/100:    #middle 50%
+                    maxMtns = 1
+                    maxRivers = 1
+                else:                       #top 25%
+                    maxMtns = 2
+                    maxRivers = 1
+                
+                if(y == self.ny-1):
+                    tileType = "ocean"
+                elif(y == self.ny-2):
+                    if(random.randint(0,1)):
+                        tileType = "ocean"
+                    else:
+                        tileType = "generic"
+                else:    
+                    tileType = "generic"
+                
+                '''create the tile'''
+                if(PARAM_DEBUG_EN_GENERAL):
+                    print("Tile "+str((x,y))+", maxMtns "+str(maxMtns)+", maxRivers "+str(maxRivers))
+                self.tiles[x].append(tile.Tile(x,y,tileType,maxMtns,maxRivers,str(random.randint(0,PARAM_MAX_SEED_VAL))))
                 
         self.mtnsPerTile = {}        
                 
@@ -33,6 +58,10 @@ class Map:
         for y in range(0,self.ny):
             for x in range(0,self.nx):
                 '''predraw mtns'''
+                
+                if(self.tiles[x][y].tileType == "ocean"):
+                    continue
+                
                 tileMtnsPerTile = self.tiles[x][y].preDrawMtnReport()
                             
                 for tileX in tileMtnsPerTile:
@@ -55,6 +84,10 @@ class Map:
         for y in range(0,self.ny):
             for x in range(0,self.nx):
                 '''predraw rivers'''
+                
+                if(self.tiles[x][y].tileType == "ocean"):
+                    continue
+                
                 entryPtsXY = []
                 if(x in riverEntryPerTile):
                     if(y in riverEntryPerTile[x]):
@@ -91,7 +124,7 @@ class Map:
     
         f.write('Map seed: ')
         f.write(self.seed)
-        f.write('\n'+'-'*(self.nx*self.tiles[0][0].tDim*PARAM_MTN_PRINT_WIDTH+2)+'\n')
+        f.write('\n'+'-'*(self.nx*self.tiles[0][0].tDim*PARAM_MAP_PRINT_WIDTH+2)+'\n')
     
         for tileY in range(0,self.ny):
             for y in range(tileY*self.tiles[0][0].tDim,tileY*self.tiles[0][0].tDim+self.tiles[0][0].tDim):
@@ -101,6 +134,8 @@ class Map:
                     if(PARAM_DEBUG_EN_MTNS):
                         print("printing row "+str(y)+" of tile ("+str(tileX)+","+str(tileY)+")")
                 
+                    tileType = self.tiles[tileX][tileY].tileType
+                
                     drawMtns = []
                     if(tileX in self.mtnsPerTile):
                         if(tileY in self.mtnsPerTile[tileX]):
@@ -108,31 +143,36 @@ class Map:
                 
                     for x in range(tileX*self.tiles[0][0].tDim,tileX*self.tiles[0][0].tDim+self.tiles[0][0].tDim):
                     
-                        altTot = 0
-                        for m in drawMtns:                
-                            altPk = m.altAtXY(x,y)
-                            if(altPk > 0):
-                                altTot += altPk
-                                
-                        altStr = " "*PARAM_MTN_PRINT_WIDTH
-                        if(altTot > 0):
-                            altStr = str(altTot)
-                            if(len(altStr) < PARAM_MTN_PRINT_WIDTH):
-                                altStr = " "*(PARAM_MTN_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
-                            elif(len(altStr) > PARAM_MTN_PRINT_WIDTH):
-                                altStr = altStr[-PARAM_MTN_PRINT_WIDTH:]
-                                
-                        '''rivers take precedence over mtns for initial testing'''
-                        #TODO handle multiple rivers better
-                        for r in self.tiles[tileX][tileY].rivers:
-                            if(x in r.xyPts):
-                                if(y in r.xyPts[x]):
-                                    altStr = " "*int(PARAM_MTN_PRINT_WIDTH-1)+"*"
+                        if(tileType == "ocean"):
+                            altStr = " "*int(PARAM_MAP_PRINT_WIDTH-1)+"W"
+                         
+                        else: #Generic tile type, handle mountains and rivers
+                    
+                            altTot = 0
+                            for m in drawMtns:                
+                                altPk = m.altAtXY(x,y)
+                                if(altPk > 0):
+                                    altTot += altPk
+                                    
+                            altStr = " "*PARAM_MAP_PRINT_WIDTH
+                            if(altTot > 0):
+                                altStr = str(altTot)
+                                if(len(altStr) < PARAM_MAP_PRINT_WIDTH):
+                                    altStr = " "*(PARAM_MAP_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
+                                elif(len(altStr) > PARAM_MAP_PRINT_WIDTH):
+                                    altStr = altStr[-PARAM_MAP_PRINT_WIDTH:]
+                                    
+                            '''rivers take precedence over mtns for initial testing'''
+                            #TODO handle multiple rivers better
+                            for r in self.tiles[tileX][tileY].rivers:
+                                if(x in r.xyPts):
+                                    if(y in r.xyPts[x]):
+                                        altStr = " "*int(PARAM_MAP_PRINT_WIDTH-1)+"*"
                                 
                         f.write(altStr)
                 f.write('|\n')        
         
-        f.write('-'*(self.nx*self.tiles[0][0].tDim*PARAM_MTN_PRINT_WIDTH+2))
+        f.write('-'*(self.nx*self.tiles[0][0].tDim*PARAM_MAP_PRINT_WIDTH+2))
         f.close()
     
     

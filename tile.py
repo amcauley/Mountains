@@ -8,8 +8,9 @@ class Tile:
     
     tDim = PARAM_TILE_SIZE #size of tiles is a property of the class
     
-    def __init__(self, x, y, seed = None):
+    def __init__(self, x, y, tileType, maxMtns, maxRivers, seed = None):
         self.mtnList = [];
+        self.rivers = []
         
         self.x = x
         self.y = y
@@ -23,26 +24,34 @@ class Tile:
             
         '''if necessary, pad seed to full 10 digits'''
         self.seed = '0'*(10-len(self.seed)) + self.seed
-        
-        if(PARAM_DEBUG_EN_MTNS):
-            print("tile init, x y seed: "+str(x)+" "+str(y)+" "+str(self.seed))
-        
-        xyTuples = []
-        for m in range(0,int(self.seed[-10])%3):
-            mx = self.x*self.tDim + int(self.seed[-3*m-3])%self.tDim
-            my = self.y*self.tDim + int(self.seed[-3*m-2])%self.tDim
-            mh = int(self.seed[-3*m-1])
-            
-            '''skip duplicate x,y peak locations'''
-            if((mx,my) in xyTuples):
-                continue
 
-            self.mtnList.append(mtn.Mtn(mx, my,    mh,    str(random.randint(0,PARAM_MAX_SEED_VAL))))
+        self.tileType = tileType
         
-        '''river info for this tile (all "individual" rivers are part of a single per-tile rivers object'''
-        self.rivers = []
-        self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), str(random.randint(0,PARAM_MAX_SEED_VAL))))
+        if(PARAM_DEBUG_EN_GENERAL):
+            print("tile "+str((x,y))+" init: "+tileType+", seed: "+str(self.seed))
         
+        
+        if(tileType == "generic"):
+            xyTuples = []
+            for m in range(0,random.randint(0,maxMtns)):
+                mx = self.x*self.tDim + random.randint(0,self.tDim-1)
+                my = self.y*self.tDim + random.randint(0,self.tDim-1)
+                mh = random.randint(0,PARAM_MTN_MAX_HEIGHT)
+                
+                '''skip duplicate x,y peak locations'''
+                if((mx,my) in xyTuples):
+                    continue
+
+                self.mtnList.append(mtn.Mtn(mx, my, mh, str(random.randint(0,PARAM_MAX_SEED_VAL))))
+            
+            '''river info for this tile (all "individual" rivers are part of a single per-tile rivers object'''
+            self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), random.randint(0,maxRivers),\
+                               str(random.randint(0,PARAM_MAX_SEED_VAL))))
+        
+        '''nothing special for ocean type yet'''
+        #else:   #tileType = "ocean"
+            
+            
     def point2TileDist2(self, thisX, thisY, tileX, tileY):
         ''' compute distance squared between this tile's global (x,y) and the closest point
         on tile (tileX, tileY) '''
@@ -125,26 +134,31 @@ class Tile:
         
         for y in range(self.y*self.tDim,self.y*self.tDim+self.tDim):
             for x in range(self.x*self.tDim,self.x*self.tDim+self.tDim):
-                altTot = 0
-                for m in drawMtns:                
-                    altPk = m.altAtXY(x,y)
-                    if(altPk > 0):
-                        altTot += altPk
+            
+                if(self.tileType == "ocean"):
+                    altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"W"
                     
-                altStr = " "*PARAM_MTN_PRINT_WIDTH
-                if(altTot > 0):
-                    altStr = str(altTot)
-                    if(len(altStr) < PARAM_MTN_PRINT_WIDTH):
-                        altStr = " "*(PARAM_MTN_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
-                    elif(len(altStr) > PARAM_MTN_PRINT_WIDTH):
-                        altStr = altStr[-PARAM_MTN_PRINT_WIDTH:]
+                else:    
+                    altTot = 0
+                    for m in drawMtns:                
+                        altPk = m.altAtXY(x,y)
+                        if(altPk > 0):
+                            altTot += altPk
                         
-                '''rivers take precedence over mtns for initial testing'''
-                #TODO: address case of multiple rivers per tile
-                for r in self.rivers:
-                    if(x in r.xyPts):
-                        if(y in r.xyPts[x]):
-                            altStr = " "*(PARAM_MTN_PRINT_WIDTH-1)+"*"
+                    altStr = " "*PARAM_MAP_PRINT_WIDTH
+                    if(altTot > 0):
+                        altStr = str(altTot)
+                        if(len(altStr) < PARAM_MAP_PRINT_WIDTH):
+                            altStr = " "*(PARAM_MAP_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
+                        elif(len(altStr) > PARAM_MAP_PRINT_WIDTH):
+                            altStr = altStr[-PARAM_MAP_PRINT_WIDTH:]
+                            
+                    '''rivers take precedence over mtns for initial testing'''
+                    #TODO: address case of multiple rivers per tile
+                    for r in self.rivers:
+                        if(x in r.xyPts):
+                            if(y in r.xyPts[x]):
+                                altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"*"
                         
                 print(altStr, end="")
                 

@@ -100,6 +100,10 @@ def draw_map_v1(img, layer) :
                     elif(xyStr == '*'): # River
                         pixValR = pixValG = 0
                         pixValB = 255
+                    elif(xyStr == 'W'): # Ocean
+                        pixValR = 20
+                        pixValG = 85
+                        pixValB = 110
                     # Create a new tuple representing the new color, inherit alpha channel (if any)
                     newColor = (pixValR,pixValG,pixValB) + pixel[3:]
                     layer.set_pixel(x,y, newColor)

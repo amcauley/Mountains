@@ -6,6 +6,8 @@ read file input as a parameter?
 automatically save output file?
 
 __GENERAL__
+Need a Beach tile to interface between ocean and other tiles
+"tile.Tile(x,y,maxMtns,maxRivers..." : move these max<X> variables into a list or dictionary for passing to function
 Restrict rivers to starting on mountain/certain elevations - maybe
 Generalize river propagation for rivers extending to adjacent, not just below tiles
 Unify drawing for tile vs maps, e.g. map draw can call tile draw can call mtn/river draw(x,y coord input)
