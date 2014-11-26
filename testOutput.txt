@@ -1,1054 +1,1055 @@
-tile init, x y seed: 0 0 2337446730
-tile init, x y seed: 0 1 4074230799
-tile init, x y seed: 0 2 0165578901
-tile init, x y seed: 0 3 1911858404
-tile init, x y seed: 0 4 3679773535
-tile init, x y seed: 0 5 1641650881
-tile init, x y seed: 0 6 0224899942
-tile init, x y seed: 0 7 3892834495
-tile init, x y seed: 0 8 2509632283
-tile init, x y seed: 0 9 0463617489
-tile init, x y seed: 0 10 0389803428
-tile init, x y seed: 0 11 1426367965
-tile init, x y seed: 0 12 2257778974
-tile init, x y seed: 0 13 1835895667
-tile init, x y seed: 0 14 3113347131
-tile init, x y seed: 1 0 1013818839
-tile init, x y seed: 1 1 3059489832
-tile init, x y seed: 1 2 3702419103
-tile init, x y seed: 1 3 2045084184
-tile init, x y seed: 1 4 3141902303
-tile init, x y seed: 1 5 4123000827
-tile init, x y seed: 1 6 4126521921
-tile init, x y seed: 1 7 1925293085
-tile init, x y seed: 1 8 4052974081
-tile init, x y seed: 1 9 1185058429
-tile init, x y seed: 1 10 2507859262
-tile init, x y seed: 1 11 0816178892
-tile init, x y seed: 1 12 2920958367
-tile init, x y seed: 1 13 2890460038
-tile init, x y seed: 1 14 1198436767
-tile init, x y seed: 2 0 2675342405
-tile init, x y seed: 2 1 3622576170
-tile init, x y seed: 2 2 1167696004
-tile init, x y seed: 2 3 1781311907
-tile init, x y seed: 2 4 0460035328
-tile init, x y seed: 2 5 3396132287
-tile init, x y seed: 2 6 3865720627
-tile init, x y seed: 2 7 3462063545
-tile init, x y seed: 2 8 0072262865
-tile init, x y seed: 2 9 3456377957
-tile init, x y seed: 2 10 1865806011
-tile init, x y seed: 2 11 1028580026
-tile init, x y seed: 2 12 0540392677
-tile init, x y seed: 2 13 3475984008
-tile init, x y seed: 2 14 2494549539
-tile init, x y seed: 3 0 3530265750
-tile init, x y seed: 3 1 0881149698
-tile init, x y seed: 3 2 3815082342
-tile init, x y seed: 3 3 0304122021
-tile init, x y seed: 3 4 2712665311
-tile init, x y seed: 3 5 3870227516
-tile init, x y seed: 3 6 2459198373
-tile init, x y seed: 3 7 0572670186
-tile init, x y seed: 3 8 2590924755
-tile init, x y seed: 3 9 0466044693
-tile init, x y seed: 3 10 0037142199
-tile init, x y seed: 3 11 2078982981
-tile init, x y seed: 3 12 3981755864
-tile init, x y seed: 3 13 4149195837
-tile init, x y seed: 3 14 2112307931
-tile init, x y seed: 4 0 0647892279
-tile init, x y seed: 4 1 2785274337
-tile init, x y seed: 4 2 1511168161
-tile init, x y seed: 4 3 0321236752
-tile init, x y seed: 4 4 2321630713
-tile init, x y seed: 4 5 2825197536
-tile init, x y seed: 4 6 0421212525
-tile init, x y seed: 4 7 4058091780
-tile init, x y seed: 4 8 0377468822
-tile init, x y seed: 4 9 2549834923
-tile init, x y seed: 4 10 0687088619
-tile init, x y seed: 4 11 2950783273
-tile init, x y seed: 4 12 1968187416
-tile init, x y seed: 4 13 0849046950
-tile init, x y seed: 4 14 2387972799
-tile init, x y seed: 5 0 0973694259
-tile init, x y seed: 5 1 0764699275
-tile init, x y seed: 5 2 2354319937
-tile init, x y seed: 5 3 3185443825
-tile init, x y seed: 5 4 0813946014
-tile init, x y seed: 5 5 3503122931
-tile init, x y seed: 5 6 1016396000
-tile init, x y seed: 5 7 2916842193
-tile init, x y seed: 5 8 3202154236
-tile init, x y seed: 5 9 0950843526
-tile init, x y seed: 5 10 3352561166
-tile init, x y seed: 5 11 0970832293
-tile init, x y seed: 5 12 3593909966
-tile init, x y seed: 5 13 1366362416
-tile init, x y seed: 5 14 3160687893
-tile init, x y seed: 6 0 1603362544
-tile init, x y seed: 6 1 2354153409
-tile init, x y seed: 6 2 0287264509
-tile init, x y seed: 6 3 2938792530
-tile init, x y seed: 6 4 4285208484
-tile init, x y seed: 6 5 1200800002
-tile init, x y seed: 6 6 1167360466
-tile init, x y seed: 6 7 0305404418
-tile init, x y seed: 6 8 2683157217
-tile init, x y seed: 6 9 3195769417
-tile init, x y seed: 6 10 0100334680
-tile init, x y seed: 6 11 2271204777
-tile init, x y seed: 6 12 0676541537
-tile init, x y seed: 6 13 0171279837
-tile init, x y seed: 6 14 2951689188
-tile init, x y seed: 7 0 2454155475
-tile init, x y seed: 7 1 1104996223
-tile init, x y seed: 7 2 1143207437
-tile init, x y seed: 7 3 3907429125
-tile init, x y seed: 7 4 0398115220
-tile init, x y seed: 7 5 1064135951
-tile init, x y seed: 7 6 2232429276
-tile init, x y seed: 7 7 3538225179
-tile init, x y seed: 7 8 3381863077
-tile init, x y seed: 7 9 0320349863
-tile init, x y seed: 7 10 1652293601
-tile init, x y seed: 7 11 3027933641
-tile init, x y seed: 7 12 1664541618
-tile init, x y seed: 7 13 3637374216
-tile init, x y seed: 7 14 0025460821
-tile init, x y seed: 8 0 1999951809
-tile init, x y seed: 8 1 0052734659
-tile init, x y seed: 8 2 0695516342
-tile init, x y seed: 8 3 0036421336
-tile init, x y seed: 8 4 0693034512
-tile init, x y seed: 8 5 4048090198
-tile init, x y seed: 8 6 1354783835
-tile init, x y seed: 8 7 3034711093
-tile init, x y seed: 8 8 2413024525
-tile init, x y seed: 8 9 2058329601
-tile init, x y seed: 8 10 2426209752
-tile init, x y seed: 8 11 3670091064
-tile init, x y seed: 8 12 1962834598
-tile init, x y seed: 8 13 1526892958
-tile init, x y seed: 8 14 2827967569
-tile init, x y seed: 9 0 2038265566
-tile init, x y seed: 9 1 0917477150
-tile init, x y seed: 9 2 4202002117
-tile init, x y seed: 9 3 4249642349
-tile init, x y seed: 9 4 2529092035
-tile init, x y seed: 9 5 2662165470
-tile init, x y seed: 9 6 1771368336
-tile init, x y seed: 9 7 0627844522
-tile init, x y seed: 9 8 1514061274
-tile init, x y seed: 9 9 1285757058
-tile init, x y seed: 9 10 4219257513
-tile init, x y seed: 9 11 1206968702
-tile init, x y seed: 9 12 2949313476
-tile init, x y seed: 9 13 4204144600
-tile init, x y seed: 9 14 3298575083
-tile init, x y seed: 10 0 1112433019
-tile init, x y seed: 10 1 2449541944
-tile init, x y seed: 10 2 3823115994
-tile init, x y seed: 10 3 1201798311
-tile init, x y seed: 10 4 0487979150
-tile init, x y seed: 10 5 3101292853
-tile init, x y seed: 10 6 2120995091
-tile init, x y seed: 10 7 4266481674
-tile init, x y seed: 10 8 1392113673
-tile init, x y seed: 10 9 2412881504
-tile init, x y seed: 10 10 0653463307
-tile init, x y seed: 10 11 2698614761
-tile init, x y seed: 10 12 1639126561
-tile init, x y seed: 10 13 1027964410
-tile init, x y seed: 10 14 2051186501
-tile init, x y seed: 11 0 4038782778
-tile init, x y seed: 11 1 2271760180
-tile init, x y seed: 11 2 0590463589
-tile init, x y seed: 11 3 0487954598
-tile init, x y seed: 11 4 2348494799
-tile init, x y seed: 11 5 0420422439
-tile init, x y seed: 11 6 3589174736
-tile init, x y seed: 11 7 1612842600
-tile init, x y seed: 11 8 3453596289
-tile init, x y seed: 11 9 0654775828
-tile init, x y seed: 11 10 1526213684
-tile init, x y seed: 11 11 1468248159
-tile init, x y seed: 11 12 1077844633
-tile init, x y seed: 11 13 0620556666
-tile init, x y seed: 11 14 0756204784
-tile init, x y seed: 12 0 4145683452
-tile init, x y seed: 12 1 2356625382
-tile init, x y seed: 12 2 4082940073
-tile init, x y seed: 12 3 1875266763
-tile init, x y seed: 12 4 2121601403
-tile init, x y seed: 12 5 3847871410
-tile init, x y seed: 12 6 2875631084
-tile init, x y seed: 12 7 3838100873
-tile init, x y seed: 12 8 1906791089
-tile init, x y seed: 12 9 2557733475
-tile init, x y seed: 12 10 3947694632
-tile init, x y seed: 12 11 0159582660
-tile init, x y seed: 12 12 0237503877
-tile init, x y seed: 12 13 3555081800
-tile init, x y seed: 12 14 3047215817
-tile init, x y seed: 13 0 1552728491
-tile init, x y seed: 13 1 1411758002
-tile init, x y seed: 13 2 2404133351
-tile init, x y seed: 13 3 1591528641
-tile init, x y seed: 13 4 1591690432
-tile init, x y seed: 13 5 3101542104
-tile init, x y seed: 13 6 2472682297
-tile init, x y seed: 13 7 2094996911
-tile init, x y seed: 13 8 0127556961
-tile init, x y seed: 13 9 3062276825
-tile init, x y seed: 13 10 3688327459
-tile init, x y seed: 13 11 2891568861
-tile init, x y seed: 13 12 2099596728
-tile init, x y seed: 13 13 1601746919
-tile init, x y seed: 13 14 3986262873
-tile init, x y seed: 14 0 2241903809
-tile init, x y seed: 14 1 2211984297
-tile init, x y seed: 14 2 0182818357
-tile init, x y seed: 14 3 3432174397
-tile init, x y seed: 14 4 0835531109
-tile init, x y seed: 14 5 1031234678
-tile init, x y seed: 14 6 0310812082
-tile init, x y seed: 14 7 2626988359
-tile init, x y seed: 14 8 4156841899
-tile init, x y seed: 14 9 2318752498
-tile init, x y seed: 14 10 4124566269
-tile init, x y seed: 14 11 2673728498
-tile init, x y seed: 14 12 1361779794
-tile init, x y seed: 14 13 3871583180
-tile init, x y seed: 14 14 2256732608
-tile init, x y seed: 15 0 0778526663
-tile init, x y seed: 15 1 2746518602
-tile init, x y seed: 15 2 2494333050
-tile init, x y seed: 15 3 3498157012
-tile init, x y seed: 15 4 3569806236
-tile init, x y seed: 15 5 0783997143
-tile init, x y seed: 15 6 0830802731
-tile init, x y seed: 15 7 4275599299
-tile init, x y seed: 15 8 4074299726
-tile init, x y seed: 15 9 3055746367
-tile init, x y seed: 15 10 1290046589
-tile init, x y seed: 15 11 3418211453
-tile init, x y seed: 15 12 0313059903
-tile init, x y seed: 15 13 3894891574
-tile init, x y seed: 15 14 0766174540
-tile init, x y seed: 16 0 2908233303
-tile init, x y seed: 16 1 0901304238
-tile init, x y seed: 16 2 0962869285
-tile init, x y seed: 16 3 0624214061
-tile init, x y seed: 16 4 1735072617
-tile init, x y seed: 16 5 3978483442
-tile init, x y seed: 16 6 2820799598
-tile init, x y seed: 16 7 1694449993
-tile init, x y seed: 16 8 0851167841
-tile init, x y seed: 16 9 3061666652
-tile init, x y seed: 16 10 0172437418
-tile init, x y seed: 16 11 0509888371
-tile init, x y seed: 16 12 2360043334
-tile init, x y seed: 16 13 1762838243
-tile init, x y seed: 16 14 3092238061
-tile init, x y seed: 17 0 3885297172
-tile init, x y seed: 17 1 0136779594
-tile init, x y seed: 17 2 1322019967
-tile init, x y seed: 17 3 1166045467
-tile init, x y seed: 17 4 0625644691
-tile init, x y seed: 17 5 2211641671
-tile init, x y seed: 17 6 0408075385
-tile init, x y seed: 17 7 1473956450
-tile init, x y seed: 17 8 0619505248
-tile init, x y seed: 17 9 3045664341
-tile init, x y seed: 17 10 1073135046
-tile init, x y seed: 17 11 0251943746
-tile init, x y seed: 17 12 0904825219
-tile init, x y seed: 17 13 1329658898
-tile init, x y seed: 17 14 2567083842
-tile init, x y seed: 18 0 0708452615
-tile init, x y seed: 18 1 1636471393
-tile init, x y seed: 18 2 2123807367
-tile init, x y seed: 18 3 1946843032
-tile init, x y seed: 18 4 3968448422
-tile init, x y seed: 18 5 0374957032
-tile init, x y seed: 18 6 3367717152
-tile init, x y seed: 18 7 2225695309
-tile init, x y seed: 18 8 0452311954
-tile init, x y seed: 18 9 1398439431
-tile init, x y seed: 18 10 1054277402
-tile init, x y seed: 18 11 3235105477
-tile init, x y seed: 18 12 4278533012
-tile init, x y seed: 18 13 0085257436
-tile init, x y seed: 18 14 1094672148
-tile init, x y seed: 19 0 0602878526
-tile init, x y seed: 19 1 2746317213
-tile init, x y seed: 19 2 0743144841
-tile init, x y seed: 19 3 2169388637
-tile init, x y seed: 19 4 2645550782
-tile init, x y seed: 19 5 2190512831
-tile init, x y seed: 19 6 2091880783
-tile init, x y seed: 19 7 0869641591
-tile init, x y seed: 19 8 1941608111
-tile init, x y seed: 19 9 3280846385
-tile init, x y seed: 19 10 3344991111
-tile init, x y seed: 19 11 1440343224
-tile init, x y seed: 19 12 2294941605
-tile init, x y seed: 19 13 2885003542
-tile init, x y seed: 19 14 2377061816
-(7,3) dist2 to tile (0,0) = 0
-(4,4) dist2 to tile (0,0) = 0
-Adding Mtn to tile (0,0): peak (4,4,6)
-(4,4) dist2 to tile (0,1) = 36
-(4,4) dist2 to tile (1,0) = 36
-(4,4) dist2 to tile (1,1) = 72
-Adding MtnReport to Map tile (0,0): peak (4,4,6)
-(18,3) dist2 to tile (0,0) = 81
-(18,3) dist2 to tile (0,1) = 130
-(18,3) dist2 to tile (1,0) = 0
-Adding Mtn to tile (1,0): peak (18,3,9)
-(18,3) dist2 to tile (1,1) = 49
-Adding Mtn to tile (1,1): peak (18,3,9)
-(18,3) dist2 to tile (2,0) = 4
-Adding Mtn to tile (2,0): peak (18,3,9)
-(18,3) dist2 to tile (2,1) = 53
-Adding Mtn to tile (2,1): peak (18,3,9)
-Adding MtnReport to Map tile (1,0): peak (18,3,9)
-Adding MtnReport to Map tile (1,1): peak (18,3,9)
-Adding MtnReport to Map tile (2,0): peak (18,3,9)
-Adding MtnReport to Map tile (2,1): peak (18,3,9)
-(24,0) dist2 to tile (1,0) = 25
-(24,0) dist2 to tile (2,0) = 0
-Adding Mtn to tile (2,0): peak (24,0,5)
-(23,4) dist2 to tile (2,0) = 0
-Adding Mtn to tile (2,0): peak (23,4,2)
-Adding MtnReport to Map tile (2,0): peak (24,0,5)
-Adding MtnReport to Map tile (2,0): peak (23,4,2)
-(65,4) dist2 to tile (6,0) = 0
-Adding Mtn to tile (6,0): peak (65,4,4)
-Adding MtnReport to Map tile (6,0): peak (65,4,4)
-(74,7) dist2 to tile (6,0) = 25
-(74,7) dist2 to tile (6,1) = 34
-(74,7) dist2 to tile (7,0) = 0
-Adding Mtn to tile (7,0): peak (74,7,5)
-(74,7) dist2 to tile (7,1) = 9
-Adding Mtn to tile (7,1): peak (74,7,5)
-(71,5) dist2 to tile (6,0) = 4
-Adding Mtn to tile (6,0): peak (71,5,5)
-(71,5) dist2 to tile (6,1) = 29
-(71,5) dist2 to tile (7,0) = 0
-Adding Mtn to tile (7,0): peak (71,5,5)
-(71,5) dist2 to tile (7,1) = 25
-Adding MtnReport to Map tile (6,0): peak (71,5,5)
-Adding MtnReport to Map tile (7,0): peak (74,7,5)
-Adding MtnReport to Map tile (7,0): peak (71,5,5)
-Adding MtnReport to Map tile (7,1): peak (74,7,5)
-(88,0) dist2 to tile (7,0) = 81
-(88,0) dist2 to tile (8,0) = 0
-Adding Mtn to tile (8,0): peak (88,0,9)
-(88,0) dist2 to tile (9,0) = 4
-Adding Mtn to tile (9,0): peak (88,0,9)
-Adding MtnReport to Map tile (8,0): peak (88,0,9)
-Adding MtnReport to Map tile (9,0): peak (88,0,9)
-(95,6) dist2 to tile (8,0) = 36
-(95,6) dist2 to tile (8,1) = 52
-(95,6) dist2 to tile (9,0) = 0
-Adding Mtn to tile (9,0): peak (95,6,6)
-(95,6) dist2 to tile (9,1) = 16
-Adding Mtn to tile (9,1): peak (95,6,6)
-(92,6) dist2 to tile (8,0) = 9
-Adding Mtn to tile (8,0): peak (92,6,5)
-(92,6) dist2 to tile (8,1) = 25
-(92,6) dist2 to tile (9,0) = 0
-Adding Mtn to tile (9,0): peak (92,6,5)
-(92,6) dist2 to tile (9,1) = 16
-Adding Mtn to tile (9,1): peak (92,6,5)
-Adding MtnReport to Map tile (8,0): peak (92,6,5)
-Adding MtnReport to Map tile (9,0): peak (95,6,6)
-Adding MtnReport to Map tile (9,0): peak (92,6,5)
-Adding MtnReport to Map tile (9,1): peak (95,6,6)
-Adding MtnReport to Map tile (9,1): peak (92,6,5)
-(100,1) dist2 to tile (9,0) = 1
-Adding Mtn to tile (9,0): peak (100,1,9)
-(100,1) dist2 to tile (9,1) = 82
-Adding MtnReport to Map tile (9,0): peak (100,1,9)
-(7,19) dist2 to tile (0,1) = 0
-Adding Mtn to tile (0,1): peak (7,19,9)
-(7,19) dist2 to tile (0,2) = 1
-Adding Mtn to tile (0,2): peak (7,19,9)
-(7,19) dist2 to tile (1,1) = 9
-Adding Mtn to tile (1,1): peak (7,19,9)
-(7,19) dist2 to tile (1,2) = 10
-Adding Mtn to tile (1,2): peak (7,19,9)
-Adding MtnReport to Map tile (0,1): peak (7,19,9)
-Adding MtnReport to Map tile (0,2): peak (7,19,9)
-Adding MtnReport to Map tile (1,1): peak (7,19,9)
-Adding MtnReport to Map tile (1,2): peak (7,19,9)
-(43,13) dist2 to tile (3,0) = 32
-Adding Mtn to tile (3,0): peak (43,13,7)
-(43,13) dist2 to tile (3,1) = 16
-Adding Mtn to tile (3,1): peak (43,13,7)
-(43,13) dist2 to tile (3,2) = 65
-(43,13) dist2 to tile (4,0) = 16
-Adding Mtn to tile (4,0): peak (43,13,7)
-(43,13) dist2 to tile (4,1) = 0
-Adding Mtn to tile (4,1): peak (43,13,7)
-(43,13) dist2 to tile (4,2) = 49
-(43,13) dist2 to tile (5,0) = 65
-(43,13) dist2 to tile (5,1) = 49
-(43,13) dist2 to tile (5,2) = 98
-(42,17) dist2 to tile (3,1) = 9
-Adding Mtn to tile (3,1): peak (42,17,4)
-(42,17) dist2 to tile (3,2) = 18
-(42,17) dist2 to tile (4,1) = 0
-Adding Mtn to tile (4,1): peak (42,17,4)
-(42,17) dist2 to tile (4,2) = 9
-Adding Mtn to tile (4,2): peak (42,17,4)
-Adding MtnReport to Map tile (3,0): peak (43,13,7)
-Adding MtnReport to Map tile (3,1): peak (43,13,7)
-Adding MtnReport to Map tile (3,1): peak (42,17,4)
-Adding MtnReport to Map tile (4,0): peak (43,13,7)
-Adding MtnReport to Map tile (4,1): peak (43,13,7)
-Adding MtnReport to Map tile (4,1): peak (42,17,4)
-Adding MtnReport to Map tile (4,2): peak (42,17,4)
-(64,10) dist2 to tile (5,0) = 26
-Adding Mtn to tile (5,0): peak (64,10,9)
-(64,10) dist2 to tile (5,1) = 25
-Adding Mtn to tile (5,1): peak (64,10,9)
-(64,10) dist2 to tile (6,0) = 1
-Adding Mtn to tile (6,0): peak (64,10,9)
-(64,10) dist2 to tile (6,1) = 0
-Adding Mtn to tile (6,1): peak (64,10,9)
-(64,10) dist2 to tile (7,0) = 37
-Adding Mtn to tile (7,0): peak (64,10,9)
-(64,10) dist2 to tile (7,1) = 36
-Adding Mtn to tile (7,1): peak (64,10,9)
-(61,15) dist2 to tile (5,1) = 4
-Adding Mtn to tile (5,1): peak (61,15,3)
-(61,15) dist2 to tile (6,1) = 0
-Adding Mtn to tile (6,1): peak (61,15,3)
-Adding MtnReport to Map tile (5,0): peak (64,10,9)
-Adding MtnReport to Map tile (5,1): peak (64,10,9)
-Adding MtnReport to Map tile (5,1): peak (61,15,3)
-Adding MtnReport to Map tile (6,0): peak (64,10,9)
-Adding MtnReport to Map tile (6,1): peak (64,10,9)
-Adding MtnReport to Map tile (6,1): peak (61,15,3)
-Adding MtnReport to Map tile (7,0): peak (64,10,9)
-Adding MtnReport to Map tile (7,1): peak (64,10,9)
-(72,12) dist2 to tile (6,0) = 18
-(72,12) dist2 to tile (6,1) = 9
-(72,12) dist2 to tile (7,0) = 9
-(72,12) dist2 to tile (7,1) = 0
-Adding Mtn to tile (7,1): peak (72,12,3)
-Adding MtnReport to Map tile (7,1): peak (72,12,3)
-(20,20) dist2 to tile (1,1) = 2
-Adding Mtn to tile (1,1): peak (20,20,4)
-(20,20) dist2 to tile (1,2) = 1
-Adding Mtn to tile (1,2): peak (20,20,4)
-(20,20) dist2 to tile (2,1) = 1
-Adding Mtn to tile (2,1): peak (20,20,4)
-(20,20) dist2 to tile (2,2) = 0
-Adding Mtn to tile (2,2): peak (20,20,4)
-Adding MtnReport to Map tile (1,1): peak (20,20,4)
-Adding MtnReport to Map tile (1,2): peak (20,20,4)
-Adding MtnReport to Map tile (2,1): peak (20,20,4)
-Adding MtnReport to Map tile (2,2): peak (20,20,4)
-(41,26) dist2 to tile (4,2) = 0
-Adding Mtn to tile (4,2): peak (41,26,1)
-Adding MtnReport to Map tile (4,2): peak (41,26,1)
-(59,23) dist2 to tile (5,1) = 16
-Adding Mtn to tile (5,1): peak (59,23,7)
-(59,23) dist2 to tile (5,2) = 0
-Adding Mtn to tile (5,2): peak (59,23,7)
-(59,23) dist2 to tile (5,3) = 49
-(59,23) dist2 to tile (6,1) = 17
-Adding Mtn to tile (6,1): peak (59,23,7)
-(59,23) dist2 to tile (6,2) = 1
-Adding Mtn to tile (6,2): peak (59,23,7)
-(59,23) dist2 to tile (6,3) = 50
-(53,21) dist2 to tile (4,1) = 20
-Adding Mtn to tile (4,1): peak (53,21,9)
-(53,21) dist2 to tile (4,2) = 16
-Adding Mtn to tile (4,2): peak (53,21,9)
-(53,21) dist2 to tile (4,3) = 97
-(53,21) dist2 to tile (5,1) = 4
-Adding Mtn to tile (5,1): peak (53,21,9)
-(53,21) dist2 to tile (5,2) = 0
-Adding Mtn to tile (5,2): peak (53,21,9)
-(53,21) dist2 to tile (5,3) = 81
-(53,21) dist2 to tile (6,1) = 53
-Adding Mtn to tile (6,1): peak (53,21,9)
-(53,21) dist2 to tile (6,2) = 49
-Adding Mtn to tile (6,2): peak (53,21,9)
-(53,21) dist2 to tile (6,3) = 130
-Adding MtnReport to Map tile (4,1): peak (53,21,9)
-Adding MtnReport to Map tile (4,2): peak (53,21,9)
-Adding MtnReport to Map tile (5,1): peak (59,23,7)
-Adding MtnReport to Map tile (5,1): peak (53,21,9)
-Adding MtnReport to Map tile (5,2): peak (59,23,7)
-Adding MtnReport to Map tile (5,2): peak (53,21,9)
-Adding MtnReport to Map tile (6,1): peak (59,23,7)
-Adding MtnReport to Map tile (6,1): peak (53,21,9)
-Adding MtnReport to Map tile (6,2): peak (59,23,7)
-Adding MtnReport to Map tile (6,2): peak (53,21,9)
-(74,23) dist2 to tile (6,1) = 41
-Adding Mtn to tile (6,1): peak (74,23,7)
-(74,23) dist2 to tile (6,2) = 25
-Adding Mtn to tile (6,2): peak (74,23,7)
-(74,23) dist2 to tile (6,3) = 74
-(74,23) dist2 to tile (7,1) = 16
-Adding Mtn to tile (7,1): peak (74,23,7)
-(74,23) dist2 to tile (7,2) = 0
-Adding Mtn to tile (7,2): peak (74,23,7)
-(74,23) dist2 to tile (7,3) = 49
-(74,23) dist2 to tile (8,1) = 52
-(74,23) dist2 to tile (8,2) = 36
-Adding Mtn to tile (8,2): peak (74,23,7)
-(74,23) dist2 to tile (8,3) = 85
-Adding MtnReport to Map tile (8,2): peak (74,23,7)
-Adding MtnReport to Map tile (6,1): peak (74,23,7)
-Adding MtnReport to Map tile (6,2): peak (74,23,7)
-Adding MtnReport to Map tile (7,1): peak (74,23,7)
-Adding MtnReport to Map tile (7,2): peak (74,23,7)
-(91,21) dist2 to tile (8,1) = 8
-Adding Mtn to tile (8,1): peak (91,21,7)
-(91,21) dist2 to tile (8,2) = 4
-Adding Mtn to tile (8,2): peak (91,21,7)
-(91,21) dist2 to tile (9,1) = 4
-Adding Mtn to tile (9,1): peak (91,21,7)
-(91,21) dist2 to tile (9,2) = 0
-Adding Mtn to tile (9,2): peak (91,21,7)
-Adding MtnReport to Map tile (8,1): peak (91,21,7)
-Adding MtnReport to Map tile (8,2): peak (91,21,7)
-Adding MtnReport to Map tile (9,1): peak (91,21,7)
-Adding MtnReport to Map tile (9,2): peak (91,21,7)
-(4,30) dist2 to tile (0,2) = 1
-Adding Mtn to tile (0,2): peak (4,30,4)
-(4,30) dist2 to tile (0,3) = 0
-Adding Mtn to tile (0,3): peak (4,30,4)
-Adding MtnReport to Map tile (0,2): peak (4,30,4)
-Adding MtnReport to Map tile (0,3): peak (4,30,4)
-(11,38) dist2 to tile (0,3) = 4
-Adding Mtn to tile (0,3): peak (11,38,4)
-(11,38) dist2 to tile (0,4) = 8
-Adding Mtn to tile (0,4): peak (11,38,4)
-(11,38) dist2 to tile (1,3) = 0
-Adding Mtn to tile (1,3): peak (11,38,4)
-(11,38) dist2 to tile (1,4) = 4
-Adding Mtn to tile (1,4): peak (11,38,4)
-(10,38) dist2 to tile (0,3) = 1
-Adding Mtn to tile (0,3): peak (10,38,4)
-(10,38) dist2 to tile (0,4) = 5
-Adding Mtn to tile (0,4): peak (10,38,4)
-(10,38) dist2 to tile (1,3) = 0
-Adding Mtn to tile (1,3): peak (10,38,4)
-(10,38) dist2 to tile (1,4) = 4
-Adding Mtn to tile (1,4): peak (10,38,4)
-Adding MtnReport to Map tile (0,3): peak (11,38,4)
-Adding MtnReport to Map tile (0,3): peak (10,38,4)
-Adding MtnReport to Map tile (0,4): peak (11,38,4)
-Adding MtnReport to Map tile (0,4): peak (10,38,4)
-Adding MtnReport to Map tile (1,3): peak (11,38,4)
-Adding MtnReport to Map tile (1,3): peak (10,38,4)
-Adding MtnReport to Map tile (1,4): peak (11,38,4)
-Adding MtnReport to Map tile (1,4): peak (10,38,4)
-(29,30) dist2 to tile (2,2) = 1
-Adding Mtn to tile (2,2): peak (29,30,7)
-(29,30) dist2 to tile (2,3) = 0
-Adding Mtn to tile (2,3): peak (29,30,7)
-(29,30) dist2 to tile (3,2) = 2
-Adding Mtn to tile (3,2): peak (29,30,7)
-(29,30) dist2 to tile (3,3) = 1
-Adding Mtn to tile (3,3): peak (29,30,7)
-Adding MtnReport to Map tile (2,2): peak (29,30,7)
-Adding MtnReport to Map tile (2,3): peak (29,30,7)
-Adding MtnReport to Map tile (3,2): peak (29,30,7)
-Adding MtnReport to Map tile (3,3): peak (29,30,7)
-(65,33) dist2 to tile (6,3) = 0
-(67,39) dist2 to tile (6,3) = 0
-Adding Mtn to tile (6,3): peak (67,39,2)
-(67,39) dist2 to tile (6,4) = 1
-Adding Mtn to tile (6,4): peak (67,39,2)
-Adding MtnReport to Map tile (6,3): peak (67,39,2)
-Adding MtnReport to Map tile (6,4): peak (67,39,2)
-(93,34) dist2 to tile (8,2) = 41
-Adding Mtn to tile (8,2): peak (93,34,9)
-(93,34) dist2 to tile (8,3) = 16
-Adding Mtn to tile (8,3): peak (93,34,9)
-(93,34) dist2 to tile (8,4) = 52
-Adding Mtn to tile (8,4): peak (93,34,9)
-(93,34) dist2 to tile (9,2) = 25
-Adding Mtn to tile (9,2): peak (93,34,9)
-(93,34) dist2 to tile (9,3) = 0
-Adding Mtn to tile (9,3): peak (93,34,9)
-(93,34) dist2 to tile (9,4) = 36
-Adding Mtn to tile (9,4): peak (93,34,9)
-Adding MtnReport to Map tile (8,2): peak (93,34,9)
-Adding MtnReport to Map tile (8,3): peak (93,34,9)
-Adding MtnReport to Map tile (8,4): peak (93,34,9)
-Adding MtnReport to Map tile (9,2): peak (93,34,9)
-Adding MtnReport to Map tile (9,3): peak (93,34,9)
-Adding MtnReport to Map tile (9,4): peak (93,34,9)
-(33,41) dist2 to tile (3,4) = 0
-Adding Mtn to tile (3,4): peak (33,41,1)
-(36,46) dist2 to tile (3,4) = 0
-Adding Mtn to tile (3,4): peak (36,46,5)
-(36,46) dist2 to tile (3,5) = 16
-Adding Mtn to tile (3,5): peak (36,46,5)
-(36,46) dist2 to tile (4,4) = 16
-Adding Mtn to tile (4,4): peak (36,46,5)
-(36,46) dist2 to tile (4,5) = 32
-Adding MtnReport to Map tile (3,4): peak (33,41,1)
-Adding MtnReport to Map tile (3,4): peak (36,46,5)
-Adding MtnReport to Map tile (3,5): peak (36,46,5)
-Adding MtnReport to Map tile (4,4): peak (36,46,5)
-(47,41) dist2 to tile (4,3) = 4
-Adding Mtn to tile (4,3): peak (47,41,3)
-(47,41) dist2 to tile (4,4) = 0
-Adding Mtn to tile (4,4): peak (47,41,3)
-(47,41) dist2 to tile (5,3) = 13
-(47,41) dist2 to tile (5,4) = 9
-(46,43) dist2 to tile (4,4) = 0
-Adding MtnReport to Map tile (4,3): peak (47,41,3)
-Adding MtnReport to Map tile (4,4): peak (47,41,3)
-(64,48) dist2 to tile (6,4) = 0
-Adding Mtn to tile (6,4): peak (64,48,4)
-(64,48) dist2 to tile (6,5) = 4
-Adding Mtn to tile (6,5): peak (64,48,4)
-Adding MtnReport to Map tile (6,4): peak (64,48,4)
-Adding MtnReport to Map tile (6,5): peak (64,48,4)
-(90,43) dist2 to tile (8,3) = 17
-Adding Mtn to tile (8,3): peak (90,43,5)
-(90,43) dist2 to tile (8,4) = 1
-Adding Mtn to tile (8,4): peak (90,43,5)
-(90,43) dist2 to tile (9,3) = 16
-Adding Mtn to tile (9,3): peak (90,43,5)
-(90,43) dist2 to tile (9,4) = 0
-Adding Mtn to tile (9,4): peak (90,43,5)
-(90,49) dist2 to tile (8,4) = 1
-Adding Mtn to tile (8,4): peak (90,49,2)
-(90,49) dist2 to tile (8,5) = 2
-Adding Mtn to tile (8,5): peak (90,49,2)
-(90,49) dist2 to tile (9,4) = 0
-Adding Mtn to tile (9,4): peak (90,49,2)
-(90,49) dist2 to tile (9,5) = 1
-Adding Mtn to tile (9,5): peak (90,49,2)
-Adding MtnReport to Map tile (8,3): peak (90,43,5)
-Adding MtnReport to Map tile (8,4): peak (90,43,5)
-Adding MtnReport to Map tile (8,4): peak (90,49,2)
-Adding MtnReport to Map tile (8,5): peak (90,49,2)
-Adding MtnReport to Map tile (9,3): peak (90,43,5)
-Adding MtnReport to Map tile (9,4): peak (90,43,5)
-Adding MtnReport to Map tile (9,4): peak (90,49,2)
-Adding MtnReport to Map tile (9,5): peak (90,49,2)
-(8,58) dist2 to tile (0,5) = 0
-Adding Mtn to tile (0,5): peak (8,58,1)
-Adding MtnReport to Map tile (0,5): peak (8,58,1)
-(18,52) dist2 to tile (1,4) = 9
-Adding Mtn to tile (1,4): peak (18,52,7)
-(18,52) dist2 to tile (1,5) = 0
-Adding Mtn to tile (1,5): peak (18,52,7)
-(18,52) dist2 to tile (2,4) = 13
-Adding Mtn to tile (2,4): peak (18,52,7)
-(18,52) dist2 to tile (2,5) = 4
-Adding Mtn to tile (2,5): peak (18,52,7)
-Adding MtnReport to Map tile (1,4): peak (18,52,7)
-Adding MtnReport to Map tile (1,5): peak (18,52,7)
-Adding MtnReport to Map tile (2,4): peak (18,52,7)
-Adding MtnReport to Map tile (2,5): peak (18,52,7)
-(45,53) dist2 to tile (3,4) = 52
-(45,53) dist2 to tile (3,5) = 36
-(45,53) dist2 to tile (4,4) = 16
-Adding Mtn to tile (4,4): peak (45,53,6)
-(45,53) dist2 to tile (4,5) = 0
-Adding Mtn to tile (4,5): peak (45,53,6)
-(45,53) dist2 to tile (5,4) = 41
-(45,53) dist2 to tile (5,5) = 25
-Adding Mtn to tile (5,5): peak (45,53,6)
-(41,59) dist2 to tile (3,5) = 4
-Adding Mtn to tile (3,5): peak (41,59,7)
-(41,59) dist2 to tile (3,6) = 5
-Adding Mtn to tile (3,6): peak (41,59,7)
-(41,59) dist2 to tile (4,5) = 0
-Adding Mtn to tile (4,5): peak (41,59,7)
-(41,59) dist2 to tile (4,6) = 1
-Adding Mtn to tile (4,6): peak (41,59,7)
-Adding MtnReport to Map tile (3,5): peak (41,59,7)
-Adding MtnReport to Map tile (3,6): peak (41,59,7)
-Adding MtnReport to Map tile (4,4): peak (45,53,6)
-Adding MtnReport to Map tile (4,5): peak (45,53,6)
-Adding MtnReport to Map tile (4,5): peak (41,59,7)
-Adding MtnReport to Map tile (4,6): peak (41,59,7)
-Adding MtnReport to Map tile (5,5): peak (45,53,6)
-(60,50) dist2 to tile (5,4) = 2
-Adding Mtn to tile (5,4): peak (60,50,2)
-(60,50) dist2 to tile (5,5) = 1
-Adding Mtn to tile (5,5): peak (60,50,2)
-(60,50) dist2 to tile (6,4) = 1
-Adding Mtn to tile (6,4): peak (60,50,2)
-(60,50) dist2 to tile (6,5) = 0
-Adding Mtn to tile (6,5): peak (60,50,2)
-Adding MtnReport to Map tile (5,4): peak (60,50,2)
-Adding MtnReport to Map tile (5,5): peak (60,50,2)
-Adding MtnReport to Map tile (6,4): peak (60,50,2)
-Adding MtnReport to Map tile (6,5): peak (60,50,2)
-(79,55) dist2 to tile (7,5) = 0
-Adding Mtn to tile (7,5): peak (79,55,1)
-(79,55) dist2 to tile (8,5) = 1
-Adding MtnReport to Map tile (7,5): peak (79,55,1)
-(81,59) dist2 to tile (7,5) = 4
-Adding Mtn to tile (7,5): peak (81,59,8)
-(81,59) dist2 to tile (7,6) = 5
-Adding Mtn to tile (7,6): peak (81,59,8)
-(81,59) dist2 to tile (8,5) = 0
-Adding Mtn to tile (8,5): peak (81,59,8)
-(81,59) dist2 to tile (8,6) = 1
-Adding Mtn to tile (8,6): peak (81,59,8)
-Adding MtnReport to Map tile (8,5): peak (81,59,8)
-Adding MtnReport to Map tile (8,6): peak (81,59,8)
-Adding MtnReport to Map tile (7,5): peak (81,59,8)
-Adding MtnReport to Map tile (7,6): peak (81,59,8)
-(94,57) dist2 to tile (9,5) = 0
-(91,56) dist2 to tile (8,5) = 4
-Adding Mtn to tile (8,5): peak (91,56,5)
-(91,56) dist2 to tile (8,6) = 20
-Adding Mtn to tile (8,6): peak (91,56,5)
-(91,56) dist2 to tile (9,5) = 0
-Adding Mtn to tile (9,5): peak (91,56,5)
-(91,56) dist2 to tile (9,6) = 16
-Adding Mtn to tile (9,6): peak (91,56,5)
-Adding MtnReport to Map tile (8,5): peak (91,56,5)
-Adding MtnReport to Map tile (8,6): peak (91,56,5)
-Adding MtnReport to Map tile (9,5): peak (91,56,5)
-Adding MtnReport to Map tile (9,6): peak (91,56,5)
-(19,62) dist2 to tile (1,6) = 0
-Adding Mtn to tile (1,6): peak (19,62,1)
-(19,62) dist2 to tile (2,6) = 1
-Adding MtnReport to Map tile (1,6): peak (19,62,1)
-(33,67) dist2 to tile (3,6) = 0
-Adding Mtn to tile (3,6): peak (33,67,3)
-(33,67) dist2 to tile (3,7) = 9
-(31,69) dist2 to tile (2,6) = 4
-Adding Mtn to tile (2,6): peak (31,69,8)
-(31,69) dist2 to tile (2,7) = 5
-Adding Mtn to tile (2,7): peak (31,69,8)
-(31,69) dist2 to tile (3,6) = 0
-Adding Mtn to tile (3,6): peak (31,69,8)
-(31,69) dist2 to tile (3,7) = 1
-Adding Mtn to tile (3,7): peak (31,69,8)
-Adding MtnReport to Map tile (2,6): peak (31,69,8)
-Adding MtnReport to Map tile (2,7): peak (31,69,8)
-Adding MtnReport to Map tile (3,6): peak (33,67,3)
-Adding MtnReport to Map tile (3,6): peak (31,69,8)
-Adding MtnReport to Map tile (3,7): peak (31,69,8)
-(50,60) dist2 to tile (5,6) = 0
-(64,66) dist2 to tile (5,6) = 25
-Adding Mtn to tile (5,6): peak (64,66,6)
-(64,66) dist2 to tile (5,7) = 41
-(64,66) dist2 to tile (6,6) = 0
-Adding Mtn to tile (6,6): peak (64,66,6)
-(64,66) dist2 to tile (6,7) = 16
-Adding Mtn to tile (6,7): peak (64,66,6)
-(64,66) dist2 to tile (7,6) = 36
-(64,66) dist2 to tile (7,7) = 52
-Adding MtnReport to Map tile (5,6): peak (64,66,6)
-Adding MtnReport to Map tile (6,6): peak (64,66,6)
-Adding MtnReport to Map tile (6,7): peak (64,66,6)
-(72,67) dist2 to tile (6,6) = 9
-Adding Mtn to tile (6,6): peak (72,67,6)
-(72,67) dist2 to tile (6,7) = 18
-Adding Mtn to tile (6,7): peak (72,67,6)
-(72,67) dist2 to tile (7,6) = 0
-Adding Mtn to tile (7,6): peak (72,67,6)
-(72,67) dist2 to tile (7,7) = 9
-Adding Mtn to tile (7,7): peak (72,67,6)
-(74,62) dist2 to tile (6,5) = 34
-Adding Mtn to tile (6,5): peak (74,62,9)
-(74,62) dist2 to tile (6,6) = 25
-Adding Mtn to tile (6,6): peak (74,62,9)
-(74,62) dist2 to tile (6,7) = 89
-(74,62) dist2 to tile (7,5) = 9
-Adding Mtn to tile (7,5): peak (74,62,9)
-(74,62) dist2 to tile (7,6) = 0
-Adding Mtn to tile (7,6): peak (74,62,9)
-(74,62) dist2 to tile (7,7) = 64
-Adding Mtn to tile (7,7): peak (74,62,9)
-(74,62) dist2 to tile (8,5) = 45
-Adding Mtn to tile (8,5): peak (74,62,9)
-(74,62) dist2 to tile (8,6) = 36
-Adding Mtn to tile (8,6): peak (74,62,9)
-(74,62) dist2 to tile (8,7) = 100
-Adding MtnReport to Map tile (8,5): peak (74,62,9)
-Adding MtnReport to Map tile (8,6): peak (74,62,9)
-Adding MtnReport to Map tile (6,5): peak (74,62,9)
-Adding MtnReport to Map tile (6,6): peak (72,67,6)
-Adding MtnReport to Map tile (6,6): peak (74,62,9)
-Adding MtnReport to Map tile (6,7): peak (72,67,6)
-Adding MtnReport to Map tile (7,5): peak (74,62,9)
-Adding MtnReport to Map tile (7,6): peak (72,67,6)
-Adding MtnReport to Map tile (7,6): peak (74,62,9)
-Adding MtnReport to Map tile (7,7): peak (72,67,6)
-Adding MtnReport to Map tile (7,7): peak (74,62,9)
-(88,63) dist2 to tile (8,5) = 16
-Adding Mtn to tile (8,5): peak (88,63,5)
-(88,63) dist2 to tile (8,6) = 0
-Adding Mtn to tile (8,6): peak (88,63,5)
-(88,63) dist2 to tile (9,5) = 20
-Adding Mtn to tile (9,5): peak (88,63,5)
-(88,63) dist2 to tile (9,6) = 4
-Adding Mtn to tile (9,6): peak (88,63,5)
-Adding MtnReport to Map tile (8,5): peak (88,63,5)
-Adding MtnReport to Map tile (8,6): peak (88,63,5)
-Adding MtnReport to Map tile (9,5): peak (88,63,5)
-Adding MtnReport to Map tile (9,6): peak (88,63,5)
-(93,63) dist2 to tile (8,5) = 32
-Adding Mtn to tile (8,5): peak (93,63,6)
-(93,63) dist2 to tile (8,6) = 16
-Adding Mtn to tile (8,6): peak (93,63,6)
-(93,63) dist2 to tile (9,5) = 16
-Adding Mtn to tile (9,5): peak (93,63,6)
-(93,63) dist2 to tile (9,6) = 0
-Adding Mtn to tile (9,6): peak (93,63,6)
-Adding MtnReport to Map tile (8,5): peak (93,63,6)
-Adding MtnReport to Map tile (8,6): peak (93,63,6)
-Adding MtnReport to Map tile (9,5): peak (93,63,6)
-Adding MtnReport to Map tile (9,6): peak (93,63,6)
-(100,69) dist2 to tile (9,6) = 1
-(100,69) dist2 to tile (9,7) = 2
-(10,78) dist2 to tile (0,7) = 1
-Adding Mtn to tile (0,7): peak (10,78,5)
-(10,78) dist2 to tile (0,8) = 5
-Adding Mtn to tile (0,8): peak (10,78,5)
-(10,78) dist2 to tile (1,7) = 0
-Adding Mtn to tile (1,7): peak (10,78,5)
-(10,78) dist2 to tile (1,8) = 4
-Adding Mtn to tile (1,8): peak (10,78,5)
-Adding MtnReport to Map tile (0,8): peak (10,78,5)
-Adding MtnReport to Map tile (0,7): peak (10,78,5)
-Adding MtnReport to Map tile (1,8): peak (10,78,5)
-Adding MtnReport to Map tile (1,7): peak (10,78,5)
-(47,78) dist2 to tile (4,7) = 0
-(51,79) dist2 to tile (4,7) = 4
-Adding Mtn to tile (4,7): peak (51,79,3)
-(51,79) dist2 to tile (4,8) = 5
-Adding Mtn to tile (4,8): peak (51,79,3)
-(51,79) dist2 to tile (5,7) = 0
-Adding Mtn to tile (5,7): peak (51,79,3)
-(51,79) dist2 to tile (5,8) = 1
-Adding Mtn to tile (5,8): peak (51,79,3)
-(58,74) dist2 to tile (5,7) = 0
-Adding Mtn to tile (5,7): peak (58,74,2)
-(58,74) dist2 to tile (6,7) = 4
-Adding MtnReport to Map tile (4,8): peak (51,79,3)
-Adding MtnReport to Map tile (4,7): peak (51,79,3)
-Adding MtnReport to Map tile (5,8): peak (51,79,3)
-Adding MtnReport to Map tile (5,7): peak (51,79,3)
-Adding MtnReport to Map tile (5,7): peak (58,74,2)
-(2,88) dist2 to tile (0,8) = 0
-Adding Mtn to tile (0,8): peak (2,88,3)
-(2,88) dist2 to tile (0,9) = 4
-Adding Mtn to tile (0,9): peak (2,88,3)
-(6,83) dist2 to tile (0,8) = 0
-Adding Mtn to tile (0,8): peak (6,83,2)
-Adding MtnReport to Map tile (0,8): peak (2,88,3)
-Adding MtnReport to Map tile (0,8): peak (6,83,2)
-Adding MtnReport to Map tile (0,9): peak (2,88,3)
-(10,88) dist2 to tile (0,8) = 1
-(10,88) dist2 to tile (1,8) = 0
-Adding Mtn to tile (1,8): peak (10,88,1)
-Adding MtnReport to Map tile (1,8): peak (10,88,1)
-(37,85) dist2 to tile (3,8) = 0
-Adding Mtn to tile (3,8): peak (37,85,5)
-(37,85) dist2 to tile (3,9) = 25
-(37,85) dist2 to tile (4,8) = 9
-Adding Mtn to tile (4,8): peak (37,85,5)
-(37,85) dist2 to tile (4,9) = 34
-(39,82) dist2 to tile (3,7) = 9
-Adding Mtn to tile (3,7): peak (39,82,4)
-(39,82) dist2 to tile (3,8) = 0
-Adding Mtn to tile (3,8): peak (39,82,4)
-(39,82) dist2 to tile (4,7) = 10
-Adding Mtn to tile (4,7): peak (39,82,4)
-(39,82) dist2 to tile (4,8) = 1
-Adding Mtn to tile (4,8): peak (39,82,4)
-Adding MtnReport to Map tile (3,8): peak (37,85,5)
-Adding MtnReport to Map tile (3,8): peak (39,82,4)
-Adding MtnReport to Map tile (3,7): peak (39,82,4)
-Adding MtnReport to Map tile (4,8): peak (37,85,5)
-Adding MtnReport to Map tile (4,8): peak (39,82,4)
-Adding MtnReport to Map tile (4,7): peak (39,82,4)
-(62,81) dist2 to tile (5,7) = 13
-Adding Mtn to tile (5,7): peak (62,81,7)
-(62,81) dist2 to tile (5,8) = 9
-Adding Mtn to tile (5,8): peak (62,81,7)
-(62,81) dist2 to tile (6,7) = 4
-Adding Mtn to tile (6,7): peak (62,81,7)
-(62,81) dist2 to tile (6,8) = 0
-Adding Mtn to tile (6,8): peak (62,81,7)
-(61,85) dist2 to tile (5,7) = 40
-Adding Mtn to tile (5,7): peak (61,85,7)
-(61,85) dist2 to tile (5,8) = 4
-Adding Mtn to tile (5,8): peak (61,85,7)
-(61,85) dist2 to tile (5,9) = 29
-Adding Mtn to tile (5,9): peak (61,85,7)
-(61,85) dist2 to tile (6,7) = 36
-Adding Mtn to tile (6,7): peak (61,85,7)
-(61,85) dist2 to tile (6,8) = 0
-Adding Mtn to tile (6,8): peak (61,85,7)
-(61,85) dist2 to tile (6,9) = 25
-Adding Mtn to tile (6,9): peak (61,85,7)
-Adding MtnReport to Map tile (5,8): peak (62,81,7)
-Adding MtnReport to Map tile (5,8): peak (61,85,7)
-Adding MtnReport to Map tile (5,9): peak (61,85,7)
-Adding MtnReport to Map tile (5,7): peak (62,81,7)
-Adding MtnReport to Map tile (5,7): peak (61,85,7)
-Adding MtnReport to Map tile (6,8): peak (62,81,7)
-Adding MtnReport to Map tile (6,8): peak (61,85,7)
-Adding MtnReport to Map tile (6,9): peak (61,85,7)
-Adding MtnReport to Map tile (6,7): peak (62,81,7)
-Adding MtnReport to Map tile (6,7): peak (61,85,7)
-(85,82) dist2 to tile (8,7) = 9
-Adding Mtn to tile (8,7): peak (85,82,5)
-(85,82) dist2 to tile (8,8) = 0
-Adding Mtn to tile (8,8): peak (85,82,5)
-(85,82) dist2 to tile (9,7) = 34
-(85,82) dist2 to tile (9,8) = 25
-(80,82) dist2 to tile (7,7) = 10
-Adding Mtn to tile (7,7): peak (80,82,4)
-(80,82) dist2 to tile (7,8) = 1
-Adding Mtn to tile (7,8): peak (80,82,4)
-(80,82) dist2 to tile (8,7) = 9
-Adding Mtn to tile (8,7): peak (80,82,4)
-(80,82) dist2 to tile (8,8) = 0
-Adding Mtn to tile (8,8): peak (80,82,4)
-Adding MtnReport to Map tile (8,8): peak (85,82,5)
-Adding MtnReport to Map tile (8,8): peak (80,82,4)
-Adding MtnReport to Map tile (8,7): peak (85,82,5)
-Adding MtnReport to Map tile (8,7): peak (80,82,4)
-Adding MtnReport to Map tile (7,8): peak (80,82,4)
-Adding MtnReport to Map tile (7,7): peak (80,82,4)
-(92,87) dist2 to tile (8,8) = 9
-Adding Mtn to tile (8,8): peak (92,87,4)
-(92,87) dist2 to tile (8,9) = 18
-(92,87) dist2 to tile (9,8) = 0
-Adding Mtn to tile (9,8): peak (92,87,4)
-(92,87) dist2 to tile (9,9) = 9
-Adding Mtn to tile (9,9): peak (92,87,4)
-Adding MtnReport to Map tile (8,8): peak (92,87,4)
-Adding MtnReport to Map tile (9,8): peak (92,87,4)
-Adding MtnReport to Map tile (9,9): peak (92,87,4)
-(14,92) dist2 to tile (0,8) = 34
-Adding Mtn to tile (0,8): peak (14,92,9)
-(14,92) dist2 to tile (0,9) = 25
-Adding Mtn to tile (0,9): peak (14,92,9)
-(14,92) dist2 to tile (1,8) = 9
-Adding Mtn to tile (1,8): peak (14,92,9)
-(14,92) dist2 to tile (1,9) = 0
-Adding Mtn to tile (1,9): peak (14,92,9)
-(14,92) dist2 to tile (2,8) = 45
-Adding Mtn to tile (2,8): peak (14,92,9)
-(14,92) dist2 to tile (2,9) = 36
-Adding Mtn to tile (2,9): peak (14,92,9)
-Adding MtnReport to Map tile (0,8): peak (14,92,9)
-Adding MtnReport to Map tile (0,9): peak (14,92,9)
-Adding MtnReport to Map tile (1,8): peak (14,92,9)
-Adding MtnReport to Map tile (1,9): peak (14,92,9)
-Adding MtnReport to Map tile (2,8): peak (14,92,9)
-Adding MtnReport to Map tile (2,9): peak (14,92,9)
-(49,92) dist2 to tile (4,8) = 9
-(49,92) dist2 to tile (4,9) = 0
-Adding Mtn to tile (4,9): peak (49,92,3)
-(49,92) dist2 to tile (5,8) = 10
-(49,92) dist2 to tile (5,9) = 1
-Adding Mtn to tile (5,9): peak (49,92,3)
-(48,93) dist2 to tile (4,8) = 16
-(48,93) dist2 to tile (4,9) = 0
-Adding Mtn to tile (4,9): peak (48,93,4)
-(48,93) dist2 to tile (5,8) = 20
-(48,93) dist2 to tile (5,9) = 4
-Adding Mtn to tile (5,9): peak (48,93,4)
-Adding MtnReport to Map tile (4,9): peak (49,92,3)
-Adding MtnReport to Map tile (4,9): peak (48,93,4)
-Adding MtnReport to Map tile (5,9): peak (49,92,3)
-Adding MtnReport to Map tile (5,9): peak (48,93,4)
-(86,90) dist2 to tile (8,8) = 1
-(86,90) dist2 to tile (8,9) = 0
-Adding Mtn to tile (8,9): peak (86,90,1)
-(83,92) dist2 to tile (7,8) = 25
-Adding Mtn to tile (7,8): peak (83,92,9)
-(83,92) dist2 to tile (7,9) = 16
-Adding Mtn to tile (7,9): peak (83,92,9)
-(83,92) dist2 to tile (8,8) = 9
-Adding Mtn to tile (8,8): peak (83,92,9)
-(83,92) dist2 to tile (8,9) = 0
-Adding Mtn to tile (8,9): peak (83,92,9)
-(83,92) dist2 to tile (9,8) = 58
-Adding Mtn to tile (9,8): peak (83,92,9)
-(83,92) dist2 to tile (9,9) = 49
-Adding Mtn to tile (9,9): peak (83,92,9)
-Adding MtnReport to Map tile (8,8): peak (83,92,9)
-Adding MtnReport to Map tile (8,9): peak (86,90,1)
-Adding MtnReport to Map tile (8,9): peak (83,92,9)
-Adding MtnReport to Map tile (9,8): peak (83,92,9)
-Adding MtnReport to Map tile (9,9): peak (83,92,9)
-Adding MtnReport to Map tile (7,8): peak (83,92,9)
-Adding MtnReport to Map tile (7,9): peak (83,92,9)
-(90,95) dist2 to tile (8,8) = 37
-Adding Mtn to tile (8,8): peak (90,95,8)
-(90,95) dist2 to tile (8,9) = 1
-Adding Mtn to tile (8,9): peak (90,95,8)
-(90,95) dist2 to tile (9,8) = 36
-Adding Mtn to tile (9,8): peak (90,95,8)
-(90,95) dist2 to tile (9,9) = 0
-Adding Mtn to tile (9,9): peak (90,95,8)
-Adding MtnReport to Map tile (8,8): peak (90,95,8)
-Adding MtnReport to Map tile (8,9): peak (90,95,8)
-Adding MtnReport to Map tile (9,8): peak (90,95,8)
-Adding MtnReport to Map tile (9,9): peak (90,95,8)
-(18,105) dist2 to tile (0,9) = 117
-(18,105) dist2 to tile (1,9) = 36
-Adding Mtn to tile (1,9): peak (18,105,9)
-(18,105) dist2 to tile (2,9) = 40
-Adding Mtn to tile (2,9): peak (18,105,9)
-Adding MtnReport to Map tile (1,9): peak (18,105,9)
-Adding MtnReport to Map tile (2,9): peak (18,105,9)
-(76,100) dist2 to tile (7,9) = 1
-(82,100) dist2 to tile (7,9) = 10
-Adding Mtn to tile (7,9): peak (82,100,9)
-(82,100) dist2 to tile (8,9) = 1
-Adding Mtn to tile (8,9): peak (82,100,9)
-(82,100) dist2 to tile (9,9) = 65
-Adding Mtn to tile (9,9): peak (82,100,9)
-Adding MtnReport to Map tile (8,9): peak (82,100,9)
-Adding MtnReport to Map tile (9,9): peak (82,100,9)
-Adding MtnReport to Map tile (7,9): peak (82,100,9)
-(95,101) dist2 to tile (9,9) = 4
-Adding Mtn to tile (9,9): peak (95,101,3)
-Adding MtnReport to Map tile (9,9): peak (95,101,3)
-Local mtn @ local coords (7,3,0)
-Local mtn @ local coords (4,4,6)
-Mtn found:(4,4,6)
-Tile (0,0), seed 2337446730
-     1  1  1  2  1  1  1      
+New River, ((x,y), seed, originPts) = ((0, 0), 988970880, [])
+New River, ((x,y), seed, originPts) = ((0, 10), 2265840942, [])
+New River, ((x,y), seed, originPts) = ((0, 20), 3412943298, [(2, 21)])
+New River, ((x,y), seed, originPts) = ((0, 30), 576318383, [])
+New River, ((x,y), seed, originPts) = ((0, 40), 2096114918, [])
+New River, ((x,y), seed, originPts) = ((0, 50), 3196391122, [])
+New River, ((x,y), seed, originPts) = ((0, 60), 4121684702, [])
+New River, ((x,y), seed, originPts) = ((0, 70), 1426633094, [])
+New Beach, ((x,y), seed) = ((0, 80), 1458617533)
+New River, ((x,y), seed, originPts) = ((0, 80), 173410004, [])
+New River, ((x,y), seed, originPts) = ((10, 0), 1958272647, [])
+New River, ((x,y), seed, originPts) = ((10, 10), 2307854002, [])
+New River, ((x,y), seed, originPts) = ((10, 20), 3087558332, [(18, 30)])
+New River, ((x,y), seed, originPts) = ((10, 30), 2195542359, [(11, 34)])
+New River, ((x,y), seed, originPts) = ((10, 40), 2247741562, [(18, 43)])
+New River, ((x,y), seed, originPts) = ((10, 50), 4254397550, [])
+New River, ((x,y), seed, originPts) = ((10, 60), 663714923, [])
+New River, ((x,y), seed, originPts) = ((10, 70), 3026450040, [])
+New Beach, ((x,y), seed) = ((10, 80), 2105798258)
+New River, ((x,y), seed, originPts) = ((10, 80), 1012577356, [])
+New River, ((x,y), seed, originPts) = ((20, 0), 3363013620, [(25, 7)])
+New River, ((x,y), seed, originPts) = ((20, 10), 3168072426, [])
+New River, ((x,y), seed, originPts) = ((20, 20), 4198781526, [(23, 23)])
+New River, ((x,y), seed, originPts) = ((20, 30), 2833408693, [])
+New River, ((x,y), seed, originPts) = ((20, 40), 2534710386, [])
+New River, ((x,y), seed, originPts) = ((20, 50), 2076117925, [])
+New River, ((x,y), seed, originPts) = ((20, 60), 1742574132, [])
+New River, ((x,y), seed, originPts) = ((20, 70), 3616401711, [])
+New Beach, ((x,y), seed) = ((20, 80), 279354601)
+New River, ((x,y), seed, originPts) = ((20, 80), 2696147594, [])
+New River, ((x,y), seed, originPts) = ((30, 0), 1650716891, [])
+New River, ((x,y), seed, originPts) = ((30, 10), 2432043235, [])
+New River, ((x,y), seed, originPts) = ((30, 20), 1931930977, [])
+New River, ((x,y), seed, originPts) = ((30, 30), 3081452067, [(37, 35)])
+New River, ((x,y), seed, originPts) = ((30, 40), 504659787, [])
+New River, ((x,y), seed, originPts) = ((30, 50), 3518143639, [])
+New River, ((x,y), seed, originPts) = ((30, 60), 2927800643, [(35, 62)])
+New River, ((x,y), seed, originPts) = ((30, 70), 2984523003, [])
+New Beach, ((x,y), seed) = ((30, 80), 1314802962)
+New River, ((x,y), seed, originPts) = ((30, 80), 2068747799, [])
+New River, ((x,y), seed, originPts) = ((40, 0), 189232602, [])
+New River, ((x,y), seed, originPts) = ((40, 10), 77266256, [(45, 10)])
+New River, ((x,y), seed, originPts) = ((40, 20), 938783566, [(46, 28)])
+New River, ((x,y), seed, originPts) = ((40, 30), 4101267168, [])
+New River, ((x,y), seed, originPts) = ((40, 40), 606245876, [])
+New River, ((x,y), seed, originPts) = ((40, 50), 3344261908, [])
+New River, ((x,y), seed, originPts) = ((40, 60), 2397388312, [(48, 63)])
+New River, ((x,y), seed, originPts) = ((40, 70), 1965181470, [])
+New Beach, ((x,y), seed) = ((40, 80), 2896243179)
+New River, ((x,y), seed, originPts) = ((40, 80), 2672239038, [])
+New River, ((x,y), seed, originPts) = ((50, 0), 1679457732, [])
+New River, ((x,y), seed, originPts) = ((50, 10), 466098930, [(56, 20)])
+New River, ((x,y), seed, originPts) = ((50, 20), 1666426788, [(57, 23)])
+New River, ((x,y), seed, originPts) = ((50, 30), 2482513996, [])
+New River, ((x,y), seed, originPts) = ((50, 40), 1709370163, [(59, 43)])
+New River, ((x,y), seed, originPts) = ((50, 50), 1307185697, [])
+New River, ((x,y), seed, originPts) = ((50, 60), 1608825046, [(60, 61)])
+New River, ((x,y), seed, originPts) = ((50, 70), 783986960, [])
+New Beach, ((x,y), seed) = ((50, 80), 2269151881)
+New River, ((x,y), seed, originPts) = ((50, 80), 4242262783, [])
+New River, ((x,y), seed, originPts) = ((60, 0), 2450169084, [(64, 2)])
+New River, ((x,y), seed, originPts) = ((60, 10), 391866289, [(63, 13)])
+New River, ((x,y), seed, originPts) = ((60, 20), 1551124131, [(64, 24)])
+New River, ((x,y), seed, originPts) = ((60, 30), 699668329, [])
+New River, ((x,y), seed, originPts) = ((60, 40), 3380411218, [(63, 41)])
+New River, ((x,y), seed, originPts) = ((60, 50), 2174031308, [(63, 59)])
+New River, ((x,y), seed, originPts) = ((60, 60), 895242044, [])
+New River, ((x,y), seed, originPts) = ((60, 70), 2962038170, [])
+New Beach, ((x,y), seed) = ((60, 80), 814000109)
+New River, ((x,y), seed, originPts) = ((60, 80), 4190274782, [])
+New River, ((x,y), seed, originPts) = ((70, 0), 3463150510, [(71, 3)])
+New River, ((x,y), seed, originPts) = ((70, 10), 104787475, [])
+New River, ((x,y), seed, originPts) = ((70, 20), 2586072019, [])
+New River, ((x,y), seed, originPts) = ((70, 30), 4180394540, [(75, 39)])
+New River, ((x,y), seed, originPts) = ((70, 40), 4016599920, [])
+New River, ((x,y), seed, originPts) = ((70, 50), 1931178327, [])
+New River, ((x,y), seed, originPts) = ((70, 60), 3918023005, [(78, 64)])
+New River, ((x,y), seed, originPts) = ((70, 70), 2657129074, [])
+New Beach, ((x,y), seed) = ((70, 80), 1577153861)
+New River, ((x,y), seed, originPts) = ((70, 80), 3203361059, [])
+New River, ((x,y), seed, originPts) = ((80, 0), 3975065566, [(85, 3)])
+New River, ((x,y), seed, originPts) = ((80, 10), 1708530754, [(90, 12)])
+New River, ((x,y), seed, originPts) = ((80, 20), 3524641844, [])
+New River, ((x,y), seed, originPts) = ((80, 30), 2682947938, [])
+New River, ((x,y), seed, originPts) = ((80, 40), 3041605379, [])
+New River, ((x,y), seed, originPts) = ((80, 50), 3957524096, [])
+New River, ((x,y), seed, originPts) = ((80, 60), 503787191, [])
+New River, ((x,y), seed, originPts) = ((80, 70), 2399105057, [])
+New Beach, ((x,y), seed) = ((80, 80), 3495821251)
+New River, ((x,y), seed, originPts) = ((80, 80), 1766936232, [])
+New River, ((x,y), seed, originPts) = ((90, 0), 816486314, [])
+New River, ((x,y), seed, originPts) = ((90, 10), 1144839923, [(90, 16)])
+New River, ((x,y), seed, originPts) = ((90, 20), 794922573, [])
+New River, ((x,y), seed, originPts) = ((90, 30), 3657375643, [])
+New River, ((x,y), seed, originPts) = ((90, 40), 3251200131, [])
+New River, ((x,y), seed, originPts) = ((90, 50), 3510496530, [(98, 51)])
+New River, ((x,y), seed, originPts) = ((90, 60), 1961325953, [(98, 64)])
+New River, ((x,y), seed, originPts) = ((90, 70), 85469348, [])
+New Beach, ((x,y), seed) = ((90, 80), 4281354487)
+New River, ((x,y), seed, originPts) = ((90, 80), 3884897711, [])
+New River, ((x,y), seed, originPts) = ((100, 0), 4107578312, [(109, 8)])
+New River, ((x,y), seed, originPts) = ((100, 10), 3502663621, [(100, 18)])
+New River, ((x,y), seed, originPts) = ((100, 20), 2182683715, [(108, 22)])
+New River, ((x,y), seed, originPts) = ((100, 30), 2184185682, [(107, 34)])
+New River, ((x,y), seed, originPts) = ((100, 40), 2293934813, [(107, 49)])
+New River, ((x,y), seed, originPts) = ((100, 50), 1431360991, [(109, 58)])
+New River, ((x,y), seed, originPts) = ((100, 60), 1503200576, [(103, 69)])
+New River, ((x,y), seed, originPts) = ((100, 70), 3902318339, [])
+New Beach, ((x,y), seed) = ((100, 80), 3415918254)
+New River, ((x,y), seed, originPts) = ((100, 80), 2637430214, [])
+New River, ((x,y), seed, originPts) = ((110, 0), 3201377420, [(111, 8)])
+New River, ((x,y), seed, originPts) = ((110, 10), 778909490, [(112, 19)])
+New River, ((x,y), seed, originPts) = ((110, 20), 2732933341, [])
+New River, ((x,y), seed, originPts) = ((110, 30), 750064360, [])
+New River, ((x,y), seed, originPts) = ((110, 40), 3386916971, [])
+New River, ((x,y), seed, originPts) = ((110, 50), 2544855165, [])
+New River, ((x,y), seed, originPts) = ((110, 60), 3935750557, [(117, 62)])
+New River, ((x,y), seed, originPts) = ((110, 70), 1020128146, [])
+New Beach, ((x,y), seed) = ((110, 80), 2832397030)
+New River, ((x,y), seed, originPts) = ((110, 80), 3752381507, [])
+New River, ((x,y), seed, originPts) = ((120, 0), 1192911399, [(123, 5)])
+New River, ((x,y), seed, originPts) = ((120, 10), 607264609, [])
+New River, ((x,y), seed, originPts) = ((120, 20), 2410468135, [(130, 25)])
+New River, ((x,y), seed, originPts) = ((120, 30), 652680572, [(122, 32)])
+New River, ((x,y), seed, originPts) = ((120, 40), 1380796811, [(122, 42)])
+New River, ((x,y), seed, originPts) = ((120, 50), 532796495, [])
+New River, ((x,y), seed, originPts) = ((120, 60), 2929988189, [(129, 64)])
+New River, ((x,y), seed, originPts) = ((120, 70), 2044993256, [])
+New Beach, ((x,y), seed) = ((120, 80), 3533142270)
+New River, ((x,y), seed, originPts) = ((120, 80), 993824900, [])
+New River, ((x,y), seed, originPts) = ((130, 0), 3129837446, [])
+New River, ((x,y), seed, originPts) = ((130, 10), 4037805560, [(136, 13)])
+New River, ((x,y), seed, originPts) = ((130, 20), 1257268228, [])
+New River, ((x,y), seed, originPts) = ((130, 30), 70528776, [])
+New River, ((x,y), seed, originPts) = ((130, 40), 3643987860, [(130, 46)])
+New River, ((x,y), seed, originPts) = ((130, 50), 3626489623, [])
+New River, ((x,y), seed, originPts) = ((130, 60), 1837159768, [])
+New River, ((x,y), seed, originPts) = ((130, 70), 1072905704, [])
+New Beach, ((x,y), seed) = ((130, 80), 4046526034)
+New River, ((x,y), seed, originPts) = ((130, 80), 4045748159, [])
+New River, ((x,y), seed, originPts) = ((140, 0), 2361958648, [(143, 6)])
+New River, ((x,y), seed, originPts) = ((140, 10), 3331606862, [])
+New River, ((x,y), seed, originPts) = ((140, 20), 970999949, [])
+New River, ((x,y), seed, originPts) = ((140, 30), 2718364578, [])
+New River, ((x,y), seed, originPts) = ((140, 40), 4150804874, [(147, 50)])
+New River, ((x,y), seed, originPts) = ((140, 50), 1154817336, [])
+New River, ((x,y), seed, originPts) = ((140, 60), 3106393195, [])
+New River, ((x,y), seed, originPts) = ((140, 70), 1410437251, [])
+New Beach, ((x,y), seed) = ((140, 80), 877722445)
+New River, ((x,y), seed, originPts) = ((140, 80), 1153917862, [])
+beach xy input to tile (0, 8): [0, 81]
+beach preDraw report, xyPts = {0: 82, 1: 81, 2: 82, 3: 83, 4: 84, 5: 84, 6: 84, 7: 83, 8: 84, 9: 83}, exitPtXY: (9, 83)
+beach xy input to tile (1, 8): (9, 83)
+beach preDraw report, xyPts = {16: 82, 17: 82, 18: 81, 19: 81, 10: 82, 11: 81, 12: 81, 13: 81, 14: 82, 15: 81}, exitPtXY: (19, 81)
+beach xy input to tile (2, 8): (19, 81)
+beach preDraw report, xyPts = {20: 81, 21: 82, 22: 82, 23: 83, 24: 83, 25: 84, 26: 84, 27: 85, 28: 84, 29: 85}, exitPtXY: (29, 85)
+beach xy input to tile (3, 8): (29, 85)
+beach preDraw report, xyPts = {32: 84, 33: 83, 34: 82, 35: 81, 36: 82, 37: 82, 38: 82, 39: 81, 30: 86, 31: 85}, exitPtXY: (39, 81)
+beach xy input to tile (4, 8): (39, 81)
+beach preDraw report, xyPts = {48: 82, 49: 81, 40: 82, 41: 83, 42: 82, 43: 82, 44: 82, 45: 81, 46: 82, 47: 81}, exitPtXY: (49, 81)
+beach xy input to tile (5, 8): (49, 81)
+beach preDraw report, xyPts = {50: 81, 51: 81, 52: 81, 53: 81, 54: 81, 55: 82, 56: 83, 57: 84, 58: 83, 59: 82}, exitPtXY: (59, 82)
+beach xy input to tile (6, 8): (59, 82)
+beach preDraw report, xyPts = {64: 82, 65: 81, 66: 81, 67: 82, 68: 81, 69: 82, 60: 83, 61: 83, 62: 82, 63: 82}, exitPtXY: (69, 82)
+beach xy input to tile (7, 8): (69, 82)
+beach preDraw report, xyPts = {70: 83, 71: 84, 72: 83, 73: 84, 74: 83, 75: 83, 76: 82, 77: 83, 78: 83, 79: 83}, exitPtXY: (79, 83)
+beach xy input to tile (8, 8): (79, 83)
+beach preDraw report, xyPts = {80: 84, 81: 85, 82: 84, 83: 83, 84: 84, 85: 85, 86: 84, 87: 85, 88: 84, 89: 84}, exitPtXY: (89, 84)
+beach xy input to tile (9, 8): (89, 84)
+beach preDraw report, xyPts = {96: 86, 97: 87, 98: 88, 99: 88, 90: 85, 91: 85, 92: 84, 93: 85, 94: 85, 95: 85}, exitPtXY: (99, 88)
+beach xy input to tile (10, 8): (99, 88)
+beach preDraw report, xyPts = {100: 88, 101: 88, 102: 87, 103: 88, 104: 88, 105: 88, 106: 87, 107: 88, 108: 89, 109: 89}, exitPtXY: (109, 89)
+beach xy input to tile (11, 8): (109, 89)
+beach preDraw report, xyPts = {112: 87, 113: 88, 114: 89, 115: 89, 116: 88, 117: 89, 118: 88, 119: 88, 110: 88, 111: 88}, exitPtXY: (119, 88)
+beach xy input to tile (12, 8): (119, 88)
+beach preDraw report, xyPts = {128: 87, 129: 87, 120: 89, 121: 89, 122: 88, 123: 89, 124: 88, 125: 87, 126: 87, 127: 88}, exitPtXY: (129, 87)
+beach xy input to tile (13, 8): (129, 87)
+beach preDraw report, xyPts = {130: 86, 131: 87, 132: 88, 133: 87, 134: 88, 135: 87, 136: 86, 137: 85, 138: 84, 139: 84}, exitPtXY: (139, 84)
+beach xy input to tile (14, 8): (139, 84)
+beach preDraw report, xyPts = {144: 85, 145: 85, 146: 84, 147: 83, 148: 83, 149: 83, 140: 85, 141: 85, 142: 85, 143: 84}, exitPtXY: (149, 83)
+predraw river report for tile (0,0)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728370>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,0)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728390>, <mtn.Mtn object at 0x027283D0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,0)
+river originPts: [(25, 7)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728410>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (3,0)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,0)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728450>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (5,0)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,0)
+river originPts: [(64, 2)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728710>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (7,0)
+river originPts: [(71, 3)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728470>, <mtn.Mtn object at 0x02728750>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,0)
+river originPts: [(85, 3)], entryPtsXY: [(85, 3)] mtns: [<mtn.Mtn object at 0x02728490>, <mtn.Mtn object at 0x027287B0>, <mtn.Mtn object at 0x02728810>]
+river current (x,y) = (85,3), goodNextX = [84, 85, 86]
+river current (x,y) = (86,4), goodNextX = [85, 86, 87]
+river current (x,y) = (86,5), goodNextX = [85, 86, 87]
+river current (x,y) = (85,6), goodNextX = [85, 86]
+river current (x,y) = (86,7), goodNextX = [87]
+river current (x,y) = (87,8), goodNextX = [88]
+river xyPts: {88: [9], 85: [3, 6], 86: [4, 5, 7], 87: [8]} exitPts: {88: [10]}
+Adding river exit pt (88,10)
+riverExport = {88: [10]}
+predraw river report for tile (9,0)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027284B0>, <mtn.Mtn object at 0x027284F0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,0)
+river originPts: [(109, 8)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027284D0>, <mtn.Mtn object at 0x02728890>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (11,0)
+river originPts: [(111, 8)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728510>, <mtn.Mtn object at 0x02728530>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (12,0)
+river originPts: [(123, 5)], entryPtsXY: [(123, 5)] mtns: [<mtn.Mtn object at 0x02728570>, <mtn.Mtn object at 0x027285B0>, <mtn.Mtn object at 0x02728670>]
+river current (x,y) = (123,5), goodNextX = [122, 124]
+river current (x,y) = (122,6), goodNextX = [121, 122, 123]
+river current (x,y) = (123,7), goodNextX = [122, 123, 124]
+river current (x,y) = (122,8), goodNextX = [121, 122, 123]
+river xyPts: {122: [6, 8], 123: [5, 7, 9]} exitPts: {124: [10]}
+Adding river exit pt (124,10)
+riverExport = {124: [10]}
+predraw river report for tile (13,0)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027285F0>, <mtn.Mtn object at 0x027286B0>, <mtn.Mtn object at 0x02728930>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,0)
+river originPts: [(143, 6)], entryPtsXY: [(143, 6)] mtns: [<mtn.Mtn object at 0x02728630>, <mtn.Mtn object at 0x02728970>, <mtn.Mtn object at 0x027289D0>]
+river current (x,y) = (143,6), goodNextX = [144]
+river current (x,y) = (144,7), goodNextX = []
+river xyPts: {144: [7], 143: [6]} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,1)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027286F0>, <mtn.Mtn object at 0x02728A30>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,1)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027283B0>, <mtn.Mtn object at 0x027283F0>, <mtn.Mtn object at 0x02728AF0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,1)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728430>, <mtn.Mtn object at 0x02728B50>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (3,1)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,1)
+river originPts: [(45, 10)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (5,1)
+river originPts: [(56, 20)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,1)
+river originPts: [(63, 13)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728730>, <mtn.Mtn object at 0x02728BF0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (7,1)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728770>, <mtn.Mtn object at 0x02728C50>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,1)
+river originPts: [(90, 12)], entryPtsXY: [(88, 10)] mtns: [<mtn.Mtn object at 0x027287D0>, <mtn.Mtn object at 0x02728830>, <mtn.Mtn object at 0x02728850>, <mtn.Mtn object at 0x02728D70>]
+river current (x,y) = (88,10), goodNextX = [89]
+river current (x,y) = (89,11), goodNextX = [88, 89]
+river current (x,y) = (89,12), goodNextX = [88, 89]
+river current (x,y) = (88,13), goodNextX = [87, 88, 89]
+river current (x,y) = (88,14), goodNextX = [87, 88, 89]
+river current (x,y) = (87,15), goodNextX = [86, 87, 88]
+river current (x,y) = (87,16), goodNextX = [86, 87, 88]
+river current (x,y) = (88,17), goodNextX = [88, 89]
+river current (x,y) = (89,18), goodNextX = []
+river xyPts: {88: [10, 13, 14, 17], 89: [11, 12, 18], 87: [15, 16]} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,1)
+river originPts: [(90, 16)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728DB0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,1)
+river originPts: [(100, 18)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027288B0>, <mtn.Mtn object at 0x02728E10>, <mtn.Mtn object at 0x02728E50>, <mtn.Mtn object at 0x02728ED0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (11,1)
+river originPts: [(112, 19)], entryPtsXY: [(112, 19)] mtns: [<mtn.Mtn object at 0x02728550>, <mtn.Mtn object at 0x02728E90>, <mtn.Mtn object at 0x02728F30>]
+river xyPts: {112: [19]} exitPts: {113: [20]}
+Adding river exit pt (113,20)
+riverExport = {113: [20]}
+predraw river report for tile (12,1)
+river originPts: [], entryPtsXY: [(124, 10)] mtns: [<mtn.Mtn object at 0x02728590>, <mtn.Mtn object at 0x027285D0>, <mtn.Mtn object at 0x02728690>, <mtn.Mtn object at 0x027288D0>, <mtn.Mtn object at 0x02728910>]
+river current (x,y) = (124,10), goodNextX = [123, 124, 125]
+river current (x,y) = (123,11), goodNextX = [122, 123, 124]
+river current (x,y) = (122,12), goodNextX = [121, 122, 123]
+river current (x,y) = (122,13), goodNextX = [121, 122, 123]
+river current (x,y) = (122,14), goodNextX = [121, 122, 123]
+river current (x,y) = (121,15), goodNextX = [120, 121, 122]
+river current (x,y) = (120,16), goodNextX = [120, 121]
+river current (x,y) = (121,17), goodNextX = [120, 121, 122]
+river current (x,y) = (122,18), goodNextX = [121, 122, 123]
+river xyPts: {120: [16], 121: [15, 17, 19], 122: [12, 13, 14, 18], 123: [11], 124: [10]} exitPts: {122: [20]}
+Adding river exit pt (122,20)
+riverExport = {122: [20]}
+predraw river report for tile (13,1)
+river originPts: [(136, 13)], entryPtsXY: [(136, 13)] mtns: [<mtn.Mtn object at 0x02728610>, <mtn.Mtn object at 0x027286D0>, <mtn.Mtn object at 0x027288F0>, <mtn.Mtn object at 0x02728950>, <mtn.Mtn object at 0x027289B0>]
+river current (x,y) = (136,13), goodNextX = [135, 136, 137]
+river current (x,y) = (136,14), goodNextX = [135, 136, 137]
+river current (x,y) = (137,15), goodNextX = [136, 137, 138]
+river current (x,y) = (137,16), goodNextX = [136, 137, 138]
+river current (x,y) = (136,17), goodNextX = [135, 136, 137]
+river current (x,y) = (135,18), goodNextX = [134, 135, 136]
+river xyPts: {136: [13, 14, 17, 19], 137: [15, 16], 135: [18]} exitPts: {135: [20]}
+Adding river exit pt (135,20)
+riverExport = {135: [20]}
+predraw river report for tile (14,1)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728650>, <mtn.Mtn object at 0x02728990>, <mtn.Mtn object at 0x027289F0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,2)
+river originPts: [(2, 21)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728A50>, <mtn.Mtn object at 0x02728A90>, <mtn.Mtn object at 0x02728FB0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,2)
+river originPts: [(18, 30)], entryPtsXY: [(18, 30)] mtns: [<mtn.Mtn object at 0x02728A70>, <mtn.Mtn object at 0x02728AB0>, <mtn.Mtn object at 0x02728B10>, <mtn.Mtn object at 0x02728FF0>]
+river xyPts: {18: [30]} exitPts: {19: [31]}
+riverExport = {}
+predraw river report for tile (2,2)
+river originPts: [(23, 23)], entryPtsXY: [(23, 23)] mtns: [<mtn.Mtn object at 0x02728AD0>, <mtn.Mtn object at 0x02728B70>, <mtn.Mtn object at 0x02732070>]
+river current (x,y) = (23,23), goodNextX = [24]
+river current (x,y) = (24,24), goodNextX = [25]
+river current (x,y) = (25,25), goodNextX = [25, 26]
+river current (x,y) = (25,26), goodNextX = [26]
+river current (x,y) = (26,27), goodNextX = [27]
+river current (x,y) = (27,28), goodNextX = [27, 28]
+river xyPts: {24: [24], 25: [25, 26], 26: [27], 27: [28, 29], 23: [23]} exitPts: {27: [30]}
+Adding river exit pt (27,30)
+riverExport = {27: [30]}
+predraw river report for tile (3,2)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,2)
+river originPts: [(46, 28)], entryPtsXY: [(46, 28)] mtns: [<mtn.Mtn object at 0x02728BB0>]
+river current (x,y) = (46,28), goodNextX = [47]
+river xyPts: {46: [28], 47: [29]} exitPts: {46: [30]}
+Adding river exit pt (46,30)
+riverExport = {46: [30]}
+predraw river report for tile (5,2)
+river originPts: [(57, 23)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,2)
+river originPts: [(64, 24)], entryPtsXY: [(64, 24)] mtns: [<mtn.Mtn object at 0x02728C10>, <mtn.Mtn object at 0x02728CB0>]
+river current (x,y) = (64,24), goodNextX = [63, 64]
+river current (x,y) = (64,25), goodNextX = [63]
+river current (x,y) = (63,26), goodNextX = [62, 63]
+river current (x,y) = (62,27), goodNextX = [61, 62, 63]
+river current (x,y) = (62,28), goodNextX = [61, 62, 63]
+river xyPts: {64: [24, 25], 62: [27, 28, 29], 63: [26]} exitPts: {63: [30]}
+Adding river exit pt (63,30)
+riverExport = {63: [30]}
+predraw river report for tile (7,2)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728790>, <mtn.Mtn object at 0x02728C70>, <mtn.Mtn object at 0x02728CF0>, <mtn.Mtn object at 0x02728D30>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,2)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027287F0>, <mtn.Mtn object at 0x02728870>, <mtn.Mtn object at 0x02728D50>, <mtn.Mtn object at 0x02728D90>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,2)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728DD0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,2)
+river originPts: [(108, 22)], entryPtsXY: [(108, 22)] mtns: [<mtn.Mtn object at 0x02728E30>, <mtn.Mtn object at 0x02728E70>, <mtn.Mtn object at 0x02728EF0>]
+river current (x,y) = (108,22), goodNextX = [107, 108, 109]
+river current (x,y) = (107,23), goodNextX = [106, 107, 108]
+river current (x,y) = (108,24), goodNextX = [107, 108, 109]
+river current (x,y) = (109,25), goodNextX = [108, 109]
+river current (x,y) = (108,26), goodNextX = [107, 108, 109]
+river current (x,y) = (107,27), goodNextX = [106, 107, 108]
+river current (x,y) = (108,28), goodNextX = [107, 108, 109]
+river xyPts: {107: [23, 27], 108: [22, 24, 26, 28, 29], 109: [25]} exitPts: {108: [30]}
+Adding river exit pt (108,30)
+riverExport = {108: [30]}
+predraw river report for tile (11,2)
+river originPts: [], entryPtsXY: [(113, 20)] mtns: [<mtn.Mtn object at 0x02728EB0>, <mtn.Mtn object at 0x02728F50>]
+river current (x,y) = (113,20), goodNextX = [113, 114]
+river current (x,y) = (113,21), goodNextX = [114]
+river current (x,y) = (114,22), goodNextX = [114, 115]
+river current (x,y) = (114,23), goodNextX = [114, 115]
+river current (x,y) = (114,24), goodNextX = [114, 115]
+river current (x,y) = (114,25), goodNextX = [113, 114, 115]
+river current (x,y) = (113,26), goodNextX = [112, 113, 114]
+river current (x,y) = (114,27), goodNextX = [113, 114, 115]
+river current (x,y) = (114,28), goodNextX = [113, 114, 115]
+river xyPts: {113: [20, 21, 26], 114: [22, 23, 24, 25, 27, 28, 29]} exitPts: {114: [30]}
+Adding river exit pt (114,30)
+riverExport = {114: [30]}
+predraw river report for tile (12,2)
+river originPts: [(130, 25)], entryPtsXY: [(122, 20)] mtns: []
+river current (x,y) = (122,20), goodNextX = [121, 122, 123]
+river current (x,y) = (122,21), goodNextX = [121, 122, 123]
+river current (x,y) = (121,22), goodNextX = [120, 121, 122]
+river current (x,y) = (120,23), goodNextX = [120, 121]
+river current (x,y) = (120,24), goodNextX = [120, 121]
+river current (x,y) = (120,25), goodNextX = [120, 121]
+river current (x,y) = (120,26), goodNextX = [120, 121]
+river current (x,y) = (120,27), goodNextX = [120, 121]
+river current (x,y) = (121,28), goodNextX = [120, 121, 122]
+river xyPts: {120: [23, 24, 25, 26, 27], 121: [22, 28, 29], 122: [20, 21]} exitPts: {121: [30]}
+Adding river exit pt (121,30)
+riverExport = {121: [30]}
+predraw river report for tile (13,2)
+river originPts: [], entryPtsXY: [(135, 20)] mtns: [<mtn.Mtn object at 0x02728F90>]
+river current (x,y) = (135,20), goodNextX = [135, 136]
+river current (x,y) = (135,21), goodNextX = []
+river xyPts: {135: [20, 21]} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,2)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728A10>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,3)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728FD0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,3)
+river originPts: [(11, 34)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728B30>, <mtn.Mtn object at 0x02732030>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,3)
+river originPts: [], entryPtsXY: [(27, 30)] mtns: [<mtn.Mtn object at 0x02728B90>, <mtn.Mtn object at 0x02732090>]
+river current (x,y) = (27,30), goodNextX = [27, 28]
+river current (x,y) = (28,31), goodNextX = [29]
+river current (x,y) = (29,32), goodNextX = [28, 29]
+river current (x,y) = (28,33), goodNextX = [28, 29]
+river current (x,y) = (28,34), goodNextX = [28, 29]
+river current (x,y) = (29,35), goodNextX = [28, 29]
+river current (x,y) = (29,36), goodNextX = [28, 29]
+river current (x,y) = (29,37), goodNextX = [28, 29]
+river current (x,y) = (28,38), goodNextX = [27, 28, 29]
+river xyPts: {27: [30, 39], 28: [31, 33, 34, 38], 29: [32, 35, 36, 37]} exitPts: {28: [40]}
+Adding river exit pt (28,40)
+riverExport = {28: [40]}
+predraw river report for tile (3,3)
+river originPts: [(37, 35)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027320D0>, <mtn.Mtn object at 0x02732230>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,3)
+river originPts: [], entryPtsXY: [(46, 30)] mtns: [<mtn.Mtn object at 0x02728BD0>, <mtn.Mtn object at 0x027320F0>, <mtn.Mtn object at 0x02732110>, <mtn.Mtn object at 0x02732290>, <mtn.Mtn object at 0x027322F0>]
+river current (x,y) = (46,30), goodNextX = [45, 46, 47]
+river current (x,y) = (45,31), goodNextX = [44, 45, 46]
+river current (x,y) = (46,32), goodNextX = [45, 46, 47]
+river current (x,y) = (46,33), goodNextX = [45, 46, 47]
+river current (x,y) = (46,34), goodNextX = [45, 46, 47]
+river current (x,y) = (46,35), goodNextX = [45, 46, 47]
+river current (x,y) = (46,36), goodNextX = [45, 46, 47]
+river current (x,y) = (46,37), goodNextX = [45, 46, 47]
+river current (x,y) = (47,38), goodNextX = [46, 47, 48]
+river xyPts: {45: [31], 46: [30, 32, 33, 34, 35, 36, 37], 47: [38, 39]} exitPts: {46: [40]}
+Adding river exit pt (46,40)
+riverExport = {46: [40]}
+predraw river report for tile (5,3)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732130>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,3)
+river originPts: [], entryPtsXY: [(63, 30)] mtns: [<mtn.Mtn object at 0x02728C30>, <mtn.Mtn object at 0x02728CD0>, <mtn.Mtn object at 0x02732150>]
+river current (x,y) = (63,30), goodNextX = [62, 64]
+river current (x,y) = (62,31), goodNextX = [61]
+river current (x,y) = (61,32), goodNextX = [60]
+river current (x,y) = (60,33), goodNextX = [60, 61]
+river current (x,y) = (60,34), goodNextX = [60]
+river current (x,y) = (60,35), goodNextX = [60, 61]
+river current (x,y) = (61,36), goodNextX = [60, 61, 62]
+river current (x,y) = (62,37), goodNextX = [61, 62, 63]
+river current (x,y) = (63,38), goodNextX = [62, 63, 64]
+river xyPts: {64: [39], 60: [33, 34, 35], 61: [32, 36], 62: [31, 37], 63: [30, 38]} exitPts: {63: [40]}
+Adding river exit pt (63,40)
+riverExport = {63: [40]}
+predraw river report for tile (7,3)
+river originPts: [(75, 39)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728C90>, <mtn.Mtn object at 0x02728D10>, <mtn.Mtn object at 0x027323F0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,3)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732430>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,3)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02728DF0>, <mtn.Mtn object at 0x02732470>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,3)
+river originPts: [(107, 34)], entryPtsXY: [(108, 30)] mtns: [<mtn.Mtn object at 0x02728F10>]
+river current (x,y) = (108,30), goodNextX = [107, 108, 109]
+river current (x,y) = (107,31), goodNextX = [106, 107, 108]
+river current (x,y) = (107,32), goodNextX = [106, 107, 108]
+river current (x,y) = (106,33), goodNextX = [105, 106, 107]
+river current (x,y) = (107,34), goodNextX = [106, 107, 108]
+river current (x,y) = (108,35), goodNextX = [107, 108, 109]
+river current (x,y) = (109,36), goodNextX = [108, 109]
+river current (x,y) = (108,37), goodNextX = [107, 108, 109]
+river current (x,y) = (108,38), goodNextX = [107, 108, 109]
+river xyPts: {106: [33], 107: [31, 32, 34, 39], 108: [30, 35, 37, 38], 109: [36]} exitPts: {106: [40]}
+Adding river exit pt (106,40)
+riverExport = {106: [40]}
+predraw river report for tile (11,3)
+river originPts: [], entryPtsXY: [(114, 30)] mtns: [<mtn.Mtn object at 0x02728F70>, <mtn.Mtn object at 0x02732170>, <mtn.Mtn object at 0x027324D0>]
+river current (x,y) = (114,30), goodNextX = [113, 114, 115]
+river current (x,y) = (115,31), goodNextX = [114, 115, 116]
+river current (x,y) = (115,32), goodNextX = [114, 115, 116]
+river current (x,y) = (114,33), goodNextX = [113, 114]
+river current (x,y) = (113,34), goodNextX = [112, 113]
+river current (x,y) = (112,35), goodNextX = [111, 112, 113]
+river current (x,y) = (112,36), goodNextX = [111, 112, 113]
+river current (x,y) = (113,37), goodNextX = [112]
+river current (x,y) = (112,38), goodNextX = [111, 112, 113]
+river xyPts: {112: [35, 36, 38], 113: [34, 37], 114: [30, 33], 115: [31, 32], 111: [39]} exitPts: {112: [40]}
+Adding river exit pt (112,40)
+riverExport = {112: [40]}
+predraw river report for tile (12,3)
+river originPts: [(122, 32)], entryPtsXY: [(121, 30)] mtns: [<mtn.Mtn object at 0x027321B0>]
+river current (x,y) = (121,30), goodNextX = [120, 121, 122]
+river current (x,y) = (120,31), goodNextX = [120, 121]
+river current (x,y) = (120,32), goodNextX = [120, 121]
+river current (x,y) = (120,33), goodNextX = []
+river xyPts: {120: [31, 32, 33], 121: [30]} exitPts: {}
+riverExport = {}
+predraw river report for tile (13,3)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,3)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,4)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027321F0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,4)
+river originPts: [(18, 43)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732050>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,4)
+river originPts: [], entryPtsXY: [(28, 40)] mtns: [<mtn.Mtn object at 0x027320B0>]
+river current (x,y) = (28,40), goodNextX = [27, 28, 29]
+river current (x,y) = (29,41), goodNextX = [28, 29]
+river current (x,y) = (29,42), goodNextX = [28, 29]
+river current (x,y) = (28,43), goodNextX = [27, 28, 29]
+river current (x,y) = (28,44), goodNextX = [27, 28, 29]
+river current (x,y) = (29,45), goodNextX = [28, 29]
+river current (x,y) = (29,46), goodNextX = [28, 29]
+river current (x,y) = (29,47), goodNextX = [28, 29]
+river current (x,y) = (29,48), goodNextX = [28, 29]
+river xyPts: {28: [40, 43, 44], 29: [41, 42, 45, 46, 47, 48, 49]} exitPts: {28: [50]}
+Adding river exit pt (28,50)
+riverExport = {28: [50]}
+predraw river report for tile (3,4)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732250>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,4)
+river originPts: [], entryPtsXY: [(46, 40)] mtns: [<mtn.Mtn object at 0x027322B0>, <mtn.Mtn object at 0x02732310>, <mtn.Mtn object at 0x02732650>]
+river current (x,y) = (46,40), goodNextX = [47]
+river current (x,y) = (47,41), goodNextX = [47, 48]
+river current (x,y) = (47,42), goodNextX = [48]
+river current (x,y) = (48,43), goodNextX = [47, 48, 49]
+river current (x,y) = (49,44), goodNextX = [48, 49]
+river current (x,y) = (49,45), goodNextX = [48, 49]
+river current (x,y) = (48,46), goodNextX = [47, 48, 49]
+river current (x,y) = (49,47), goodNextX = [48, 49]
+river current (x,y) = (49,48), goodNextX = [48, 49]
+river xyPts: {48: [43, 46, 49], 49: [44, 45, 47, 48], 46: [40], 47: [41, 42]} exitPts: {48: [50]}
+Adding river exit pt (48,50)
+riverExport = {48: [50]}
+predraw river report for tile (5,4)
+river originPts: [(59, 43)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732330>, <mtn.Mtn object at 0x027323B0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,4)
+river originPts: [(63, 41)], entryPtsXY: [(63, 40)] mtns: [<mtn.Mtn object at 0x02732370>, <mtn.Mtn object at 0x027323D0>]
+river current (x,y) = (63,40), goodNextX = [62, 63, 64]
+river current (x,y) = (64,41), goodNextX = [63, 64, 65]
+river current (x,y) = (65,42), goodNextX = [64, 65, 66]
+river current (x,y) = (65,43), goodNextX = [64, 65, 66]
+river current (x,y) = (65,44), goodNextX = [64, 65, 66]
+river current (x,y) = (66,45), goodNextX = [65, 66, 67]
+river current (x,y) = (67,46), goodNextX = [66, 67, 68]
+river current (x,y) = (68,47), goodNextX = [67, 68, 69]
+river current (x,y) = (69,48), goodNextX = [68, 69]
+river xyPts: {64: [41], 65: [42, 43, 44], 66: [45], 67: [46], 68: [47, 49], 69: [48], 63: [40]} exitPts: {68: [50]}
+Adding river exit pt (68,50)
+riverExport = {68: [50]}
+predraw river report for tile (7,4)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732410>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,4)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732450>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,4)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732490>, <mtn.Mtn object at 0x027324B0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,4)
+river originPts: [(107, 49)], entryPtsXY: [(106, 40)] mtns: []
+river current (x,y) = (106,40), goodNextX = [105, 106, 107]
+river current (x,y) = (106,41), goodNextX = [105, 106, 107]
+river current (x,y) = (105,42), goodNextX = [104, 105, 106]
+river current (x,y) = (105,43), goodNextX = [104, 105, 106]
+river current (x,y) = (105,44), goodNextX = [104, 105, 106]
+river current (x,y) = (106,45), goodNextX = [105, 106, 107]
+river current (x,y) = (105,46), goodNextX = [104, 105, 106]
+river current (x,y) = (105,47), goodNextX = [104, 105, 106]
+river current (x,y) = (105,48), goodNextX = [104, 105, 106]
+river xyPts: {105: [42, 43, 44, 46, 47, 48], 106: [40, 41, 45, 49]} exitPts: {107: [50]}
+Adding river exit pt (107,50)
+riverExport = {107: [50]}
+predraw river report for tile (11,4)
+river originPts: [], entryPtsXY: [(112, 40)] mtns: [<mtn.Mtn object at 0x02732190>, <mtn.Mtn object at 0x027324F0>, <mtn.Mtn object at 0x02732510>]
+river current (x,y) = (112,40), goodNextX = [111, 112]
+river current (x,y) = (111,41), goodNextX = [110, 111, 112]
+river current (x,y) = (111,42), goodNextX = [110, 111, 112]
+river current (x,y) = (110,43), goodNextX = [110, 111]
+river current (x,y) = (110,44), goodNextX = [110, 111]
+river current (x,y) = (111,45), goodNextX = [110, 111, 112]
+river current (x,y) = (110,46), goodNextX = [110, 111]
+river current (x,y) = (110,47), goodNextX = [110, 111]
+river current (x,y) = (110,48), goodNextX = [110, 111]
+river xyPts: {112: [40], 110: [43, 44, 46, 47, 48, 49], 111: [41, 42, 45]} exitPts: {}
+riverExport = {}
+predraw river report for tile (12,4)
+river originPts: [(122, 42)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027321D0>, <mtn.Mtn object at 0x02732550>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (13,4)
+river originPts: [(130, 46)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,4)
+river originPts: [(147, 50)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,5)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732210>, <mtn.Mtn object at 0x02732590>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,5)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,5)
+river originPts: [], entryPtsXY: [(28, 50)] mtns: []
+river current (x,y) = (28,50), goodNextX = [27, 28, 29]
+river current (x,y) = (27,51), goodNextX = [26, 27, 28]
+river current (x,y) = (26,52), goodNextX = [25, 26, 27]
+river current (x,y) = (27,53), goodNextX = [26, 27, 28]
+river current (x,y) = (28,54), goodNextX = [27, 28, 29]
+river current (x,y) = (27,55), goodNextX = [26, 27, 28]
+river current (x,y) = (27,56), goodNextX = [26, 27, 28]
+river current (x,y) = (26,57), goodNextX = [25, 26, 27]
+river current (x,y) = (27,58), goodNextX = [26, 27, 28]
+river xyPts: {26: [52, 57], 27: [51, 53, 55, 56, 58, 59], 28: [50, 54]} exitPts: {26: [60]}
+Adding river exit pt (26,60)
+riverExport = {26: [60]}
+predraw river report for tile (3,5)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732270>, <mtn.Mtn object at 0x027325D0>, <mtn.Mtn object at 0x02732610>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,5)
+river originPts: [], entryPtsXY: [(48, 50)] mtns: [<mtn.Mtn object at 0x027322D0>, <mtn.Mtn object at 0x02732670>]
+river current (x,y) = (48,50), goodNextX = [48, 49]
+river current (x,y) = (48,51), goodNextX = [49]
+river current (x,y) = (49,52), goodNextX = [49]
+river current (x,y) = (49,53), goodNextX = [49]
+river current (x,y) = (49,54), goodNextX = []
+river xyPts: {48: [50, 51], 49: [52, 53, 54]} exitPts: {}
+riverExport = {}
+predraw river report for tile (5,5)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732350>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,5)
+river originPts: [(63, 59)], entryPtsXY: [(68, 50)] mtns: [<mtn.Mtn object at 0x02732390>]
+river current (x,y) = (68,50), goodNextX = [67, 68, 69]
+river current (x,y) = (68,51), goodNextX = [67, 68, 69]
+river current (x,y) = (68,52), goodNextX = [67, 68, 69]
+river current (x,y) = (68,53), goodNextX = [67, 68, 69]
+river current (x,y) = (67,54), goodNextX = [66, 67, 68]
+river current (x,y) = (67,55), goodNextX = [66, 67, 68]
+river current (x,y) = (67,56), goodNextX = [66, 67, 68]
+river current (x,y) = (67,57), goodNextX = [66, 67, 68]
+river current (x,y) = (68,58), goodNextX = [67, 68, 69]
+river xyPts: {67: [54, 55, 56, 57, 59], 68: [50, 51, 52, 53, 58]} exitPts: {67: [60]}
+Adding river exit pt (67,60)
+riverExport = {67: [60]}
+predraw river report for tile (7,5)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027326B0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,5)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,5)
+river originPts: [(98, 51)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,5)
+river originPts: [(109, 58)], entryPtsXY: [(107, 50)] mtns: []
+river current (x,y) = (107,50), goodNextX = [106, 107, 108]
+river current (x,y) = (107,51), goodNextX = [106, 107, 108]
+river current (x,y) = (108,52), goodNextX = [107, 108, 109]
+river current (x,y) = (107,53), goodNextX = [106, 107, 108]
+river current (x,y) = (106,54), goodNextX = [105, 106, 107]
+river current (x,y) = (106,55), goodNextX = [105, 106, 107]
+river current (x,y) = (105,56), goodNextX = [104, 105, 106]
+river current (x,y) = (104,57), goodNextX = [103, 104, 105]
+river current (x,y) = (105,58), goodNextX = [104, 105, 106]
+river xyPts: {104: [57, 59], 105: [56, 58], 106: [54, 55], 107: [50, 51, 53], 108: [52]} exitPts: {103: [60]}
+Adding river exit pt (103,60)
+riverExport = {103: [60]}
+predraw river report for tile (11,5)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732530>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (12,5)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732570>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (13,5)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,5)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,6)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027325B0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,6)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027326D0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,6)
+river originPts: [], entryPtsXY: [(26, 60)] mtns: []
+river current (x,y) = (26,60), goodNextX = [25, 26, 27]
+river current (x,y) = (26,61), goodNextX = [25, 26, 27]
+river current (x,y) = (25,62), goodNextX = [24, 25, 26]
+river current (x,y) = (26,63), goodNextX = [25, 26, 27]
+river current (x,y) = (26,64), goodNextX = [25, 26, 27]
+river current (x,y) = (27,65), goodNextX = [26, 27, 28]
+river current (x,y) = (27,66), goodNextX = [26, 27, 28]
+river current (x,y) = (28,67), goodNextX = [27, 28, 29]
+river current (x,y) = (29,68), goodNextX = [28, 29]
+river xyPts: {25: [62], 26: [60, 61, 63, 64], 27: [65, 66], 28: [67, 69], 29: [68]} exitPts: {29: [70]}
+Adding river exit pt (29,70)
+riverExport = {29: [70]}
+predraw river report for tile (3,6)
+river originPts: [(35, 62)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027325F0>, <mtn.Mtn object at 0x02732630>, <mtn.Mtn object at 0x027326F0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,6)
+river originPts: [(48, 63)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732690>, <mtn.Mtn object at 0x02732730>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (5,6)
+river originPts: [(60, 61)], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732770>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,6)
+river originPts: [], entryPtsXY: [(67, 60)] mtns: [<mtn.Mtn object at 0x027327B0>]
+river current (x,y) = (67,60), goodNextX = [66, 67, 68]
+river current (x,y) = (67,61), goodNextX = [66, 67, 68]
+river current (x,y) = (67,62), goodNextX = [66, 67, 68]
+river current (x,y) = (66,63), goodNextX = [65, 66, 67]
+river current (x,y) = (67,64), goodNextX = [66, 67, 68]
+river current (x,y) = (67,65), goodNextX = [66, 67, 68]
+river current (x,y) = (66,66), goodNextX = [65, 66, 67]
+river current (x,y) = (66,67), goodNextX = [65, 66, 67]
+river current (x,y) = (67,68), goodNextX = [66, 67, 68]
+river xyPts: {66: [63, 66, 67, 69], 67: [60, 61, 62, 64, 65, 68]} exitPts: {65: [70]}
+Adding river exit pt (65,70)
+riverExport = {65: [70]}
+predraw river report for tile (7,6)
+river originPts: [(78, 64)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,6)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,6)
+river originPts: [(98, 64)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,6)
+river originPts: [(103, 69)], entryPtsXY: [(103, 60)] mtns: []
+river current (x,y) = (103,60), goodNextX = [102, 103, 104]
+river current (x,y) = (103,61), goodNextX = [102, 103, 104]
+river current (x,y) = (104,62), goodNextX = [103, 104, 105]
+river current (x,y) = (105,63), goodNextX = [104, 105, 106]
+river current (x,y) = (105,64), goodNextX = [104, 105, 106]
+river current (x,y) = (106,65), goodNextX = [105, 106, 107]
+river current (x,y) = (105,66), goodNextX = [104, 105, 106]
+river current (x,y) = (104,67), goodNextX = [103, 104, 105]
+river current (x,y) = (104,68), goodNextX = [103, 104, 105]
+river xyPts: {104: [62, 67, 68], 105: [63, 64, 66], 106: [65], 103: [60, 61, 69]} exitPts: {103: [70]}
+Adding river exit pt (103,70)
+riverExport = {103: [70]}
+predraw river report for tile (11,6)
+river originPts: [(117, 62)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (12,6)
+river originPts: [(129, 64)], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (13,6)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x027327D0>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,6)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,7)
+river originPts: [], entryPtsXY: [(29, 70)] mtns: []
+river current (x,y) = (29,70), goodNextX = [28, 29]
+river current (x,y) = (28,71), goodNextX = [27, 28, 29]
+river current (x,y) = (27,72), goodNextX = [26, 27, 28]
+river current (x,y) = (27,73), goodNextX = [26, 27, 28]
+river current (x,y) = (28,74), goodNextX = [27, 28, 29]
+river current (x,y) = (28,75), goodNextX = [27, 28, 29]
+river current (x,y) = (29,76), goodNextX = [28, 29]
+river current (x,y) = (29,77), goodNextX = [28, 29]
+river current (x,y) = (28,78), goodNextX = [27, 28, 29]
+river xyPts: {27: [72, 73, 79], 28: [71, 74, 75, 78], 29: [70, 76, 77]} exitPts: {26: [80]}
+Adding river exit pt (26,80)
+riverExport = {26: [80]}
+predraw river report for tile (3,7)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732710>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,7)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732750>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (5,7)
+river originPts: [], entryPtsXY: [] mtns: [<mtn.Mtn object at 0x02732790>]
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,7)
+river originPts: [], entryPtsXY: [(65, 70)] mtns: []
+river current (x,y) = (65,70), goodNextX = [64, 65, 66]
+river current (x,y) = (64,71), goodNextX = [63, 64, 65]
+river current (x,y) = (63,72), goodNextX = [62, 63, 64]
+river current (x,y) = (62,73), goodNextX = [61, 62, 63]
+river current (x,y) = (62,74), goodNextX = [61, 62, 63]
+river current (x,y) = (61,75), goodNextX = [60, 61, 62]
+river current (x,y) = (60,76), goodNextX = [60, 61]
+river current (x,y) = (61,77), goodNextX = [60, 61, 62]
+river current (x,y) = (62,78), goodNextX = [61, 62, 63]
+river xyPts: {64: [71], 65: [70], 60: [76], 61: [75, 77], 62: [73, 74, 78, 79], 63: [72]} exitPts: {61: [80]}
+Adding river exit pt (61,80)
+riverExport = {61: [80]}
+predraw river report for tile (7,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,7)
+river originPts: [], entryPtsXY: [(103, 70)] mtns: []
+river current (x,y) = (103,70), goodNextX = [102, 103, 104]
+river current (x,y) = (104,71), goodNextX = [103, 104, 105]
+river current (x,y) = (103,72), goodNextX = [102, 103, 104]
+river current (x,y) = (104,73), goodNextX = [103, 104, 105]
+river current (x,y) = (103,74), goodNextX = [102, 103, 104]
+river current (x,y) = (103,75), goodNextX = [102, 103, 104]
+river current (x,y) = (104,76), goodNextX = [103, 104, 105]
+river current (x,y) = (104,77), goodNextX = [103, 104, 105]
+river current (x,y) = (103,78), goodNextX = [102, 103, 104]
+river xyPts: {104: [71, 73, 76, 77], 103: [70, 72, 74, 75, 78, 79]} exitPts: {103: [80]}
+Adding river exit pt (103,80)
+riverExport = {103: [80]}
+predraw river report for tile (11,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (12,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (13,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,7)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (0,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (1,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (2,8)
+river originPts: [], entryPtsXY: [(26, 80)] mtns: []
+river current (x,y) = (26,80), goodNextX = [25, 26, 27]
+river current (x,y) = (26,81), goodNextX = [25, 26, 27]
+river current (x,y) = (26,82), goodNextX = [25, 26, 27]
+river current (x,y) = (25,83), goodNextX = [24, 25, 26]
+river current (x,y) = (24,84), goodNextX = [23, 24, 25]
+river current (x,y) = (24,85), goodNextX = [23, 24, 25]
+river current (x,y) = (23,86), goodNextX = [22, 23, 24]
+river current (x,y) = (24,87), goodNextX = [23, 24, 25]
+river current (x,y) = (24,88), goodNextX = [23, 24, 25]
+river xyPts: {24: [84, 85, 87, 88], 25: [83], 26: [80, 81, 82], 23: [86, 89]} exitPts: {23: [90]}
+Adding river exit pt (23,90)
+riverExport = {23: [90]}
+predraw river report for tile (3,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (4,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (5,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (6,8)
+river originPts: [], entryPtsXY: [(61, 80)] mtns: []
+river current (x,y) = (61,80), goodNextX = [60, 61, 62]
+river current (x,y) = (61,81), goodNextX = [60, 61, 62]
+river current (x,y) = (62,82), goodNextX = [61, 62, 63]
+river current (x,y) = (63,83), goodNextX = [62, 63, 64]
+river current (x,y) = (62,84), goodNextX = [61, 62, 63]
+river current (x,y) = (61,85), goodNextX = [60, 61, 62]
+river current (x,y) = (61,86), goodNextX = [60, 61, 62]
+river current (x,y) = (62,87), goodNextX = [61, 62, 63]
+river current (x,y) = (63,88), goodNextX = [62, 63, 64]
+river xyPts: {61: [80, 81, 85, 86], 62: [82, 84, 87, 89], 63: [83, 88]} exitPts: {63: [90]}
+Adding river exit pt (63,90)
+riverExport = {63: [90]}
+predraw river report for tile (7,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (8,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (9,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (10,8)
+river originPts: [], entryPtsXY: [(103, 80)] mtns: []
+river current (x,y) = (103,80), goodNextX = [102, 103, 104]
+river current (x,y) = (103,81), goodNextX = [102, 103, 104]
+river current (x,y) = (102,82), goodNextX = [101, 102, 103]
+river current (x,y) = (102,83), goodNextX = [101, 102, 103]
+river current (x,y) = (103,84), goodNextX = [102, 103, 104]
+river current (x,y) = (103,85), goodNextX = [102, 103, 104]
+river current (x,y) = (104,86), goodNextX = [103, 104, 105]
+river current (x,y) = (105,87), goodNextX = [104, 105, 106]
+river current (x,y) = (104,88), goodNextX = [103, 104, 105]
+river xyPts: {104: [86, 88], 105: [87, 89], 102: [82, 83], 103: [80, 81, 84, 85]} exitPts: {106: [90]}
+Adding river exit pt (106,90)
+riverExport = {106: [90]}
+predraw river report for tile (11,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (12,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (13,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+predraw river report for tile (14,8)
+river originPts: [], entryPtsXY: [] mtns: []
+river xyPts: {} exitPts: {}
+riverExport = {}
+                              
 
-  1  1  2  2  3  2  2  1  1   
+                              
 
-  1  2  3  3  4  3  3  *  1   
+                              
 
-  1  2  3  4  5  4  3  2  *   
+                              
 
-  2  3  4  5  6  5  4  3  2  *
+                             1
 
-  1  2  3  4  5  4  3  2  1   
+                             1
 
-  1  2  3  3  4  3  3  2  1   
+                          1  2
 
-  1  1  2  2  3  2  2  1  1   
+                             1
 
-     1  1  1  2  1  1  1      
+                             1
 
-              1               
+                              
 
 w/a/s/d or q: 

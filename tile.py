@@ -135,7 +135,7 @@ class Tile:
     def draw(self, drawMtns):
         '''Currently "drawing" the tile just means print it out in glorious ASCII'''
     
-        if(PARAM_DEBUG_EN_MTNS):
+        if(PARAM_DEBUG_EN_GENERAL):
             print("Tile ("+str(self.x)+","+str(self.y)+"), seed "+str(self.seed))
         
         for y in range(self.y*self.tDim,self.y*self.tDim+self.tDim):

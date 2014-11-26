@@ -1,7 +1,7 @@
 '''A collection of "constants"/parameters'''
 
-PARAM_DEBUG_EN_GENERAL      = 0         #general debugging, not specific to mtns, rivers, etc.
-PARAM_DEBUG_EN_RIVERS       = 0         #enable river debug messages
+PARAM_DEBUG_EN_GENERAL      = 1         #general debugging, not specific to mtns, rivers, etc.
+PARAM_DEBUG_EN_RIVERS       = 1         #enable river debug messages
 PARAM_DEBUG_EN_MTNS         = 0         #enable mtn debug messages
 PARAM_DEBUG_EN_BEACHES      = 1         #enable beach debugging
 

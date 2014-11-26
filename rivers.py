@@ -83,12 +83,19 @@ class Rivers:
                 
                 ry += 1
                 if (ry >= self.y + self.tDim):
-                    '''river continues into the next river tile'''
-                    exitX = rx+random.randint(-1,1)
-                    if(exitX >= self.x and exitX < self.x + self.tDim):
-                        if (exitX not in self.exitPts):
-                            self.exitPts[exitX] = []
-                        self.exitPts[exitX].append(ry)
+                    '''river continues into the next river tile. Note that this may place a river at the base of mountain
+                    in that next tile, but that's a minor issue and shouldn't look bad on the final map.'''
+                    goodExitX = []
+                    for nextX in range(rx-1,rx+2):
+                        if (nextX < self.x or nextX >= self.x+self.tDim):
+                            continue
+                        goodExitX.append(nextX)
+                    if not goodExitX:
+                        break
+                    exitX = random.choice(goodExitX)
+                    if exitX not in self.exitPts:
+                        self.exitPts[exitX] = []
+                    self.exitPts[exitX].append(ry)
                     break
                 
                 goodNextX = []
