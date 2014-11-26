@@ -2,6 +2,7 @@ import random
 from params import *
 import mtn
 import rivers
+import beach
 
 class Tile:
     '''Tile class to combine mountains, rivers, etc.'''
@@ -48,9 +49,10 @@ class Tile:
             self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), random.randint(0,maxRivers),\
                                str(random.randint(0,PARAM_MAX_SEED_VAL))))
         
-        '''nothing special for ocean type yet'''
-        #else:   #tileType = "ocean"
-            
+        elif (tileType == "beach"):
+            self.beach = beach.Beach((self.x*self.tDim,self.y*self.tDim), str(random.randint(0,PARAM_MAX_SEED_VAL)))
+            self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), random.randint(0,maxRivers),\
+                               str(random.randint(0,PARAM_MAX_SEED_VAL))))
             
     def point2TileDist2(self, thisX, thisY, tileX, tileY):
         ''' compute distance squared between this tile's global (x,y) and the closest point
@@ -125,6 +127,10 @@ class Tile:
             
         return riverExport
         
+    def preDrawBeachReport(self, inputXY):
+        self.beach.preDrawBeachReport(inputXY)
+        return self.beach.exitPtXY
+
         
     def draw(self, drawMtns):
         '''Currently "drawing" the tile just means print it out in glorious ASCII'''
@@ -135,10 +141,21 @@ class Tile:
         for y in range(self.y*self.tDim,self.y*self.tDim+self.tDim):
             for x in range(self.x*self.tDim,self.x*self.tDim+self.tDim):
             
-                if(self.tileType == "ocean"):
+                if(self.tileType == "ocean"):   #ocean tiles are only water
                     altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"W"
                     
-                else:    
+                elif(self.tileType == "beach"): #beaches are the interface between ocean tiles and others
+                
+                    if (y > self.beach.xyPts[x]):
+                        altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"W"
+                    else:
+                        altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+" "
+                        for r in self.rivers:
+                            if(x in r.xyPts):
+                                if(y in r.xyPts[x]):
+                                    altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"*"                    
+                           
+                else:   #generic tile with mountains, rivers, etc.   
                     altTot = 0
                     for m in drawMtns:                
                         altPk = m.altAtXY(x,y)

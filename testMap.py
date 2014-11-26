@@ -19,6 +19,7 @@ def testMap():
     '''
        
     testMap.preDrawMtns()
+    testMap.preDrawBeaches()
     testMap.preDrawRivers()
       
     while(True):

@@ -22,23 +22,20 @@ class Map:
                 random.seed(int(self.seed)+nx*y+x)
                 
                 '''determine max number of mtns, rivers, etc. for this tile based on its global location'''
-                if y > 75*self.ny/100:      #lower 25% of map
+                if y >= 70*self.ny/100:      #lower 30% of map
                     maxMtns = 0
                     maxRivers = 0
-                elif y > 25*self.ny/100:    #middle 50%
+                elif y >= 30*self.ny/100:    #middle of map
                     maxMtns = 1
                     maxRivers = 1
-                else:                       #top 25%
+                else:                       #top 30%
                     maxMtns = 2
                     maxRivers = 1
                 
                 if(y == self.ny-1):
                     tileType = "ocean"
                 elif(y == self.ny-2):
-                    if(random.randint(0,1)):
-                        tileType = "ocean"
-                    else:
-                        tileType = "generic"
+                    tileType = "beach"
                 else:    
                     tileType = "generic"
                 
@@ -108,14 +105,28 @@ class Map:
                             if y+1 not in riverEntryPerTile[x]:
                                 riverEntryPerTile[x][y+1] = []
                             riverEntryPerTile[x][y+1].append((exitX,exitY))
-                                        
+
+    def preDrawBeaches(self):
+        '''pass beach info between tiles. Currently only supports a single horizontal row of beach tiles, will add more 
+        support later. '''
+        for tileY in range(0,self.ny):
+            if(self.tiles[0][tileY].tileType == "beach"):
+                inputXY = [0,tileY*self.tiles[0][0].tDim+random.randint(0,self.tiles[0][0].tDim-1)]
+                for tileX in range(0,self.nx):
+                    thisBeach = self.tiles[tileX][tileY]
+                    assert thisBeach.tileType == "beach"
+                    if(PARAM_DEBUG_EN_BEACHES):
+                        print("beach xy input to tile "+str((tileX,tileY))+": "+str(inputXY))
+                    inputXY = thisBeach.preDrawBeachReport(inputXY)
+                        
+                            
     def drawMap(self, filename):
         '''draw the entire map - output to file'''
     
         '''No Need for now since testMap.py will call these'''  
         #self.preDrawMtns()
-        #self.preDrawRivers()
-        
+        #self.preDrawBeaches()
+        #self.preDrawRivers()       
     
         f = open(filename,'w')
     
@@ -145,7 +156,17 @@ class Map:
                     
                         if(tileType == "ocean"):
                             altStr = " "*int(PARAM_MAP_PRINT_WIDTH-1)+"W"
-                         
+                    
+                        elif(tileType == "beach"):
+                            if (y > self.tiles[tileX][tileY].beach.xyPts[x]):
+                                altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"W"
+                            else:
+                                altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+" "
+                                for r in self.tiles[tileX][tileY].rivers:
+                                    if(x in r.xyPts):
+                                        if(y in r.xyPts[x]):
+                                            altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"*"
+                    
                         else: #Generic tile type, handle mountains and rivers
                     
                             altTot = 0

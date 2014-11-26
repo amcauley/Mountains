@@ -1,12 +1,16 @@
 TODO LIST
 
+CODE CLEANUP!!!!
+
 __GIMP PLUGIN__
 not very robust, also needs cleanup (e.g. don't hard-code values if possible)
 read file input as a parameter?
 automatically save output file?
 
 __GENERAL__
-Need a Beach tile to interface between ocean and other tiles
+seed 99 on 15 wide x 10 high map, second river ends at pixel 110,49 - find out why
+rivers, mountains, etc. need drawXY methods to unify the per-tile and map-wide drawing functions
+modify beach to work vertically as well as horizontally
 "tile.Tile(x,y,maxMtns,maxRivers..." : move these max<X> variables into a list or dictionary for passing to function
 Restrict rivers to starting on mountain/certain elevations - maybe
 Generalize river propagation for rivers extending to adjacent, not just below tiles
