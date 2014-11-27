@@ -6,16 +6,14 @@ __GIMP PLUGIN__
 not very robust, also needs cleanup (e.g. don't hard-code values if possible)
 read file input as a parameter?
 automatically save output file?
+Contour maps
 
 __GENERAL__
-rivers, mountains, etc. need drawXY methods to unify the per-tile and map-wide drawing functions
 modify beach to work vertically as well as horizontally
 "tile.Tile(x,y,maxMtns,maxRivers..." : move these max<X> variables into a list or dictionary for passing to function
-Restrict rivers to starting on mountain/certain elevations - maybe
 Generalize river propagation for rivers extending to adjacent, not just below tiles
-Unify drawing for tile vs maps, e.g. map draw can call tile draw can call mtn/river draw(x,y coord input)
 mtns could have a method that takes in all mtns that impact that tile and return the altitude at (x,y)
-Contour maps
 Add noise to mtns
+shouldn't need to pass mountain list as argument to draw methods - store mountain input per tile in that tile itself
 Different x,y slopes
 Allow arbitrary characters in random seed

@@ -1,14 +1,14 @@
 '''A collection of "constants"/parameters'''
 
-PARAM_DEBUG_EN_GENERAL      = 1         #general debugging, not specific to mtns, rivers, etc.
-PARAM_DEBUG_EN_RIVERS       = 1         #enable river debug messages
+PARAM_DEBUG_EN_GENERAL      = 0         #general debugging, not specific to mtns, rivers, etc.
+PARAM_DEBUG_EN_RIVERS       = 0         #enable river debug messages
 PARAM_DEBUG_EN_MTNS         = 0         #enable mtn debug messages
-PARAM_DEBUG_EN_BEACHES      = 1         #enable beach debugging
+PARAM_DEBUG_EN_BEACHES      = 0         #enable beach debugging
 
-PARAM_MAP_SEED              = '99'       #map seed, should be a string less than or equal to 10 chars
+PARAM_MAP_SEED              = '97'       #map seed, should be a string less than or equal to 10 chars
 
-PARAM_MAP_SIZE_X            = 15         #number of x tiles in the map
-PARAM_MAP_SIZE_Y            = 10         #number of y tiles in the map
+PARAM_MAP_SIZE_X            = 20         #number of x tiles in the map
+PARAM_MAP_SIZE_Y            = 14         #number of y tiles in the map
 
 PARAM_TILE_SIZE             = 10        #tile size - note that tile randomization might not work as expected yet with other values
 

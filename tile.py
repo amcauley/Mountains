@@ -131,53 +131,62 @@ class Tile:
         self.beach.preDrawBeachReport(inputXY)
         return self.beach.exitPtXY
 
+    def drawXY(self, x, y, drawMtns):
+        '''determine the string to write ("draw") for the given map X,Y location'''
+        
+        baseStr = " "*(PARAM_MAP_PRINT_WIDTH-1)
+        outStr = baseStr + " "
+        
+        if(self.tileType == "ocean"):   #ocean tiles are only water
+            outStr = baseStr + "W"
+            
+        elif(self.tileType == "beach"):
+            if (y > self.beach.xyPts[x]):
+                outStr = baseStr + "W"
+            else:
+                outStr = baseStr +" "
+                for r in self.rivers:
+                    if(x in r.xyPts):
+                        if(y in r.xyPts[x]):
+                            outStr = baseStr + "*"
+            
+        elif(self.tileType == "generic"):
+            altTot = 0
+            for m in drawMtns:                
+                altPk = m.altAtXY(x,y)
+                if(altPk > 0):
+                    altTot += altPk
+        
+            if(altTot > 0):
+                altStr = str(altTot)
+                if(len(altStr) < PARAM_MAP_PRINT_WIDTH):
+                    outStr = " "*(PARAM_MAP_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
+                elif(len(altStr) > PARAM_MAP_PRINT_WIDTH):
+                    outStr = altStr[-PARAM_MAP_PRINT_WIDTH:]
+        
+            for r in self.rivers:
+                if(x in r.xyPts):
+                    if(y in r.xyPts[x]):
+                        outStr = baseStr + "*" 
+        
+        if(PARAM_DEBUG_EN_GENERAL):
+            print(str((x,y))+" tileType "+str(self.tileType)+" outStr '"+outStr+"'")
+        
+        return outStr
+        
         
     def draw(self, drawMtns):
         '''Currently "drawing" the tile just means print it out in glorious ASCII'''
-    
+        
         if(PARAM_DEBUG_EN_GENERAL):
             print("Tile ("+str(self.x)+","+str(self.y)+"), seed "+str(self.seed))
         
         for y in range(self.y*self.tDim,self.y*self.tDim+self.tDim):
             for x in range(self.x*self.tDim,self.x*self.tDim+self.tDim):
-            
-                if(self.tileType == "ocean"):   #ocean tiles are only water
-                    altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"W"
-                    
-                elif(self.tileType == "beach"): #beaches are the interface between ocean tiles and others
-                
-                    if (y > self.beach.xyPts[x]):
-                        altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"W"
-                    else:
-                        altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+" "
-                        for r in self.rivers:
-                            if(x in r.xyPts):
-                                if(y in r.xyPts[x]):
-                                    altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"*"                    
-                           
-                else:   #generic tile with mountains, rivers, etc.   
-                    altTot = 0
-                    for m in drawMtns:                
-                        altPk = m.altAtXY(x,y)
-                        if(altPk > 0):
-                            altTot += altPk
-                        
-                    altStr = " "*PARAM_MAP_PRINT_WIDTH
-                    if(altTot > 0):
-                        altStr = str(altTot)
-                        if(len(altStr) < PARAM_MAP_PRINT_WIDTH):
-                            altStr = " "*(PARAM_MAP_PRINT_WIDTH-len(altStr))+altStr[-len(altStr):]
-                        elif(len(altStr) > PARAM_MAP_PRINT_WIDTH):
-                            altStr = altStr[-PARAM_MAP_PRINT_WIDTH:]
-                            
-                    '''rivers take precedence over mtns for initial testing'''
-                    #TODO: address case of multiple rivers per tile
-                    for r in self.rivers:
-                        if(x in r.xyPts):
-                            if(y in r.xyPts[x]):
-                                altStr = " "*(PARAM_MAP_PRINT_WIDTH-1)+"*"
-                        
-                print(altStr, end="")
+                xyStr = self.drawXY(x,y,drawMtns)
+                print(xyStr, end="")
                 
             print("\n")
+            
+            
                     

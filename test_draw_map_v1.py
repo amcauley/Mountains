@@ -56,23 +56,42 @@ def draw_map_v1(img, layer) :
     print("Success")
     
     # Indicates that the process has started.
-    gimp.progress_init("Drawing map " + layer.name + "...")
+    # DISABLED for now - was leading to an annoying error message about some GIMP backend issue
+    # gimp.progress_init("Drawing map...")
 
     # Set up an undo group, so the operation will be undone in one step.
     pdb.gimp_image_undo_group_start(img)
 
-    '''Consume first two lines of map, which contain the header info'''
+    '''Read the first two lines of map, which contain the header info/formatting. Parse it to get useful info.
+    Note: Refer to the drawMap method in map.py to see where this formatting is coming from.'''
     mapLine = f.readline()
+    mapWidthEnd = mapLine.find(" x ")
+    mapWidth = int(mapLine[0:mapWidthEnd])
+    mapHeightEnd = mapLine.find(",")
+    mapHeight = int(mapLine[mapWidthEnd+3:mapHeightEnd]) #+3 for the width of " x "
+    
+    print("Map size: "+str(mapWidth)+" x "+str(mapHeight))
+    
+    ''' perform the resizing '''
+    pdb.gimp_image_scale(img, mapWidth, mapHeight)
+    
+    
+    ''' consumes the top border. '''
     mapLine = f.readline()
     
     # Iterate over all the pixels and convert them to gray.
     try:
+        prevDonePcnt = -1
         for y in range(layer.height):
             # Update the progress bar.
-            gimp.progress_update(float(y) / float(layer.height))
+            # gimp.progress_update(float(y) / float(layer.height))
+            donePcnt = int((y*100) / layer.height)
+            if((donePcnt%5 == 0) and (donePcnt != prevDonePcnt)): 
+                print(str(donePcnt)+"% done...")
+                prevDonePcnt = donePcnt
 
             mapLine = f.readline()
-            print("mapLine for line "+str(y)+": "+mapLine)
+            # print("mapLine for line "+str(y)+": "+mapLine)
             
             for x in range(layer.width):
                 # Get the pixel and verify that is an RGB value.
@@ -86,7 +105,7 @@ def draw_map_v1(img, layer) :
             
                 if(len(pixel) >= 3):
                     # Determine pixel color based on map input
-                    print("Pixel "+str((x,y))+" map value: "+xyStr)
+                    # print("Pixel "+str((x,y))+" map value: "+xyStr)
                     # First remove whitespace from both ends
                     xyStr = xyStr.strip()
                     pixValR = 40
@@ -118,7 +137,8 @@ def draw_map_v1(img, layer) :
     pdb.gimp_image_undo_group_end(img)
     
     # End progress.
-    pdb.gimp_progress_end()
+    # pdb.gimp_progress_end()
+    print("Done!")
 
 '''Disable the rest of this file (register and main) for in-console GIMP debugging, then, in the python-fu console:
     import sys
