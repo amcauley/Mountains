@@ -28,10 +28,6 @@ class Map:
             idx = zStr.find(" ")
             zType = zStr[0:idx]
             
-            if(zType != "generic"):
-                print("no zone support for non-generic type tiles yet")
-                assert(0)
-            
             zStr = zStr[idx+1:]
             idx = zStr.find(" ")
             zMaxMtns = int(zStr[0:idx])
@@ -49,7 +45,14 @@ class Map:
             if not zStr:
                 break
             '''next zoneId is the y value at which it takes effect'''
-            zoneId = int((int(zStr)*self.ny)/100)
+            zStr = zStr[0:-1]
+            if zStr[-1] == "%":
+                zStr = zStr[0:-1]
+                zoneId = int((int(zStr)*self.ny)/100)
+            else:
+                zoneId = int(zStr)
+                if(zoneId < 0):
+                    zoneId = self.ny + zoneId
                 
         for x in range(0,nx):
             self.tiles.append([])
@@ -71,25 +74,6 @@ class Map:
                     
                 if(PARAM_DEBUG_EN_ZONES):
                     print("tile "+str((x,y))+" current zone "+str(currentZone))
-                
-                
-                #'''determine max number of mtns, rivers, etc. for this tile based on its global location'''
-                #if y >= 70*self.ny/100:      #lower 30% of map
-                #    maxMtns = 0
-                #    maxRivers = 0
-                #elif y >= 30*self.ny/100:    #middle of map
-                #    maxMtns = 1
-                #    maxRivers = 1
-                #else:                        #top 30%
-                #    maxMtns = 2
-                #    maxRivers = 1
-                
-                #if(y == self.ny-1):
-                #    tileType = "ocean"
-                #elif(y == self.ny-2):
-                #    tileType = "beach"
-                #else:    
-                #    tileType = "generic"
                 
                 '''create the tile'''
                 if(PARAM_DEBUG_EN_GENERAL):

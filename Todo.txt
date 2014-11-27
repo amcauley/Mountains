@@ -1,10 +1,6 @@
 TODO LIST
 
 __ZONING__
-support for oceans and beaches
-    - support for last tile, 1 from last, 1st tile, 2nd, etc instead of only percentages
-        -maybe enter "y%" to represent location as a percentage, "y" interpreted as absolute
-        y value, "-y" counts from the end point. assert if absolute values go out of range
 also support zoning based on x values
 
 __GIMP PLUGIN__

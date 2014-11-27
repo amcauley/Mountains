@@ -1,7 +1,11 @@
 generic 2 1
-20
+20%
 generic 0 0
-60
+60%
 generic 1 1
-80
+80%
 generic 0 0
+-3
+beach 0 0
+-2
+ocean 0 0
