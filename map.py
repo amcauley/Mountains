@@ -16,28 +16,80 @@ class Map:
         else:
             self.seed = seed
         
+        '''read in starting zone info'''
+        zf = open('zones.txt','r')
+  
+        '''zone key is the y location above which next zone takes effect'''
+        self.zones = {}
+        zoneId = 0
+        while(True):
+            zStr = zf.readline()
+            
+            idx = zStr.find(" ")
+            zType = zStr[0:idx]
+            
+            if(zType != "generic"):
+                print("no zone support for non-generic type tiles yet")
+                assert(0)
+            
+            zStr = zStr[idx+1:]
+            idx = zStr.find(" ")
+            zMaxMtns = int(zStr[0:idx])
+            zStr = zStr[idx+1:]
+            idx = zStr.find("\n") 
+            zMaxRivers = int(zStr[0:idx])
+            
+            if(PARAM_DEBUG_EN_ZONES):
+                print("new zone: id "+str(zoneId)+", "+str([zType,zMaxMtns,zMaxRivers]))
+            
+            self.zones[zoneId] = [zType,zMaxMtns,zMaxRivers]
+            
+            '''check when the next zone will take effect (if any exist)'''
+            zStr = zf.readline()
+            if not zStr:
+                break
+            '''next zoneId is the y value at which it takes effect'''
+            zoneId = int((int(zStr)*self.ny)/100)
+                
         for x in range(0,nx):
             self.tiles.append([])
+            
+            currentZone = self.zones[0] #should get picked up below anyway, but a good safety precaution to initialize anyway
+            tileType = currentZone[0]
+            maxMtns = currentZone[1]
+            maxRivers = currentZone[2]
+            
             for y in range(0,ny):
                 random.seed(int(self.seed)+nx*y+x)
                 
-                '''determine max number of mtns, rivers, etc. for this tile based on its global location'''
-                if y >= 70*self.ny/100:      #lower 30% of map
-                    maxMtns = 0
-                    maxRivers = 0
-                elif y >= 30*self.ny/100:    #middle of map
-                    maxMtns = 1
-                    maxRivers = 1
-                else:                        #top 30%
-                    maxMtns = 2
-                    maxRivers = 1
+                '''read in zoning info for the current zone. switch to new zone if needed.'''
+                if y in self.zones:
+                    currentZone = self.zones[y]
+                    tileType = currentZone[0]
+                    maxMtns = currentZone[1]
+                    maxRivers = currentZone[2]                    
+                    
+                if(PARAM_DEBUG_EN_ZONES):
+                    print("tile "+str((x,y))+" current zone "+str(currentZone))
                 
-                if(y == self.ny-1):
-                    tileType = "ocean"
-                elif(y == self.ny-2):
-                    tileType = "beach"
-                else:    
-                    tileType = "generic"
+                
+                #'''determine max number of mtns, rivers, etc. for this tile based on its global location'''
+                #if y >= 70*self.ny/100:      #lower 30% of map
+                #    maxMtns = 0
+                #    maxRivers = 0
+                #elif y >= 30*self.ny/100:    #middle of map
+                #    maxMtns = 1
+                #    maxRivers = 1
+                #else:                        #top 30%
+                #    maxMtns = 2
+                #    maxRivers = 1
+                
+                #if(y == self.ny-1):
+                #    tileType = "ocean"
+                #elif(y == self.ny-2):
+                #    tileType = "beach"
+                #else:    
+                #    tileType = "generic"
                 
                 '''create the tile'''
                 if(PARAM_DEBUG_EN_GENERAL):

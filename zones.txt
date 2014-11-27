@@ -1,0 +1,7 @@
+generic 2 1
+20
+generic 0 0
+60
+generic 1 1
+80
+generic 0 0
