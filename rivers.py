@@ -123,12 +123,18 @@ class Rivers:
                     if(PARAM_DEBUG_EN_RIVERS):    
                         print("river death")
                     break
+                
                 if(not goodNextX):
                     break
                     
-                rx = random.choice(goodNextX)
+                rx = random.choice(goodNextX)            
                 if (rx not in self.xyPts):
                     self.xyPts[rx] = []
+                elif(ry in self.xyPts[rx]):    
+                    '''if there is already a river in this tile at that location, "kill" this one (which is the same as merging them)'''
+                    break
+                    
+                '''store new river point'''    
                 self.xyPts[rx].append(ry)
             
         if(PARAM_DEBUG_EN_RIVERS):

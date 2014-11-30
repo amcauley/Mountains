@@ -13,7 +13,7 @@ PARAM_MAP_SIZE_Y            = 20         #number of y tiles in the map
 
 PARAM_TILE_SIZE             = 10        #tile size - note that tile randomization might not work as expected yet with other values
 
-PARAM_MAP_PRINT_WIDTH       = 3         #number of characters used to print out map symbols and altitudes
+PARAM_MAP_PRINT_WIDTH       = 10         #number of characters used to print out map symbols and altitudes
 
 PARAM_MTN_MAX_HEIGHT        = 20        #maximum height of any individual mountain
 PARAM_MTN_SLOPE_RAND_SCALE  = .25       #maximum deviation from slope PARAM_MTN_MAX_SLOPE. This makes bounding extend of mountains easier.
