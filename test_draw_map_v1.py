@@ -153,7 +153,7 @@ def draw_map_v1(img, layer) :
     "python_fu_test_draw_map_v1",
     "Draw Map v1",
     "Convert Mountains project text output into a proper image",
-    "AAGM",
+    "AGM",
     "Open source (BSD 3-clause license)",
     "2014",
     "<Image>/Filters/Test/Draw Map v1",

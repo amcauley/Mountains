@@ -8,6 +8,8 @@ class Mtn:
         self.x = x
         self.y = y
         self.h = h
+        self.sx =  PARAM_MTN_MAX_SLOPE-PARAM_MTN_SLOPE_RAND_SCALE*random.random()
+        self.sy =  PARAM_MTN_MAX_SLOPE-PARAM_MTN_SLOPE_RAND_SCALE*random.random()
         
         if(seed == None):
             self.seed = str(random.randint(0,PARAM_MAX_SEED_VAL))
@@ -20,4 +22,4 @@ class Mtn:
         #return self.h - abs(x-self.x) - abs(y-self.y)
         
         #rounded mtns:
-        return int(self.h - math.sqrt((x-self.x)**2 + (y-self.y)**2))
+        return int(self.h - math.sqrt(((x-self.x)*self.sx)**2 + ((y-self.y)*self.sy)**2))

@@ -66,7 +66,7 @@ def testMap():
             print("Invalid Cmd")
     
     '''print out the map to default output file after quitting the loop'''
-    testMap.drawMap("mapOutput.txt")
+    testMap.drawMap("C:\\test\\mapOutput.txt")
         
     
 if __name__ == "__main__":

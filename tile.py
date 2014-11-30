@@ -54,45 +54,48 @@ class Tile:
             self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), random.randint(0,maxRivers),\
                                str(random.randint(0,PARAM_MAX_SEED_VAL))))
             
-    def point2TileDist2(self, thisX, thisY, tileX, tileY):
-        ''' compute distance squared between this tile's global (x,y) and the closest point
-        on tile (tileX, tileY) '''
+    def getClosestXY(self, thisX, thisY, tileX, tileY):
+        ''' Get closest x,y location in tileX, tileY to input point thisX, thisY  '''
         
-        xDist2 = 0
+        x = thisX
         if(self.x > tileX):
-            xDist2 = (thisX - (tileX*self.tDim+self.tDim-1))**2
+            x = tileX*self.tDim+self.tDim-1
         elif(self.x < tileX):
-            xDist2 = (thisX - tileX*self.tDim)**2    
+            x = tileX*self.tDim  
         
-        yDist2 = 0
+        y = thisY
         if(self.y > tileY):
-            yDist2 = (thisY - (tileY*self.tDim+self.tDim-1))**2
+            y = tileY*self.tDim+self.tDim-1
         elif(self.y < tileY):
-            yDist2 = (thisY - tileY*self.tDim)**2    
+            y = tileY*self.tDim    
             
         if(PARAM_DEBUG_EN_MTNS):
-            print("("+str(thisX)+","+str(thisY)+") dist2 to tile ("+str(tileX)+","+str(tileY)+") = "+str(xDist2+yDist2))    
+            print("("+str(thisX)+","+str(thisY)+") closest pt in tile ("+str(tileX)+","+str(tileY)+") = "+str(x+y))    
             
-        return xDist2 + yDist2
+        return [x,y]
         
     def preDrawMtnReport(self):
         '''Report which tiles the mtns in this tile extend into (including this tile itself)'''
         mtnExport = {}
         for m in range(0,len(self.mtnList)):
-            cenX = self.mtnList[m].x
-            cenY = self.mtnList[m].y
-            radius = self.mtnList[m].h
+            thisMtn = self.mtnList[m]
+            cenX = thisMtn.x
+            cenY = thisMtn.y
+            sx = thisMtn.sx #x slope
+            sy = thisMtn.sy #y slope
+            '''Figure out maximum range of this mtn based on it's hight and the global max slope possible'''
+            radius = int(thisMtn.h/PARAM_MTN_MAX_SLOPE)+1   #+1 to prevent rounding/division problems
             
-            #TODO: Replace hard-coded tile/map size with a constant
             for tileX in range(int((cenX-radius)/self.tDim), int((cenX+radius)/self.tDim+1)):
                 for tileY in range(int((cenY-radius)/self.tDim), int((cenY+radius)/self.tDim+1)):
                     if(tileX >= 0 and tileX < PARAM_MAP_SIZE_X and tileY >= 0 and tileY < PARAM_MAP_SIZE_Y):
-                        if(self.point2TileDist2(cenX, cenY, tileX, tileY) < radius**2):
+                        closestXY = self.getClosestXY(cenX, cenY, tileX, tileY)
+                        if(thisMtn.altAtXY(closestXY[0],closestXY[1]) > 0):
                             if((tileX) not in mtnExport):
                                 mtnExport[tileX] = {}
                             if((tileY) not in mtnExport[tileX]):
                                 mtnExport[tileX][tileY] = []
-                            mtnExport[tileX][tileY].append(mtn.Mtn(cenX, cenY, radius))
+                            mtnExport[tileX][tileY].append(thisMtn)
                             
                             if(PARAM_DEBUG_EN_MTNS):
                                 print("Adding Mtn to tile ("+str(tileX)+","+str(tileY)+"): peak ("+\

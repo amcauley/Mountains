@@ -5,7 +5,7 @@ generic 0 0
 generic 1 1
 80%
 generic 0 0
--3
-beach 0 0
 -2
+beach 0 0
+-1
 ocean 0 0
