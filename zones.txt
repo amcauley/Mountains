@@ -1,11 +1,11 @@
-generic 2 1
+generic 2 .8 1 .8
 20%
-generic 0 0
+generic 0 0 0 0
 60%
-generic 1 1
+generic 2 .1 1 .8
 80%
-generic 0 0
+generic 0 0 0 0
 -2
-beach 0 0
+beach 0 0 0 0
 -1
-ocean 0 0
+ocean 0 0 0 0

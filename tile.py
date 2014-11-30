@@ -9,14 +9,15 @@ class Tile:
     
     tDim = PARAM_TILE_SIZE #size of tiles is a property of the class
     
-    def __init__(self, x, y, tileType, maxMtns, maxRivers, seed = None):
+    def __init__(self, x, y, tileType, mtnInfo, riverInfo, seed = None):
         self.mtnList = [];
         self.rivers = []
         
         self.x = x
         self.y = y
-        self.minH = 0
-        self.maxH = 10
+        
+        maxMtns = mtnInfo[0]
+        mtnProb = mtnInfo[1]
         
         if(seed == None):
             self.seed = str(random.randint(0,PARAM_MAX_SEED_VAL))
@@ -34,7 +35,10 @@ class Tile:
         
         if(tileType == "generic"):
             xyTuples = []
-            for m in range(0,random.randint(0,maxMtns)):
+            for m in range(0,maxMtns):
+                '''decide if we will randomly generate this mountain or not'''
+                if(random.random() > mtnProb):
+                    continue
                 mx = self.x*self.tDim + random.randint(0,self.tDim-1)
                 my = self.y*self.tDim + random.randint(0,self.tDim-1)
                 mh = random.randint(0,PARAM_MTN_MAX_HEIGHT)
@@ -46,12 +50,12 @@ class Tile:
                 self.mtnList.append(mtn.Mtn(mx, my, mh, str(random.randint(0,PARAM_MAX_SEED_VAL))))
             
             '''river info for this tile (all "individual" rivers are part of a single per-tile rivers object'''
-            self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), random.randint(0,maxRivers),\
+            self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), riverInfo,\
                                str(random.randint(0,PARAM_MAX_SEED_VAL))))
         
         elif (tileType == "beach"):
             self.beach = beach.Beach((self.x*self.tDim,self.y*self.tDim), str(random.randint(0,PARAM_MAX_SEED_VAL)))
-            self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), random.randint(0,maxRivers),\
+            self.rivers.append(rivers.Rivers((self.x*self.tDim,self.y*self.tDim), riverInfo,\
                                str(random.randint(0,PARAM_MAX_SEED_VAL))))
             
     def getClosestXY(self, thisX, thisY, tileX, tileY):

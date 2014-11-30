@@ -10,8 +10,6 @@ automatically save output file?
 Contour maps
 
 __GENERAL__
-Add probability to zoning but keep maximum mtns (/rivers,etc.). For example, if max mtn is 2, choose rand number twice. for each
-    one, if the result is less than mtn probability in this zone, we create a mtn, otherwise continue.
 if river intersects an existing river, kill the 2nd one (essentially merging the 2)
 radius = int(self.mtnList[m].h/PARAM_MTN_MAX_SLOPE)+1   #+1 to prevent rounding/division problems
     - radius can be split into x "radius" and y "radius" based on individual x and y slopes

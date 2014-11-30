@@ -24,21 +24,33 @@ class Map:
         zoneId = 0
         while(True):
             zStr = zf.readline()
-            
             idx = zStr.find(" ")
             zType = zStr[0:idx]
             
+            #max mtns per tile
             zStr = zStr[idx+1:]
             idx = zStr.find(" ")
             zMaxMtns = int(zStr[0:idx])
+            
+            #probability of generating individual mtn
             zStr = zStr[idx+1:]
-            idx = zStr.find("\n") 
+            idx = zStr.find(" ")
+            zMtnProb = float(zStr[0:idx])
+            
+            #max rivers per tile
+            zStr = zStr[idx+1:]
+            idx = zStr.find(" ") 
             zMaxRivers = int(zStr[0:idx])
             
-            if(PARAM_DEBUG_EN_ZONES):
-                print("new zone: id "+str(zoneId)+", "+str([zType,zMaxMtns,zMaxRivers]))
+            #probability of generating individual river (ignoring altitude restrictions)
+            zStr = zStr[idx+1:]
+            idx = zStr.find("\n") 
+            zRiverProb = float(zStr[0:idx])
             
-            self.zones[zoneId] = [zType,zMaxMtns,zMaxRivers]
+            if(PARAM_DEBUG_EN_ZONES):
+                print("new zone: id "+str(zoneId)+", "+str([zType,zMaxMtns,zMtnProb,zMaxRivers,zRiverProb]))
+            
+            self.zones[zoneId] = [zType,zMaxMtns,zMtnProb,zMaxRivers,zRiverProb]
             
             '''check when the next zone will take effect (if any exist)'''
             zStr = zf.readline()
@@ -60,7 +72,9 @@ class Map:
             currentZone = self.zones[0] #should get picked up below anyway, but a good safety precaution to initialize anyway
             tileType = currentZone[0]
             maxMtns = currentZone[1]
-            maxRivers = currentZone[2]
+            mtnProb = currentZone[2]
+            maxRivers = currentZone[3]
+            riverProb = currentZone[4]
             
             for y in range(0,ny):
                 random.seed(int(self.seed)+nx*y+x)
@@ -70,7 +84,12 @@ class Map:
                     currentZone = self.zones[y]
                     tileType = currentZone[0]
                     maxMtns = currentZone[1]
-                    maxRivers = currentZone[2]                    
+                    mtnProb = currentZone[2]
+                    maxRivers = currentZone[3]
+                    riverProb = currentZone[4]                
+                    
+                mtnInfo = [maxMtns, mtnProb]
+                riverInfo = [maxRivers, riverProb]
                     
                 if(PARAM_DEBUG_EN_ZONES):
                     print("tile "+str((x,y))+" current zone "+str(currentZone))
@@ -78,7 +97,7 @@ class Map:
                 '''create the tile'''
                 if(PARAM_DEBUG_EN_GENERAL):
                     print("Tile "+str((x,y))+", maxMtns "+str(maxMtns)+", maxRivers "+str(maxRivers))
-                self.tiles[x].append(tile.Tile(x,y,tileType,maxMtns,maxRivers,str(random.randint(0,PARAM_MAX_SEED_VAL))))
+                self.tiles[x].append(tile.Tile(x,y,tileType,mtnInfo,riverInfo,str(random.randint(0,PARAM_MAX_SEED_VAL))))
                 
         self.mtnsPerTile = {}        
                 

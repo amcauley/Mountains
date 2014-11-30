@@ -7,15 +7,18 @@ class Rivers:
     
     tDim = PARAM_TILE_SIZE #river size - MUST MATCH TILE CLASS SIZE
     
-    def __init__(self, cornerXY, numRivers, seed = None):
+    def __init__(self, cornerXY, riverInfo, seed = None):
         '''inputs:    cornerXY    = (X,Y) pair of top left corner bounding this river set
                       seed        = usual random seed param for a class
-                      numRivers   = number of rivers originating in this tile'''
+                      riverInfo   = [max possible rivers, river prob]'''
         
         self.x = cornerXY[0]
         self.y = cornerXY[1]
         self.entryPtsXY = []
         self.mtns = []
+        
+        maxRivers = riverInfo[0]
+        riverProb = riverInfo[1]
         
         if(seed == None):
             self.seed = str(random.randint(0,PARAM_MAX_SEED_VAL))
@@ -24,7 +27,9 @@ class Rivers:
             
         '''use the seed to generate any new rivers'''
         self.originPts = []
-        for r in range(0,numRivers):
+        for r in range(0,maxRivers):
+            if (random.random() >= riverProb):
+                continue
             rx = self.x + random.randint(0,self.tDim)
             ry = self.y + random.randint(0,self.tDim)
             self.originPts.append((rx,ry))    
